@@ -1,0 +1,688 @@
+{
+  "_comment": "UF-201 Engineering Config â€” extracted from P&ID (SCADA screenshot, 7-Oct-2025). Dimensions derived from design flow = 43.4 m3/hr. 1 Three.js unit = 1 metre. Origin = skid baseplate centre, grade level Y=0.",
+  "_warning": "No GA drawing was provided. Positions are inferred from P&ID left-right sequence + standard equipment sizing rules. Update x/y/z from actual GA isometric when available.",
+  "plant_id": "UF-201",
+  "design_flow_m3hr": 43.4,
+  "scale": "1 unit = 1 metre",
+  "stream_colors": {
+    "FEED": "#4FA3FF",
+    "PERMEATE": "#00E5FF",
+    "REJECT": "#FF5252",
+    "DOSING": "#FFD54F",
+    "AIR": "#FFD54F"
+  },
+  "pipe_radius_map_metres": {
+    "DN100": 0.06,
+    "DN80": 0.048,
+    "DN65": 0.04,
+    "DN50": 0.032,
+    "DN40": 0.027,
+    "DN25": 0.018,
+    "DN15": 0.012
+  },
+  "equipment": [
+    {
+      "id": "FWST-201",
+      "type": "TANK_VERTICAL",
+      "description": "UF Feed Water Storage Tank",
+      "basis": "30 min HRT at 43.4 m3/hr = 21.7 m3; 3.0m dia x 3.0m H = ~21.2 m3",
+      "position": {
+        "x": -14,
+        "y": 1.5,
+        "z": 0
+      },
+      "dims": {
+        "r": 1.5,
+        "h": 3
+      },
+      "color": "#334155",
+      "label": "FWST-201",
+      "sub_label": "UF FEED WATER TANK",
+      "nozzles": {
+        "outlet_bottom": {
+          "x": -14,
+          "y": 0.15,
+          "z": 0
+        },
+        "inlet_top": {
+          "x": -14,
+          "y": 3.05,
+          "z": 0
+        }
+      }
+    },
+    {
+      "id": "P-201",
+      "type": "CENTRIFUGAL_PUMP",
+      "description": "UF Feed Pump, ~50 m3/hr, VFD",
+      "basis": "Typical end-suction centrifugal: volute body ~500mm wide, motor ~550mm long",
+      "position": {
+        "x": -10,
+        "y": 0.5,
+        "z": 0
+      },
+      "dims": {
+        "volute_r": 0.22,
+        "volute_h": 0.4,
+        "motor_r": 0.17,
+        "motor_h": 0.55
+      },
+      "color": "#22c55e",
+      "label": "P-201\nFEED PUMP",
+      "rpm_design": 1450,
+      "nozzles": {
+        "suction": {
+          "x": -10.4,
+          "y": 0.5,
+          "z": 0
+        },
+        "discharge": {
+          "x": -10,
+          "y": 0.9,
+          "z": 0
+        }
+      }
+    },
+    {
+      "id": "ASF-201",
+      "type": "PRESSURE_VESSEL_VERTICAL",
+      "description": "Auto Sand/Anthracite Filter",
+      "basis": "At 43.4 m3/hr, loading 10 m/h â†’ area=4.34 m2 â†’ dia=2.35m. Use 2.0m NPS vessel. H=2.8m.",
+      "position": {
+        "x": -6.5,
+        "y": 1.4,
+        "z": 0
+      },
+      "dims": {
+        "r": 0.75,
+        "h": 2.4
+      },
+      "color": "#dc2626",
+      "label": "ASF-201",
+      "sub_label": "AUTO STRAINER",
+      "nozzles": {
+        "inlet_top": {
+          "x": -6.5,
+          "y": 2.82,
+          "z": 0
+        },
+        "outlet_bottom": {
+          "x": -6.5,
+          "y": 0.02,
+          "z": 0
+        },
+        "backwash_in": {
+          "x": -6.5,
+          "y": 0.12,
+          "z": 1
+        },
+        "backwash_out": {
+          "x": -6.5,
+          "y": 2.72,
+          "z": 1
+        },
+        "drain": {
+          "x": -6.5,
+          "y": 0.02,
+          "z": 0
+        }
+      }
+    },
+    {
+      "id": "MCF-201A",
+      "type": "CARTRIDGE_FILTER",
+      "description": "Multi-Cartridge Filter A (parallel with B)",
+      "basis": "Standard 40-inch 6-round housing: ODâ‰ˆ350mm, Hâ‰ˆ1500mm",
+      "position": {
+        "x": -2.5,
+        "y": 2.25,
+        "z": -2.2
+      },
+      "dims": {
+        "r": 0.175,
+        "h": 1.5
+      },
+      "color": "#64748b",
+      "label": "MCF-201A",
+      "nozzles": {
+        "inlet_top": {
+          "x": -2.5,
+          "y": 3.01,
+          "z": -2.2
+        },
+        "outlet_bottom": {
+          "x": -2.5,
+          "y": 1.5,
+          "z": -2.2
+        }
+      }
+    },
+    {
+      "id": "MCF-201B",
+      "type": "CARTRIDGE_FILTER",
+      "description": "Multi-Cartridge Filter B (parallel with A)",
+      "basis": "Standard 40-inch 6-round housing: ODâ‰ˆ350mm, Hâ‰ˆ1500mm",
+      "position": {
+        "x": -2.5,
+        "y": 2.25,
+        "z": 2.2
+      },
+      "dims": {
+        "r": 0.175,
+        "h": 1.5
+      },
+      "color": "#475569",
+      "label": "MCF-201B",
+      "nozzles": {
+        "inlet_top": {
+          "x": -2.5,
+          "y": 3.01,
+          "z": 2.2
+        },
+        "outlet_bottom": {
+          "x": -2.5,
+          "y": 1.5,
+          "z": 2.2
+        }
+      }
+    },
+    {
+      "id": "P-102",
+      "type": "CENTRIFUGAL_PUMP",
+      "description": "UF System Pump (VFD, 2539 RPM shown in SCADA)",
+      "basis": "Higher pressure pump for UF feed: larger volute",
+      "position": {
+        "x": 2.5,
+        "y": 0.5,
+        "z": 0
+      },
+      "dims": {
+        "volute_r": 0.25,
+        "volute_h": 0.42,
+        "motor_r": 0.19,
+        "motor_h": 0.58
+      },
+      "color": "#06b6d4",
+      "label": "P-102\nSYSTEM PUMP",
+      "rpm_design": 2539,
+      "nozzles": {
+        "suction": {
+          "x": 2.08,
+          "y": 0.5,
+          "z": 0
+        },
+        "discharge": {
+          "x": 2.5,
+          "y": 0.95,
+          "z": 0
+        }
+      }
+    },
+    {
+      "id": "AB-201",
+      "type": "AIR_BLOWER",
+      "description": "Roots-type Air Blower for Air Scouring",
+      "basis": "Typical compact blower: 600mm body dia, 450mm height",
+      "position": {
+        "x": 2.5,
+        "y": 5.5,
+        "z": 0
+      },
+      "dims": {
+        "body_r": 0.28,
+        "body_h": 0.45
+      },
+      "color": "#ef4444",
+      "label": "AB-201"
+    },
+    {
+      "id": "T-201",
+      "type": "TANK_VERTICAL",
+      "description": "UF CIP Tank",
+      "basis": "500L typical for UF CIP: 0.95m dia x 0.8m H = 0.57m3, use 3.0m H for visual height",
+      "position": {
+        "x": 2.5,
+        "y": 1.5,
+        "z": 4
+      },
+      "dims": {
+        "r": 0.95,
+        "h": 3
+      },
+      "color": "#1e3a5f",
+      "label": "T-201",
+      "sub_label": "UF CIP TANK",
+      "nozzles": {
+        "outlet_bottom": {
+          "x": 2.5,
+          "y": 0.05,
+          "z": 4
+        },
+        "inlet_top": {
+          "x": 2.5,
+          "y": 3.05,
+          "z": 4
+        }
+      }
+    },
+    {
+      "id": "UF201-RACK",
+      "type": "UF_MEMBRANE_RACK",
+      "description": "UF-201 Membrane System â€” 12 x 8-inch pressure vessels in 2-col Ã— 6-row layout",
+      "basis": "8-inch PVC UF vessel: OD=218mm, length=1600mm. Pitch: col=0.38m, row=0.34m",
+      "rack_origin": {
+        "x": 9,
+        "y": 0,
+        "z": 0
+      },
+      "vessel_dims": {
+        "r": 0.109,
+        "len": 1.6
+      },
+      "layout": {
+        "cols": 2,
+        "rows": 6,
+        "col_pitch_z": 0.38,
+        "row_pitch_y": 0.34,
+        "row_start_y": 0.22
+      },
+      "manifold": {
+        "inlet_x": 7,
+        "outlet_x": 11.2
+      }
+    }
+  ],
+  "pipes": [
+    {
+      "id": "P1",
+      "dn": "DN100",
+      "stream": "FEED",
+      "path": [
+        [
+          -18,
+          3.05,
+          0
+        ],
+        [
+          -14,
+          3.05,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "P2",
+      "dn": "DN100",
+      "stream": "FEED",
+      "path": [
+        [
+          -14,
+          0.15,
+          0
+        ],
+        [
+          -10.4,
+          0.15,
+          0
+        ],
+        [
+          -10.4,
+          0.5,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "P3",
+      "dn": "DN100",
+      "stream": "FEED",
+      "path": [
+        [
+          -10,
+          0.9,
+          0
+        ],
+        [
+          -10,
+          2.82,
+          0
+        ],
+        [
+          -6.5,
+          2.82,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "P4",
+      "dn": "DN100",
+      "stream": "FEED",
+      "path": [
+        [
+          -6.5,
+          0.02,
+          0
+        ],
+        [
+          -5.5,
+          0.02,
+          0
+        ],
+        [
+          -5.5,
+          2.3,
+          0
+        ]
+      ]
+    }
+  ],
+  "instruments": [
+    {
+      "id": "LT-201",
+      "desc": "FWST Level",
+      "pos": {
+        "x": -13.2,
+        "y": 3.2,
+        "z": 1.6
+      },
+      "value": "52.1 %"
+    },
+    {
+      "id": "DPS-201",
+      "desc": "ASF Diff Pressure",
+      "pos": {
+        "x": -5.8,
+        "y": 2.5,
+        "z": 1.5
+      },
+      "value": "0.4 BAR"
+    },
+    {
+      "id": "DPS-102",
+      "desc": "MCF Diff Pressure",
+      "pos": {
+        "x": -3.8,
+        "y": 4.2,
+        "z": 0
+      },
+      "value": "0.3 BAR"
+    },
+    {
+      "id": "LPS-201",
+      "desc": "Low Pressure Switch",
+      "pos": {
+        "x": 3.8,
+        "y": 1.5,
+        "z": 0
+      },
+      "value": "2539 RPM"
+    },
+    {
+      "id": "PT-201",
+      "desc": "Feed Pressure",
+      "pos": {
+        "x": 5.2,
+        "y": 4.5,
+        "z": 0
+      },
+      "value": "4.5 BAR"
+    },
+    {
+      "id": "PT-102",
+      "desc": "Reject Pressure",
+      "pos": {
+        "x": 11.5,
+        "y": -1.5,
+        "z": 0
+      },
+      "value": "2.9 BAR"
+    },
+    {
+      "id": "FT-201",
+      "desc": "Permeate Flow",
+      "pos": {
+        "x": 13.5,
+        "y": 4.5,
+        "z": 0
+      },
+      "value": "43.4 MÂ³/HR"
+    },
+    {
+      "id": "HLS-201",
+      "desc": "CIP Tank High Level",
+      "pos": {
+        "x": 2,
+        "y": 3.2,
+        "z": 5
+      },
+      "value": "NOT ACTIVE"
+    },
+    {
+      "id": "LLS-201",
+      "desc": "CIP Tank Low Level",
+      "pos": {
+        "x": 3,
+        "y": 0.8,
+        "z": 5
+      },
+      "value": "ACTIVE"
+    },
+    {
+      "id": "LT-401",
+      "desc": "RO FW Storage Level",
+      "pos": {
+        "x": 17.5,
+        "y": 3,
+        "z": 0
+      },
+      "value": "68.7 %"
+    }
+  ],
+  "automated_valves": [
+    {
+      "id": "AV-201",
+      "desc": "ASF Drain",
+      "pos": {
+        "x": -6.5,
+        "y": -0.3,
+        "z": 0
+      },
+      "open": false
+    },
+    {
+      "id": "AV-102",
+      "desc": "MCF-A Feed",
+      "pos": {
+        "x": -4,
+        "y": 1,
+        "z": -1.6
+      },
+      "open": true
+    },
+    {
+      "id": "AV-103",
+      "desc": "MCF-A Outlet",
+      "pos": {
+        "x": -2.5,
+        "y": 1.1,
+        "z": -2.2
+      },
+      "open": true
+    },
+    {
+      "id": "AV-104",
+      "desc": "MCF-A BW In",
+      "pos": {
+        "x": -4.1,
+        "y": 2.25,
+        "z": -2.2
+      },
+      "open": false
+    },
+    {
+      "id": "AV-105",
+      "desc": "MCF-A BW Drain",
+      "pos": {
+        "x": -1,
+        "y": 0.6,
+        "z": -2.2
+      },
+      "open": false
+    },
+    {
+      "id": "AV-106",
+      "desc": "MCF-B Feed",
+      "pos": {
+        "x": -4,
+        "y": 1,
+        "z": 1.6
+      },
+      "open": true
+    },
+    {
+      "id": "AV-107",
+      "desc": "MCF-B Outlet",
+      "pos": {
+        "x": -2.5,
+        "y": 1.1,
+        "z": 2.2
+      },
+      "open": true
+    },
+    {
+      "id": "AV-108",
+      "desc": "MCF-B BW In",
+      "pos": {
+        "x": -4.1,
+        "y": 2.25,
+        "z": 2.2
+      },
+      "open": false
+    },
+    {
+      "id": "AV-109",
+      "desc": "MCF-B BW Drain",
+      "pos": {
+        "x": -1,
+        "y": 0.6,
+        "z": 2.2
+      },
+      "open": false
+    },
+    {
+      "id": "AV-110",
+      "desc": "Permeate to RO-1",
+      "pos": {
+        "x": 15.5,
+        "y": 4.5,
+        "z": 0
+      },
+      "open": true
+    },
+    {
+      "id": "AV-111",
+      "desc": "Permeate Flush Rtn",
+      "pos": {
+        "x": 12.5,
+        "y": 4.5,
+        "z": 0
+      },
+      "open": false
+    },
+    {
+      "id": "AV-112",
+      "desc": "Reject to FTP/ETP",
+      "pos": {
+        "x": 14,
+        "y": -0.8,
+        "z": 0
+      },
+      "open": false
+    },
+    {
+      "id": "AV-113",
+      "desc": "Reject Rtn A",
+      "pos": {
+        "x": 10.5,
+        "y": -4,
+        "z": 0
+      },
+      "open": true
+    },
+    {
+      "id": "AV-114",
+      "desc": "Reject Rtn B",
+      "pos": {
+        "x": 7.5,
+        "y": -4,
+        "z": 0
+      },
+      "open": false
+    },
+    {
+      "id": "AV-115",
+      "desc": "Reject Rtn C",
+      "pos": {
+        "x": 4.5,
+        "y": -4,
+        "z": 0
+      },
+      "open": true
+    },
+    {
+      "id": "AV-116",
+      "desc": "CIP Feed to Rack",
+      "pos": {
+        "x": 4.5,
+        "y": 4.2,
+        "z": 0
+      },
+      "open": false
+    },
+    {
+      "id": "AV-117",
+      "desc": "Air Scour Inlet",
+      "pos": {
+        "x": 2.5,
+        "y": 4.6,
+        "z": 0
+      },
+      "open": false
+    },
+    {
+      "id": "AV-118",
+      "desc": "Permeate Exit Block",
+      "pos": {
+        "x": 11.5,
+        "y": 4.5,
+        "z": 0
+      },
+      "open": true
+    },
+    {
+      "id": "AV-119",
+      "desc": "CIP Tank Outlet",
+      "pos": {
+        "x": 2.5,
+        "y": 0.3,
+        "z": 4
+      },
+      "open": false
+    }
+  ],
+  "skid_frame": {
+    "comment": "Inferred: 34m long x 10m wide (handles FWST offset + membrane rack)",
+    "position": {
+      "x": 0,
+      "y": -0.15,
+      "z": 0
+    },
+    "dims": {
+      "l": 38,
+      "w": 10,
+      "h": 0.25
+    }
+  },
+  "system": "UF-201"
+}

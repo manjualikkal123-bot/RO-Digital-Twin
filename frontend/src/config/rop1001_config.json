@@ -1,0 +1,390 @@
+{
+  "system": "ROP-1001",
+  "_warning": "Positions derived from spatial layout rules. Update X/Y/Z with real plant GA drawing coords when available.",
+  "skid_frame": {
+    "dims": {
+      "l": 48,
+      "w": 10,
+      "h": 0.3
+    },
+    "position": {
+      "x": 0,
+      "y": -4.5,
+      "z": 0
+    }
+  },
+  "stream_colors": {
+    "FEED": "#4FA3FF",
+    "PERMEATE": "#00E5FF",
+    "REJECT": "#FF5252",
+    "DOSING": "#FFD54F",
+    "AIR": "#FFD54F"
+  },
+  "equipment": [
+    {
+      "id": "ROPFWST-1001",
+      "type": "tank",
+      "label": "ROPFWST-1001",
+      "sub_label": "RO-P FW STORAGE",
+      "dims": {
+        "r": 1.6,
+        "h": 6.5
+      },
+      "color": "#334155",
+      "position": {
+        "x": -22,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "id": "P-1001",
+      "type": "pump",
+      "label": "P-1001\nFEED PUMP",
+      "color": "#22c55e",
+      "position": {
+        "x": -16,
+        "y": -2.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "DP-1001",
+      "type": "dosing_pump",
+      "label": "DP-1001",
+      "tank_label": "ANTISCALANT (T-403)",
+      "position": {
+        "x": -13.5,
+        "y": 2,
+        "z": -2
+      }
+    },
+    {
+      "id": "MCF-1001",
+      "type": "tank",
+      "label": "MCF-1001",
+      "dims": {
+        "r": 0.6,
+        "h": 2.2
+      },
+      "color": "#dc2626",
+      "position": {
+        "x": -10,
+        "y": -0.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "P-1002",
+      "type": "pump",
+      "label": "P-1002\nHIGH PRESS.",
+      "color": "#06b6d4",
+      "position": {
+        "x": -4,
+        "y": -2.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "ROP1001-STAGE1",
+      "type": "ro_rack",
+      "label": "ROP-1001\nSYSTEM",
+      "pvCount": 8,
+      "position": {
+        "x": 6,
+        "y": -0.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "T-1001",
+      "type": "tank",
+      "label": "T-1001",
+      "sub_label": "RO-P CIP TANK",
+      "dims": {
+        "r": 0.95,
+        "h": 3
+      },
+      "color": "#1e3a5f",
+      "position": {
+        "x": -10,
+        "y": -7,
+        "z": 4
+      }
+    }
+  ],
+  "instruments": [
+    {
+      "id": "LT-1001",
+      "type": "transmitter",
+      "pos": {
+        "x": -22,
+        "y": 3.5,
+        "z": 1.7
+      }
+    },
+    {
+      "id": "CDIC-1001",
+      "type": "transmitter",
+      "pos": {
+        "x": -12.5,
+        "y": -1.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "DPS-1001",
+      "type": "transmitter",
+      "pos": {
+        "x": -10,
+        "y": 2,
+        "z": 0
+      }
+    },
+    {
+      "id": "LPS-1001",
+      "type": "transmitter",
+      "pos": {
+        "x": -6,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "id": "PT-1001",
+      "type": "transmitter",
+      "pos": {
+        "x": -0.5,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "id": "PT-1002",
+      "type": "transmitter",
+      "pos": {
+        "x": 9.5,
+        "y": -4,
+        "z": 0
+      }
+    },
+    {
+      "id": "CDIC-1002",
+      "type": "transmitter",
+      "pos": {
+        "x": 10,
+        "y": 5.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "FT-1001",
+      "type": "transmitter",
+      "pos": {
+        "x": 12,
+        "y": 4.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "LT-1201",
+      "type": "transmitter",
+      "pos": {
+        "x": 21,
+        "y": 3,
+        "z": 0
+      }
+    },
+    {
+      "id": "FT-1002",
+      "type": "transmitter",
+      "pos": {
+        "x": 10,
+        "y": -2.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "LLS-1001",
+      "type": "transmitter",
+      "pos": {
+        "x": -8,
+        "y": -7,
+        "z": 4
+      }
+    }
+  ],
+  "automated_valves": [
+    {
+      "id": "AV-1001",
+      "open": true,
+      "pos": {
+        "x": 16,
+        "y": 4.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "AV-1002",
+      "open": false,
+      "pos": {
+        "x": 9.5,
+        "y": 5.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "AV-1003",
+      "open": false,
+      "pos": {
+        "x": 15,
+        "y": -5.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "AV-1004",
+      "open": true,
+      "pos": {
+        "x": 16,
+        "y": -3.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "AV-1005",
+      "open": false,
+      "pos": {
+        "x": 5,
+        "y": -4.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "AV-1006",
+      "open": false,
+      "pos": {
+        "x": 3,
+        "y": 3,
+        "z": 0
+      }
+    },
+    {
+      "id": "AV-1007",
+      "open": false,
+      "pos": {
+        "x": -7,
+        "y": -2.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "AV-1008",
+      "open": false,
+      "pos": {
+        "x": -7,
+        "y": -8,
+        "z": 0
+      }
+    },
+    {
+      "id": "PID-1001",
+      "open": false,
+      "pos": {
+        "x": 11.5,
+        "y": -3.5,
+        "z": 0
+      }
+    }
+  ],
+  "pipes": [
+    {
+      "id": "P1",
+      "dn": "DN100",
+      "stream": "FEED",
+      "path": [
+        [
+          -18,
+          3.05,
+          0
+        ],
+        [
+          -16,
+          3.05,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "P3",
+      "dn": "DN100",
+      "stream": "FEED",
+      "path": [
+        [
+          -16,
+          -2.5,
+          0
+        ],
+        [
+          -16,
+          -0.5,
+          0
+        ],
+        [
+          -10,
+          -0.5,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "P4",
+      "dn": "DN100",
+      "stream": "FEED",
+      "path": [
+        [
+          -10,
+          -0.5,
+          0
+        ],
+        [
+          -10,
+          -2.5,
+          0
+        ],
+        [
+          -4,
+          -2.5,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "P5",
+      "dn": "DN80",
+      "stream": "FEED",
+      "path": [
+        [
+          -4,
+          -2.5,
+          0
+        ],
+        [
+          -4,
+          2.5,
+          0
+        ],
+        [
+          1.5,
+          2.5,
+          0
+        ],
+        [
+          1.5,
+          0.4,
+          0
+        ]
+      ]
+    }
+  ]
+}

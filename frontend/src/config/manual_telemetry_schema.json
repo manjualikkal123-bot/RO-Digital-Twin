@@ -1,0 +1,114 @@
+{
+  "JETL": {
+    "Feed Stream": {
+      "scada_overrides": [
+        { "id": "feed_pressure", "label": "Feed Pressure", "type": "number", "min": 8.0, "max": 25.0, "unit": "bar", "required": false },
+        { "id": "feed_temp", "label": "Feed Temperature", "type": "number", "min": 15.0, "max": 45.0, "unit": "°C", "required": false },
+        { "id": "feed_ph", "label": "Feed pH", "type": "number", "min": 5.5, "max": 8.5, "unit": "pH", "required": false },
+        { "id": "feed_tds", "label": "Feed TDS / Conductivity", "type": "number", "min": 1000, "max": 15000, "unit": "µS/cm", "required": false },
+        { "id": "anti_scalant_dosing", "label": "Anti-scalant Dosing Rate", "type": "number", "min": 1.0, "max": 10.0, "unit": "ppm", "required": false },
+        { "id": "smbs_dosing", "label": "SMBS Dosing Rate", "type": "number", "min": 5.0, "max": 50.0, "unit": "ppm", "required": false }
+      ],
+      "laboratory_analysis": [
+        { "id": "sdi_15", "label": "Silt Density Index (SDI-15)", "type": "number", "min": 1.0, "max": 10.0, "unit": "%/min", "required": true },
+        { "id": "total_hardness", "label": "Total Hardness (Ca & Mg)", "type": "number", "min": 50, "max": 5000, "unit": "ppm (mg/L)", "required": true },
+        { "id": "reactive_silica", "label": "Reactive Silica (SiO2)", "type": "number", "min": 5, "max": 150, "unit": "ppm (mg/L)", "required": true },
+        { "id": "cod", "label": "Chemical Oxygen Demand (COD)", "type": "number", "min": 50, "max": 5000, "unit": "ppm (mg/L)", "required": true },
+        { "id": "tss", "label": "Total Suspended Solids (TSS)", "type": "number", "min": 0, "max": 100, "unit": "ppm (mg/L)", "required": true },
+        { "id": "atp", "label": "ATP (Biofouling Swab)", "type": "number", "min": 0, "max": 1000, "unit": "RLU", "required": false }
+      ]
+    },
+    "Permeate Stream": {
+      "scada_overrides": [
+        { "id": "permeate_flow", "label": "Permeate Flow", "type": "number", "min": 0, "max": 50, "unit": "m³/h", "required": false },
+        { "id": "permeate_cond", "label": "Permeate Conductivity", "type": "number", "min": 10, "max": 500, "unit": "µS/cm", "required": false },
+        { "id": "npf", "label": "Normalized Permeate Flow (NPF)", "type": "number", "min": 0, "max": 100, "unit": "m³/h", "required": false },
+        { "id": "nsp", "label": "Normalized Salt Passage (NSP)", "type": "number", "min": 0.5, "max": 5.0, "unit": "%", "required": false }
+      ],
+      "laboratory_analysis": [
+        { "id": "lab_ph", "label": "Lab pH Check", "type": "number", "min": 6.5, "max": 7.5, "unit": "pH", "required": true },
+        { "id": "bod", "label": "BOD (Biochemical Oxygen Demand)", "type": "number", "min": 0, "max": 50, "unit": "ppm", "required": true }
+      ]
+    },
+    "Reject Stream": {
+      "scada_overrides": [
+        { "id": "reject_flow", "label": "Reject Flow", "type": "number", "min": 0, "max": 20, "unit": "m³/h", "required": false },
+        { "id": "concentrate_pressure", "label": "Concentrate Pressure", "type": "number", "min": 10.0, "max": 28.0, "unit": "bar", "required": false },
+        { "id": "delta_p_stage1", "label": "Stage 1 Differential Pressure (ΔP)", "type": "number", "min": 0.5, "max": 4.0, "unit": "bar", "required": false },
+        { "id": "delta_p_stage2", "label": "Stage 2 Differential Pressure (ΔP)", "type": "number", "min": 0.5, "max": 4.0, "unit": "bar", "required": false }
+      ],
+      "laboratory_analysis": [
+        { "id": "heavy_metals_composite", "label": "Heavy Metals (Composite)", "type": "number", "min": 0.0, "max": 10.0, "unit": "ppm", "required": true }
+      ]
+    }
+  },
+  "NIA": {
+    "Feed Stream": {
+      "scada_overrides": [
+        { "id": "feed_pressure", "label": "Feed Pressure", "type": "number", "min": 8.0, "max": 25.0, "unit": "bar", "required": false },
+        { "id": "feed_temp", "label": "Feed Temperature", "type": "number", "min": 20.0, "max": 50.0, "unit": "°C", "required": false },
+        { "id": "feed_ph", "label": "Feed pH", "type": "number", "min": 3.0, "max": 9.0, "unit": "pH", "required": false }
+      ],
+      "laboratory_analysis": [
+        { "id": "uvt", "label": "UV Transmittance (UVT)", "type": "number", "min": 10, "max": 100, "unit": "%", "required": true },
+        { "id": "refractory_cod", "label": "Refractory COD", "type": "number", "min": 10, "max": 2000, "unit": "ppm", "required": true },
+        { "id": "true_color", "label": "True Color", "type": "number", "min": 0, "max": 2000, "unit": "Pt-Co", "required": true },
+        { "id": "toc", "label": "Total Organic Carbon (TOC)", "type": "number", "min": 10, "max": 1000, "unit": "ppm", "required": false }
+      ]
+    },
+    "Permeate Stream": {
+      "scada_overrides": [
+        { "id": "permeate_flow", "label": "Permeate Flow", "type": "number", "min": 0, "max": 50, "unit": "m³/h", "required": false },
+        { "id": "orp", "label": "ORP (Oxidation-Reduction Potential)", "type": "number", "min": 100, "max": 800, "unit": "mV", "required": false },
+        { "id": "sec", "label": "Specific Energy Consumption (SEC)", "type": "number", "min": 0.5, "max": 10.0, "unit": "kWh/m³", "required": false }
+      ],
+      "laboratory_analysis": [
+        { "id": "h2o2_residual", "label": "Hydrogen Peroxide (H2O2) Residual", "type": "number", "min": 0, "max": 500, "unit": "ppm", "required": true },
+        { "id": "final_color", "label": "Final Color", "type": "number", "min": 0, "max": 50, "unit": "Pt-Co", "required": true }
+      ]
+    },
+    "Reject Stream": {
+      "scada_overrides": [
+        { "id": "reject_flow", "label": "Reject Flow", "type": "number", "min": 0, "max": 20, "unit": "m³/h", "required": false }
+      ],
+      "laboratory_analysis": [
+        { "id": "toxicity_bioassay", "label": "Toxicity / Bioassay Status", "type": "select", "options": ["Pass", "Fail"], "unit": "", "required": true }
+      ]
+    }
+  },
+  "Waaree Energies": {
+    "Feed Stream": {
+      "scada_overrides": [
+        { "id": "feed_pressure", "label": "Feed Pressure", "type": "number", "min": 10.0, "max": 35.0, "unit": "bar", "required": false },
+        { "id": "feed_temp", "label": "Feed Temperature", "type": "number", "min": 20.0, "max": 40.0, "unit": "°C", "required": false },
+        { "id": "feed_ph", "label": "Feed pH", "type": "number", "min": 6.0, "max": 8.0, "unit": "pH", "required": false }
+      ],
+      "laboratory_analysis": [
+        { "id": "fluoride_concentration", "label": "Fluoride Concentration", "type": "number", "min": 5, "max": 500, "unit": "ppm", "required": true },
+        { "id": "aluminum", "label": "Aluminum (Al)", "type": "number", "min": 0.0, "max": 50.0, "unit": "ppm", "required": true },
+        { "id": "reactive_silica", "label": "Reactive Silica (SiO2)", "type": "number", "min": 10, "max": 250, "unit": "ppm", "required": true }
+      ]
+    },
+    "Permeate Stream": {
+      "scada_overrides": [
+        { "id": "permeate_flow", "label": "Permeate Flow", "type": "number", "min": 0, "max": 100, "unit": "m³/h", "required": false },
+        { "id": "permeate_cond", "label": "Permeate Conductivity", "type": "number", "min": 1, "max": 50, "unit": "µS/cm", "required": false },
+        { "id": "npf", "label": "Normalized Permeate Flow (NPF)", "type": "number", "min": 0, "max": 100, "unit": "m³/h", "required": false }
+      ],
+      "laboratory_analysis": [
+        { "id": "trace_metals", "label": "Trace Metals (Lab Panel)", "type": "number", "min": 0.0, "max": 1.0, "unit": "ppm", "required": true }
+      ]
+    },
+    "Reject Stream": {
+      "scada_overrides": [
+        { "id": "reject_flow", "label": "Reject Flow", "type": "number", "min": 0, "max": 40, "unit": "m³/h", "required": false },
+        { "id": "delta_p_stage1", "label": "Stage 1 Differential Pressure (ΔP)", "type": "number", "min": 0.5, "max": 4.0, "unit": "bar", "required": false },
+        { "id": "delta_p_stage2", "label": "Stage 2 Differential Pressure (ΔP)", "type": "number", "min": 0.5, "max": 4.0, "unit": "bar", "required": false }
+      ],
+      "laboratory_analysis": [
+        { "id": "evaporator_feed_tds", "label": "Evaporator Feed TDS", "type": "number", "min": 40000, "max": 150000, "unit": "ppm", "required": true },
+        { "id": "brine_density", "label": "Brine Density (Specific Gravity)", "type": "number", "min": 1.00, "max": 1.40, "unit": "g/cm³", "required": true }
+      ]
+    }
+  }
+}

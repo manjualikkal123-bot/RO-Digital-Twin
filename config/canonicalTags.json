@@ -1,0 +1,116 @@
+{
+  "_comment": "Canonical telemetry fields. Each entry lists keyword aliases (matched against flattened, normalized header text) and tag-code prefixes (matched against instrument tag codes like PT-401, FT-401). Add new aliases here as new logsheet vocabularies show up — no parser code changes needed.",
+
+  "timestamp": {
+    "aliases": ["date", "time", "timestamp", "date time", "datetime"],
+    "tagPrefixes": []
+  },
+  "feed_pressure": {
+    "aliases": ["feed pressure", "membrane i l", "inlet pressure", "tmf pressure inlet", "feed press", "hp pump", "array1 i l", "arr1 in"],
+    "tagPrefixes": ["pt", "tmf_in", "tmf in"]
+  },
+  "booster1_pressure_in": {
+    "aliases": ["array 1 i l", "array1 i l", "booster pump 1", "array 1 inlet"],
+    "tagPrefixes": []
+  },
+  "booster1_pressure_out": {
+    "aliases": ["array 1 o l", "array1 o l", "array 1 outlet"],
+    "tagPrefixes": []
+  },
+  "booster2_pressure_in": {
+    "aliases": ["array2 i l", "array 2 i l", "booster pump 2", "array 2 inlet"],
+    "tagPrefixes": []
+  },
+  "booster2_pressure_out": {
+    "aliases": ["array2 o l", "array 2 o l", "array 2 outlet"],
+    "tagPrefixes": []
+  },
+  "reject_pressure": {
+    "aliases": ["reject pressure", "reject line", "outlet pressure", "tmf pressure outlet", "array2 o l", "arr2 out"],
+    "tagPrefixes": ["pt"]
+  },
+  "tmf_pressure_in": {
+    "aliases": ["tmf pressure inlet", "tmf inlet", "tmf in"],
+    "tagPrefixes": ["tmf_in"]
+  },
+  "tmf_pressure_out": {
+    "aliases": ["tmf pressure outlet", "tmf outlet", "tmf out"],
+    "tagPrefixes": ["tmf_out"]
+  },
+  "differential_pressure": {
+    "aliases": ["differential pressure", "delta p", "dp", "tmp", "array1 dp", "array2 dp", "arr1 dp", "arr1_dp"],
+    "tagPrefixes": ["dp", "arr1_dp", "arr_dp"]
+  },
+  "flow_rate": {
+    "aliases": ["permeate flow", "product flow", "permeate flow 2nd", "perm flow"],
+    "tagPrefixes": ["ft"]
+  },
+  "reject_flow": {
+    "aliases": ["reject flow"],
+    "tagPrefixes": ["ft"]
+  },
+  "recovery_rate": {
+    "aliases": ["recovery", "recovery rate", "recovery percent"],
+    "tagPrefixes": []
+  },
+  "conductivity": {
+    "aliases": ["permeate cdt", "permeate conductivity", "permeate 1st 2nd cdt", "cdt"],
+    "tagPrefixes": ["cdic", "cdt"]
+  },
+  "feed_conductivity": {
+    "aliases": ["feed conductivity", "feed cdt"],
+    "tagPrefixes": ["cdic"]
+  },
+  "permeate_conductivity_3rd": {
+    "aliases": ["permeate 3rd cdt", "3rd stage cdt", "3rd stage conductivity"],
+    "tagPrefixes": ["cdic"]
+  },
+  "tds": {
+    "aliases": ["dg outlet tds", "tds", "permeate tds", "permeate 1st 2nd tds", "permeate 3rd tds"],
+    "tagPrefixes": ["tds"]
+  },
+  "salt_rejection": {
+    "aliases": ["salt rejection", "rejection", "rejection percent"],
+    "tagPrefixes": []
+  },
+  "pH": {
+    "aliases": ["feed ph", "ph"],
+    "tagPrefixes": ["ph"]
+  },
+  "permeate_pH": {
+    "aliases": ["permeate ph"],
+    "tagPrefixes": ["ph"]
+  },
+  "turbidity": {
+    "aliases": ["turbidity", "turbidity in ntu", "feed turbidity"],
+    "tagPrefixes": ["turb"]
+  },
+  "vfd_rpm": {
+    "aliases": ["vfd rpm", "rpm", "pump rpm"],
+    "tagPrefixes": ["p", "vfd"]
+  },
+  "orp": {
+    "aliases": ["orp"],
+    "tagPrefixes": ["orp"]
+  },
+  "feed_tank_level": {
+    "aliases": ["feed tank", "feed tank level", "level"],
+    "tagPrefixes": ["lt"]
+  },
+  "valve_position": {
+    "aliases": ["valve position", "pid"],
+    "tagPrefixes": ["pid"]
+  },
+  "temperature": {
+    "aliases": ["temperature", "temp"],
+    "tagPrefixes": ["tt"]
+  },
+  "energy_kwh": {
+    "aliases": ["energy", "energy kwh", "power consumption"],
+    "tagPrefixes": ["ei", "kwh"]
+  },
+  "cip_active": {
+    "aliases": ["cip", "cip active", "back wash", "backwash", "bw acf change freq"],
+    "tagPrefixes": []
+  }
+}

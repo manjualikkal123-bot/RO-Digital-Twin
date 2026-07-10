@@ -1,0 +1,633 @@
+{
+  "system": "RO-401",
+  "skid_frame": {
+    "dims": {
+      "l": 46,
+      "w": 10,
+      "h": 0.3
+    },
+    "position": {
+      "x": 5,
+      "y": -4.5,
+      "z": 0
+    }
+  },
+  "stream_colors": {
+    "FEED": "#4FA3FF",
+    "PERMEATE": "#00E5FF",
+    "REJECT": "#FF5252",
+    "DOSING": "#FFD54F",
+    "AIR": "#FFD54F"
+  },
+  "equipment": [
+    {
+      "id": "ROFWST-401",
+      "type": "tank",
+      "label": "ROFWST-401",
+      "sub_label": "RO-1 FW STORAGE TANK",
+      "dims": {
+        "r": 1.6,
+        "h": 6.5
+      },
+      "color": "#334155",
+      "position": {
+        "x": -13,
+        "y": 1.8,
+        "z": 0
+      }
+    },
+    {
+      "id": "DP-401",
+      "type": "dosing_pump",
+      "label": "DP-401",
+      "tank_label": "DE-CHLOR",
+      "position": {
+        "x": -8.5,
+        "y": 8.8,
+        "z": -2
+      }
+    },
+    {
+      "id": "DP-402",
+      "type": "dosing_pump",
+      "label": "DP-402",
+      "tank_label": "ACID T-402",
+      "position": {
+        "x": -7.5,
+        "y": 8.8,
+        "z": -2
+      }
+    },
+    {
+      "id": "DP-403",
+      "type": "dosing_pump",
+      "label": "DP-403",
+      "tank_label": "ANTISCAL T-403",
+      "position": {
+        "x": -4.5,
+        "y": 8.8,
+        "z": -2
+      }
+    },
+    {
+      "id": "P-401",
+      "type": "pump",
+      "label": "P-401\nFEED PUMP",
+      "color": "#22c55e",
+      "position": {
+        "x": -9,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "MCF-401",
+      "type": "tank",
+      "label": "MCF-401",
+      "dims": {
+        "r": 0.8,
+        "h": 3.5
+      },
+      "color": "#dc2626",
+      "position": {
+        "x": -5.5,
+        "y": 1.8,
+        "z": 0
+      }
+    },
+    {
+      "id": "P-402",
+      "type": "pump",
+      "label": "P-402\nHIGH PRESS.",
+      "color": "#06b6d4",
+      "position": {
+        "x": -2,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "RO401-STAGE1",
+      "type": "ro_rack",
+      "label": "RO-401\nSTAGE 1",
+      "pvCount": 7,
+      "position": {
+        "x": 3,
+        "y": 2.3,
+        "z": 0
+      }
+    },
+    {
+      "id": "P-403",
+      "type": "pump",
+      "label": "P-403\nINTER BOOST-1",
+      "color": "#22c55e",
+      "position": {
+        "x": 7.5,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "RO401-STAGE2",
+      "type": "ro_rack",
+      "label": "RO-401\nSTAGE 2",
+      "pvCount": 7,
+      "position": {
+        "x": 11.5,
+        "y": 2.3,
+        "z": 0
+      }
+    },
+    {
+      "id": "P-404",
+      "type": "pump",
+      "label": "P-404\nINTER BOOST-2",
+      "color": "#22c55e",
+      "position": {
+        "x": 16,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "RO401-STAGE3",
+      "type": "ro_rack",
+      "label": "RO-401\nSTAGE 3",
+      "pvCount": 5,
+      "position": {
+        "x": 20,
+        "y": 2.3,
+        "z": 0
+      }
+    },
+    {
+      "id": "T-404",
+      "type": "tank",
+      "label": "T-404",
+      "sub_label": "RO-1 CIP TANK",
+      "dims": {
+        "r": 0.95,
+        "h": 3
+      },
+      "color": "#1e3a5f",
+      "position": {
+        "x": -2,
+        "y": -2,
+        "z": 4
+      }
+    },
+    {
+      "id": "P-405",
+      "type": "pump",
+      "label": "P-405\nCIP PUMP",
+      "color": "#dc2626",
+      "position": {
+        "x": 1.5,
+        "y": -2,
+        "z": 4
+      }
+    }
+  ],
+  "instruments": [
+    {
+      "id": "LT-401",
+      "type": "transmitter",
+      "pos": {
+        "x": -12.1,
+        "y": 4.3,
+        "z": 1.7
+      }
+    },
+    {
+      "id": "DPS-401",
+      "type": "transmitter",
+      "pos": {
+        "x": -5.5,
+        "y": 5.8,
+        "z": 1.2
+      }
+    },
+    {
+      "id": "pHT-401",
+      "type": "transmitter",
+      "pos": {
+        "x": -7,
+        "y": 1.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "ORP-401",
+      "type": "transmitter",
+      "pos": {
+        "x": -5.5,
+        "y": 1.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "CDT-401",
+      "type": "transmitter",
+      "pos": {
+        "x": -3.5,
+        "y": 1.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "LPS-401",
+      "type": "transmitter",
+      "pos": {
+        "x": -0.8,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "id": "PT-401",
+      "type": "transmitter",
+      "pos": {
+        "x": 0.5,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "id": "PT-402",
+      "type": "transmitter",
+      "pos": {
+        "x": 1,
+        "y": 1.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "PT-403",
+      "type": "transmitter",
+      "pos": {
+        "x": 7.5,
+        "y": 1.2,
+        "z": 0
+      }
+    },
+    {
+      "id": "PT-404",
+      "type": "transmitter",
+      "pos": {
+        "x": 10,
+        "y": 1.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "PT-405",
+      "type": "transmitter",
+      "pos": {
+        "x": 16,
+        "y": 1.2,
+        "z": 0
+      }
+    },
+    {
+      "id": "PT-406",
+      "type": "transmitter",
+      "pos": {
+        "x": 18,
+        "y": 1.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "CDT-402",
+      "type": "transmitter",
+      "pos": {
+        "x": 22.5,
+        "y": 8.3,
+        "z": 0
+      }
+    },
+    {
+      "id": "FT-401",
+      "type": "transmitter",
+      "pos": {
+        "x": 24,
+        "y": 8.3,
+        "z": 0
+      }
+    },
+    {
+      "id": "FT-402",
+      "type": "transmitter",
+      "pos": {
+        "x": 21,
+        "y": -2.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "LLS-404",
+      "type": "transmitter",
+      "pos": {
+        "x": -1.5,
+        "y": -3.5,
+        "z": 5.2
+      }
+    },
+    {
+      "id": "LT-1001",
+      "type": "transmitter",
+      "pos": {
+        "x": 28.5,
+        "y": 6.3,
+        "z": 0
+      }
+    }
+  ],
+  "automated_valves": [
+    {
+      "id": "AV-401",
+      "open": true,
+      "pos": {
+        "x": -5.7,
+        "y": 4.4,
+        "z": 0
+      }
+    },
+    {
+      "id": "AV-402",
+      "open": true,
+      "pos": {
+        "x": 25.5,
+        "y": 8.3,
+        "z": 0
+      }
+    },
+    {
+      "id": "AV-403",
+      "open": false,
+      "pos": {
+        "x": -3.5,
+        "y": 8.3,
+        "z": 0
+      }
+    },
+    {
+      "id": "AV-404",
+      "open": false,
+      "pos": {
+        "x": 24.5,
+        "y": -7,
+        "z": 0
+      }
+    },
+    {
+      "id": "AV-405",
+      "open": false,
+      "pos": {
+        "x": -2,
+        "y": -4.2,
+        "z": 0
+      }
+    },
+    {
+      "id": "AV-406",
+      "open": false,
+      "pos": {
+        "x": 1.5,
+        "y": 9.3,
+        "z": 0
+      }
+    },
+    {
+      "id": "AV-407",
+      "open": true,
+      "pos": {
+        "x": 0.5,
+        "y": 2.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "AV-408",
+      "open": true,
+      "pos": {
+        "x": 9.5,
+        "y": 2.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "AV-409",
+      "open": false,
+      "pos": {
+        "x": 10,
+        "y": 9.3,
+        "z": 0
+      }
+    },
+    {
+      "id": "AV-410",
+      "open": false,
+      "pos": {
+        "x": 18.5,
+        "y": 9.3,
+        "z": 0
+      }
+    },
+    {
+      "id": "AV-411",
+      "open": false,
+      "pos": {
+        "x": -0.19999999999999996,
+        "y": -2,
+        "z": 4
+      }
+    },
+    {
+      "id": "PID-401",
+      "open": false,
+      "pos": {
+        "x": 23,
+        "y": -1.5,
+        "z": 0
+      }
+    }
+  ],
+  "pipes": [
+    {
+      "id": "P1",
+      "dn": "DN100",
+      "stream": "FEED",
+      "path": [
+        [
+          -18,
+          3.05,
+          0
+        ],
+        [
+          -16,
+          3.05,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "P2",
+      "dn": "DN100",
+      "stream": "FEED",
+      "path": [
+        [
+          -13,
+          1.8,
+          0
+        ],
+        [
+          -9,
+          1.8,
+          0
+        ],
+        [
+          -9,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "P3",
+      "dn": "DN100",
+      "stream": "FEED",
+      "path": [
+        [
+          -9,
+          0,
+          0
+        ],
+        [
+          -9,
+          4.4,
+          0
+        ],
+        [
+          -5.7,
+          4.4,
+          0
+        ],
+        [
+          -5.5,
+          1.8,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "P4",
+      "dn": "DN100",
+      "stream": "FEED",
+      "path": [
+        [
+          -5.5,
+          1.8,
+          0
+        ],
+        [
+          -5.5,
+          0,
+          0
+        ],
+        [
+          -2,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "P5",
+      "dn": "DN80",
+      "stream": "FEED",
+      "path": [
+        [
+          -2,
+          0,
+          0
+        ],
+        [
+          -2,
+          2.5,
+          0
+        ],
+        [
+          0.5,
+          2.5,
+          0
+        ],
+        [
+          0.5,
+          0.4,
+          0
+        ],
+        [
+          1.5,
+          0.4,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "P-PERM",
+      "dn": "DN80",
+      "stream": "PERMEATE",
+      "path": [
+        [
+          6.5,
+          0.4,
+          0
+        ],
+        [
+          6.5,
+          8.3,
+          0
+        ],
+        [
+          25.5,
+          8.3,
+          0
+        ],
+        [
+          30,
+          8.3,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "P-REJ",
+      "dn": "DN65",
+      "stream": "REJECT",
+      "path": [
+        [
+          6.5,
+          -0.4,
+          0
+        ],
+        [
+          6.5,
+          9.3,
+          0
+        ],
+        [
+          1.5,
+          9.3,
+          0
+        ],
+        [
+          30,
+          9.3,
+          0
+        ]
+      ]
+    }
+  ]
+}

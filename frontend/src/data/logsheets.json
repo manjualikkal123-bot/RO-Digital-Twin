@@ -1,0 +1,95 @@
+{
+  "logsheets": [
+    {
+      "id": "ro1_18aug2025",
+      "system": "RO-1",
+      "date": "2025-08-18",
+      "label": "RO-1 Logsheet — 18 Aug 2025",
+      "source": "JETL, Hyderabad",
+      "note": "System stopped @ 22:00 Hrs and flushing done",
+      "columnGroups": [
+        { "label": "Pressure [Bar]", "span": 9 },
+        { "label": "Flow (m³/Hr)", "span": 5 },
+        { "label": "Feed Parameters", "span": 3 },
+        { "label": "Permeate", "span": 1 }
+      ],
+      "columns": [
+        { "key": "time",           "label": "Time",            "unit": "" },
+        { "key": "feedPump",       "label": "Feed Pump O/L",   "unit": "bar" },
+        { "key": "mcfIL",         "label": "MCF I/L",         "unit": "bar" },
+        { "key": "mcfOL",         "label": "MCF O/L",         "unit": "bar" },
+        { "key": "hppOL",         "label": "HPP O/L",         "unit": "bar" },
+        { "key": "hpPumpRPM",     "label": "HP Pump RPM",     "unit": "" },
+        { "key": "memb1IL",       "label": "Memb. I/L-1",     "unit": "bar" },
+        { "key": "memb1OL",       "label": "Memb. O/L-1",     "unit": "bar" },
+        { "key": "booster1RPM",   "label": "Booster-1 RPM",   "unit": "" },
+        { "key": "memb2IL",       "label": "Memb. I/L-2",     "unit": "bar" },
+        { "key": "memb2OL",       "label": "Memb. O/L-2",     "unit": "bar" },
+        { "key": "booster2RPM",   "label": "Booster-2 RPM",   "unit": "" },
+        { "key": "memb3IL",       "label": "Memb. I/L-3",     "unit": "bar" },
+        { "key": "memb3OL",       "label": "Memb. O/L-3",     "unit": "bar" },
+        { "key": "permeate1",     "label": "Permeate-1",      "unit": "m³/h" },
+        { "key": "permeate2",     "label": "Permeate-2",      "unit": "m³/h" },
+        { "key": "permeate3",     "label": "Permeate-3",      "unit": "m³/h" },
+        { "key": "totalPermeate", "label": "Total Permeate",  "unit": "m³/h" },
+        { "key": "reject",        "label": "Reject",          "unit": "m³/h" },
+        { "key": "pH",            "label": "pH",              "unit": "" },
+        { "key": "conductivity",  "label": "Cond.",           "unit": "µS/cm" },
+        { "key": "orp",           "label": "ORP",             "unit": "mV" },
+        { "key": "permeateCond",  "label": "Perm. Cond.",     "unit": "µS/cm" }
+      ],
+      "rows": [
+        { "time": "10:00", "feedPump": 4.1, "mcfIL": 3.8, "mcfOL": 3.8, "hppOL": 15, "hpPumpRPM": 1900, "memb1IL": 10.5, "memb1OL": 10.2, "booster1RPM": 1500, "memb2IL": 11.0, "memb2OL": 10.2, "booster2RPM": 1300, "memb3IL": 11.0, "memb3OL": 10.0, "permeate1": 20.0, "permeate2": 5.5, "permeate3": 1.7, "totalPermeate": 27.4, "reject": 6.1, "pH": 10.5, "conductivity": 3334.8, "orp": 20.6, "permeateCond": 166.2 },
+        { "time": "11:00", "feedPump": 4.0, "mcfIL": 3.5, "mcfOL": 3.5, "hppOL": 15, "hpPumpRPM": 2500, "memb1IL": 12.5, "memb1OL": 11.5, "booster1RPM": 1900, "memb2IL": 12.5, "memb2OL": 12.0, "booster2RPM": 1300, "memb3IL": 12.5, "memb3OL": 12.2, "permeate1": 22.0, "permeate2": 6.5, "permeate3": 1.7, "totalPermeate": 32.8, "reject": 5.8, "pH": 11.1, "conductivity": 3323.7, "orp": 20.4, "permeateCond": 166.5 },
+        { "time": "12:00", "feedPump": 3.8, "mcfIL": 3.0, "mcfOL": 3.0, "hppOL": 15, "hpPumpRPM": 2500, "memb1IL": 13.5, "memb1OL": 12.5, "booster1RPM": 1900, "memb2IL": 14.0, "memb2OL": 13.0, "booster2RPM": 1650, "memb3IL": 14.0, "memb3OL": 14.0, "permeate1": 26.0, "permeate2": 8.5, "permeate3": 2.5, "totalPermeate": 39.2, "reject": 6.6, "pH": 6.6, "conductivity": 3280.2, "orp": 18.5, "permeateCond": 95.5 },
+        { "time": "13:00", "feedPump": 3.8, "mcfIL": 3.2, "mcfOL": 3.1, "hppOL": 14, "hpPumpRPM": 2300, "memb1IL": 14.0, "memb1OL": 13.0, "booster1RPM": 1900, "memb2IL": 14.5, "memb2OL": 13.5, "booster2RPM": 1850, "memb3IL": 14.5, "memb3OL": 14.0, "permeate1": 25.5, "permeate2": 8.5, "permeate3": 2.5, "totalPermeate": 38.4, "reject": 5.5, "pH": 7.2, "conductivity": 3255.0, "orp": 15.1, "permeateCond": 92.1 },
+        { "time": "14:00", "feedPump": 3.8, "mcfIL": 3.2, "mcfOL": 3.1, "hppOL": 14, "hpPumpRPM": 2300, "memb1IL": 14.0, "memb1OL": 13.0, "booster1RPM": 1900, "memb2IL": 14.5, "memb2OL": 13.5, "booster2RPM": 1850, "memb3IL": 14.5, "memb3OL": 14.0, "permeate1": 25.5, "permeate2": 8.5, "permeate3": 2.5, "totalPermeate": 38.1, "reject": 5.4, "pH": 6.8, "conductivity": 3222.5, "orp": 12.1, "permeateCond": 89.1 },
+        { "time": "16:00", "feedPump": 3.8, "mcfIL": 3.2, "mcfOL": 3.1, "hppOL": 14, "hpPumpRPM": 2300, "memb1IL": 14.0, "memb1OL": 13.0, "booster1RPM": 1900, "memb2IL": 14.5, "memb2OL": 13.5, "booster2RPM": 1850, "memb3IL": 14.5, "memb3OL": 14.5, "permeate1": 25.5, "permeate2": 8.5, "permeate3": 2.5, "totalPermeate": 38.3, "reject": 5.2, "pH": 6.8, "conductivity": 3112.4, "orp": 24.1, "permeateCond": 81.0 },
+        { "time": "20:00", "feedPump": 4.5, "mcfIL": 2.9, "mcfOL": 2.8, "hppOL": 14, "hpPumpRPM": 2300, "memb1IL": 11.5, "memb1OL": 10.0, "booster1RPM": 2900, "memb2IL": 18.5, "memb2OL": 12.0, "booster2RPM": 2400, "memb3IL": 16.0, "memb3OL": 15.5, "permeate1": 20.0, "permeate2": 10.0, "permeate3": 5.2, "totalPermeate": 38.3, "reject": 4.7, "pH": 6.8, "conductivity": 3112.4, "orp": 24.1, "permeateCond": 81.0 },
+        { "time": "22:00", "feedPump": 4.1, "mcfIL": 2.9, "mcfOL": 2.8, "hppOL": 13, "hpPumpRPM": 2300, "memb1IL": 12.0, "memb1OL": 10.5, "booster1RPM": 2900, "memb2IL": 14.0, "memb2OL": 12.0, "booster2RPM": 2400, "memb3IL": 17.0, "memb3OL": 16.5, "permeate1": 22.0, "permeate2": 10.0, "permeate3": 4.0, "totalPermeate": 37.6, "reject": 4.9, "pH": 10.2, "conductivity": 3109.0, "orp": 22.3, "permeateCond": 94.0 }
+      ]
+    },
+    {
+      "id": "uf_17aug2025",
+      "system": "UF",
+      "date": "2025-08-17",
+      "label": "UF System Logsheet — 17 Aug 2025",
+      "source": "JETL, Hyderabad",
+      "note": "System stopped @ 22:00 Hrs and flushing done",
+      "columnGroups": [
+        { "label": "Pressure [Bar]", "span": 7 },
+        { "label": "Flow (m³/Hr)", "span": 3 },
+        { "label": "", "span": 1 }
+      ],
+      "columns": [
+        { "key": "time",        "label": "Time",          "unit": "" },
+        { "key": "feedPump",    "label": "Feed Pump O/L", "unit": "bar" },
+        { "key": "asf101IL",   "label": "ASF-101 I/L",   "unit": "bar" },
+        { "key": "mcfIL",      "label": "MCF I/L",       "unit": "bar" },
+        { "key": "mcfOL",      "label": "MCF O/L",       "unit": "bar" },
+        { "key": "hppOL",      "label": "HPP O/L",       "unit": "bar" },
+        { "key": "hpPumpRPM",  "label": "HP Pump RPM",   "unit": "" },
+        { "key": "membIL",     "label": "Memb. I/L",     "unit": "bar" },
+        { "key": "membOL",     "label": "Memb. O/L",     "unit": "bar" },
+        { "key": "permeate",   "label": "Permeate",      "unit": "m³/h" },
+        { "key": "reject",     "label": "Reject",        "unit": "m³/h" },
+        { "key": "recycle",    "label": "Recycle",       "unit": "%" }
+      ],
+      "rows": [
+        { "time": "10:00", "feedPump": 4.1, "asf101IL": 2.2, "mcfIL": 2.2, "mcfOL": 1.8, "hppOL": 3.0, "hpPumpRPM": 2300, "membIL": 2.9, "membOL": 1.8, "permeate": 46.3, "reject": 5.5, "recycle": 90 },
+        { "time": "11:00", "feedPump": 4.1, "asf101IL": 2.3, "mcfIL": 2.2, "mcfOL": 1.8, "hppOL": 3.0, "hpPumpRPM": 2300, "membIL": 2.9, "membOL": 1.8, "permeate": 45.8, "reject": 5.5, "recycle": 90 },
+        { "time": "12:00", "feedPump": 4.0, "asf101IL": 2.4, "mcfIL": 2.4, "mcfOL": 2.0, "hppOL": 3.2, "hpPumpRPM": 2300, "membIL": 3.0, "membOL": 1.8, "permeate": 47.0, "reject": 4.5, "recycle": 85 },
+        { "time": "13:00", "feedPump": 4.1, "asf101IL": 2.4, "mcfIL": 2.4, "mcfOL": 2.0, "hppOL": 3.2, "hpPumpRPM": 2300, "membIL": 3.1, "membOL": 1.9, "permeate": 46.9, "reject": 4.5, "recycle": 85 },
+        { "time": "14:00", "feedPump": 4.1, "asf101IL": 2.4, "mcfIL": 2.4, "mcfOL": 2.0, "hppOL": 3.2, "hpPumpRPM": 2300, "membIL": 3.1, "membOL": 1.9, "permeate": 46.7, "reject": 4.5, "recycle": 85 },
+        { "time": "15:00", "feedPump": 4.0, "asf101IL": 2.4, "mcfIL": 2.4, "mcfOL": 2.0, "hppOL": 3.2, "hpPumpRPM": 2300, "membIL": 3.1, "membOL": 1.9, "permeate": 47.3, "reject": 4.5, "recycle": 85 },
+        { "time": "16:00", "feedPump": 4.0, "asf101IL": 2.5, "mcfIL": 2.4, "mcfOL": 2.0, "hppOL": 3.2, "hpPumpRPM": 2300, "membIL": 3.1, "membOL": 1.9, "permeate": 46.8, "reject": 4.5, "recycle": 90 },
+        { "time": "17:00", "feedPump": 4.1, "asf101IL": 2.4, "mcfIL": 2.4, "mcfOL": 2.0, "hppOL": 3.2, "hpPumpRPM": 2300, "membIL": 3.1, "membOL": 1.9, "permeate": 47.0, "reject": 4.5, "recycle": 90 },
+        { "time": "18:00", "feedPump": 4.1, "asf101IL": 2.5, "mcfIL": 2.4, "mcfOL": 2.0, "hppOL": 3.2, "hpPumpRPM": 2300, "membIL": 3.1, "membOL": 1.9, "permeate": 46.7, "reject": 4.5, "recycle": 85 },
+        { "time": "19:00", "feedPump": 4.2, "asf101IL": 3.0, "mcfIL": 3.0, "mcfOL": 2.5, "hppOL": 3.8, "hpPumpRPM": 2300, "membIL": 3.7, "membOL": 2.5, "permeate": 45.1, "reject": 5.0, "recycle": 85 },
+        { "time": "20:00", "feedPump": 4.1, "asf101IL": 2.9, "mcfIL": 2.9, "mcfOL": 2.5, "hppOL": 3.7, "hpPumpRPM": 2300, "membIL": 3.6, "membOL": 2.4, "permeate": 44.7, "reject": 5.0, "recycle": 90 },
+        { "time": "21:00", "feedPump": 4.3, "asf101IL": 3.1, "mcfIL": 3.0, "mcfOL": 2.6, "hppOL": 3.8, "hpPumpRPM": 2300, "membIL": 3.7, "membOL": 2.5, "permeate": 45.7, "reject": 5.0, "recycle": 85 },
+        { "time": "22:00", "feedPump": 4.4, "asf101IL": 2.2, "mcfIL": 2.2, "mcfOL": 1.9, "hppOL": 3.2, "hpPumpRPM": 2400, "membIL": 3.1, "membOL": 1.8, "permeate": 44.3, "reject": 4.5, "recycle": 90 }
+      ]
+    }
+  ]
+}

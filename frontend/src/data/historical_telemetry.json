@@ -1,0 +1,7002 @@
+[
+  {
+    "timestamp": "2026-06-02T00:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.06,
+      "pump_load_kw": 14.92,
+      "permeate_flow_m3h": 77.72,
+      "feed_conductivity_us": 1178.63,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.04,
+      "feed_flow_m3h": 119.9
+    }
+  },
+  {
+    "timestamp": "2026-06-02T00:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.0,
+      "pump_load_kw": 15.16,
+      "permeate_flow_m3h": 78.68,
+      "feed_conductivity_us": 1193.02,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.02,
+      "feed_flow_m3h": 120.97
+    }
+  },
+  {
+    "timestamp": "2026-06-02T00:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 11.94,
+      "pump_load_kw": 15.14,
+      "permeate_flow_m3h": 79.64,
+      "feed_conductivity_us": 1204.25,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.0,
+      "feed_flow_m3h": 121.46
+    }
+  },
+  {
+    "timestamp": "2026-06-02T00:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.15,
+      "pump_load_kw": 15.24,
+      "permeate_flow_m3h": 78.02,
+      "feed_conductivity_us": 1204.4,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.02,
+      "feed_flow_m3h": 120.55
+    }
+  },
+  {
+    "timestamp": "2026-06-02T00:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 11.99,
+      "pump_load_kw": 15.02,
+      "permeate_flow_m3h": 76.47,
+      "feed_conductivity_us": 1200.58,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 0.97,
+      "feed_flow_m3h": 117.69
+    }
+  },
+  {
+    "timestamp": "2026-06-02T00:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.04,
+      "pump_load_kw": 14.9,
+      "permeate_flow_m3h": 77.76,
+      "feed_conductivity_us": 1193.97,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 0.98,
+      "feed_flow_m3h": 118.89
+    }
+  },
+  {
+    "timestamp": "2026-06-02T00:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 11.87,
+      "pump_load_kw": 14.76,
+      "permeate_flow_m3h": 78.25,
+      "feed_conductivity_us": 1192.69,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.0,
+      "feed_flow_m3h": 119.66
+    }
+  },
+  {
+    "timestamp": "2026-06-02T00:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.09,
+      "pump_load_kw": 15.09,
+      "permeate_flow_m3h": 78.43,
+      "feed_conductivity_us": 1206.01,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.0,
+      "feed_flow_m3h": 120.73
+    }
+  },
+  {
+    "timestamp": "2026-06-02T00:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.05,
+      "pump_load_kw": 14.93,
+      "permeate_flow_m3h": 76.62,
+      "feed_conductivity_us": 1195.89,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.01,
+      "feed_flow_m3h": 117.96
+    }
+  },
+  {
+    "timestamp": "2026-06-02T00:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.0,
+      "pump_load_kw": 14.99,
+      "permeate_flow_m3h": 77.12,
+      "feed_conductivity_us": 1199.73,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.04,
+      "feed_flow_m3h": 118.61
+    }
+  },
+  {
+    "timestamp": "2026-06-02T00:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.08,
+      "pump_load_kw": 15.11,
+      "permeate_flow_m3h": 77.58,
+      "feed_conductivity_us": 1198.04,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 0.97,
+      "feed_flow_m3h": 118.65
+    }
+  },
+  {
+    "timestamp": "2026-06-02T00:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.01,
+      "pump_load_kw": 15.11,
+      "permeate_flow_m3h": 77.68,
+      "feed_conductivity_us": 1215.37,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.0,
+      "feed_flow_m3h": 119.19
+    }
+  },
+  {
+    "timestamp": "2026-06-02T01:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.08,
+      "pump_load_kw": 15.06,
+      "permeate_flow_m3h": 78.15,
+      "feed_conductivity_us": 1211.19,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 0.99,
+      "feed_flow_m3h": 120.93
+    }
+  },
+  {
+    "timestamp": "2026-06-02T01:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.13,
+      "pump_load_kw": 15.08,
+      "permeate_flow_m3h": 78.36,
+      "feed_conductivity_us": 1196.46,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.02,
+      "feed_flow_m3h": 119.86
+    }
+  },
+  {
+    "timestamp": "2026-06-02T01:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.03,
+      "pump_load_kw": 15.0,
+      "permeate_flow_m3h": 78.4,
+      "feed_conductivity_us": 1205.74,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.07,
+      "feed_flow_m3h": 120.13
+    }
+  },
+  {
+    "timestamp": "2026-06-02T01:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 11.93,
+      "pump_load_kw": 14.91,
+      "permeate_flow_m3h": 78.17,
+      "feed_conductivity_us": 1213.56,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 0.98,
+      "feed_flow_m3h": 120.68
+    }
+  },
+  {
+    "timestamp": "2026-06-02T01:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 11.99,
+      "pump_load_kw": 15.11,
+      "permeate_flow_m3h": 77.73,
+      "feed_conductivity_us": 1209.18,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.0,
+      "feed_flow_m3h": 120.23
+    }
+  },
+  {
+    "timestamp": "2026-06-02T01:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 11.9,
+      "pump_load_kw": 15.1,
+      "permeate_flow_m3h": 77.42,
+      "feed_conductivity_us": 1205.5,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.04,
+      "feed_flow_m3h": 120.77
+    }
+  },
+  {
+    "timestamp": "2026-06-02T01:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.25,
+      "pump_load_kw": 14.94,
+      "permeate_flow_m3h": 76.83,
+      "feed_conductivity_us": 1204.81,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.02,
+      "feed_flow_m3h": 119.92
+    }
+  },
+  {
+    "timestamp": "2026-06-02T01:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.09,
+      "pump_load_kw": 15.17,
+      "permeate_flow_m3h": 77.44,
+      "feed_conductivity_us": 1208.55,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 0.97,
+      "feed_flow_m3h": 119.64
+    }
+  },
+  {
+    "timestamp": "2026-06-02T01:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 11.99,
+      "pump_load_kw": 15.13,
+      "permeate_flow_m3h": 77.24,
+      "feed_conductivity_us": 1205.58,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.05,
+      "feed_flow_m3h": 120.16
+    }
+  },
+  {
+    "timestamp": "2026-06-02T01:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.16,
+      "pump_load_kw": 15.01,
+      "permeate_flow_m3h": 77.92,
+      "feed_conductivity_us": 1208.95,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.02,
+      "feed_flow_m3h": 119.6
+    }
+  },
+  {
+    "timestamp": "2026-06-02T01:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.12,
+      "pump_load_kw": 15.21,
+      "permeate_flow_m3h": 77.85,
+      "feed_conductivity_us": 1220.39,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.03,
+      "feed_flow_m3h": 119.32
+    }
+  },
+  {
+    "timestamp": "2026-06-02T01:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.36,
+      "pump_load_kw": 14.98,
+      "permeate_flow_m3h": 77.8,
+      "feed_conductivity_us": 1185.4,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.04,
+      "feed_flow_m3h": 119.27
+    }
+  },
+  {
+    "timestamp": "2026-06-02T02:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.09,
+      "pump_load_kw": 15.12,
+      "permeate_flow_m3h": 77.79,
+      "feed_conductivity_us": 1211.77,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.04,
+      "feed_flow_m3h": 119.46
+    }
+  },
+  {
+    "timestamp": "2026-06-02T02:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.04,
+      "pump_load_kw": 15.05,
+      "permeate_flow_m3h": 75.91,
+      "feed_conductivity_us": 1195.3,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.0,
+      "feed_flow_m3h": 119.15
+    }
+  },
+  {
+    "timestamp": "2026-06-02T02:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.06,
+      "pump_load_kw": 15.32,
+      "permeate_flow_m3h": 76.7,
+      "feed_conductivity_us": 1206.59,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.06,
+      "feed_flow_m3h": 118.53
+    }
+  },
+  {
+    "timestamp": "2026-06-02T02:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.06,
+      "pump_load_kw": 15.02,
+      "permeate_flow_m3h": 78.3,
+      "feed_conductivity_us": 1205.29,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.01,
+      "feed_flow_m3h": 120.04
+    }
+  },
+  {
+    "timestamp": "2026-06-02T02:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.08,
+      "pump_load_kw": 15.15,
+      "permeate_flow_m3h": 77.8,
+      "feed_conductivity_us": 1202.39,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.04,
+      "feed_flow_m3h": 119.06
+    }
+  },
+  {
+    "timestamp": "2026-06-02T02:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.25,
+      "pump_load_kw": 15.06,
+      "permeate_flow_m3h": 76.93,
+      "feed_conductivity_us": 1204.03,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.05,
+      "feed_flow_m3h": 118.46
+    }
+  },
+  {
+    "timestamp": "2026-06-02T02:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.11,
+      "pump_load_kw": 15.24,
+      "permeate_flow_m3h": 77.97,
+      "feed_conductivity_us": 1194.37,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.05,
+      "feed_flow_m3h": 120.85
+    }
+  },
+  {
+    "timestamp": "2026-06-02T02:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 11.99,
+      "pump_load_kw": 15.06,
+      "permeate_flow_m3h": 76.24,
+      "feed_conductivity_us": 1218.04,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.04,
+      "feed_flow_m3h": 118.24
+    }
+  },
+  {
+    "timestamp": "2026-06-02T02:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.27,
+      "pump_load_kw": 14.95,
+      "permeate_flow_m3h": 76.56,
+      "feed_conductivity_us": 1211.75,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.04,
+      "feed_flow_m3h": 118.88
+    }
+  },
+  {
+    "timestamp": "2026-06-02T02:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 11.93,
+      "pump_load_kw": 15.1,
+      "permeate_flow_m3h": 76.99,
+      "feed_conductivity_us": 1191.65,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.02,
+      "feed_flow_m3h": 117.81
+    }
+  },
+  {
+    "timestamp": "2026-06-02T02:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.15,
+      "pump_load_kw": 15.05,
+      "permeate_flow_m3h": 77.56,
+      "feed_conductivity_us": 1194.24,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.07,
+      "feed_flow_m3h": 118.85
+    }
+  },
+  {
+    "timestamp": "2026-06-02T02:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.29,
+      "pump_load_kw": 15.27,
+      "permeate_flow_m3h": 77.91,
+      "feed_conductivity_us": 1190.25,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.02,
+      "feed_flow_m3h": 119.46
+    }
+  },
+  {
+    "timestamp": "2026-06-02T03:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 11.85,
+      "pump_load_kw": 15.09,
+      "permeate_flow_m3h": 76.94,
+      "feed_conductivity_us": 1191.28,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.03,
+      "feed_flow_m3h": 118.85
+    }
+  },
+  {
+    "timestamp": "2026-06-02T03:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 11.87,
+      "pump_load_kw": 15.28,
+      "permeate_flow_m3h": 75.81,
+      "feed_conductivity_us": 1190.69,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.04,
+      "feed_flow_m3h": 117.6
+    }
+  },
+  {
+    "timestamp": "2026-06-02T03:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.14,
+      "pump_load_kw": 15.2,
+      "permeate_flow_m3h": 77.2,
+      "feed_conductivity_us": 1203.74,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.04,
+      "feed_flow_m3h": 119.57
+    }
+  },
+  {
+    "timestamp": "2026-06-02T03:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.11,
+      "pump_load_kw": 15.16,
+      "permeate_flow_m3h": 75.63,
+      "feed_conductivity_us": 1204.89,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.04,
+      "feed_flow_m3h": 117.02
+    }
+  },
+  {
+    "timestamp": "2026-06-02T03:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.26,
+      "pump_load_kw": 15.28,
+      "permeate_flow_m3h": 76.95,
+      "feed_conductivity_us": 1193.69,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.04,
+      "feed_flow_m3h": 118.81
+    }
+  },
+  {
+    "timestamp": "2026-06-02T03:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.1,
+      "pump_load_kw": 15.18,
+      "permeate_flow_m3h": 76.62,
+      "feed_conductivity_us": 1203.53,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.02,
+      "feed_flow_m3h": 118.34
+    }
+  },
+  {
+    "timestamp": "2026-06-02T03:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.13,
+      "pump_load_kw": 14.96,
+      "permeate_flow_m3h": 77.61,
+      "feed_conductivity_us": 1196.26,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.07,
+      "feed_flow_m3h": 121.23
+    }
+  },
+  {
+    "timestamp": "2026-06-02T03:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.15,
+      "pump_load_kw": 15.0,
+      "permeate_flow_m3h": 78.07,
+      "feed_conductivity_us": 1215.41,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.06,
+      "feed_flow_m3h": 119.44
+    }
+  },
+  {
+    "timestamp": "2026-06-02T03:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.21,
+      "pump_load_kw": 15.19,
+      "permeate_flow_m3h": 79.16,
+      "feed_conductivity_us": 1166.33,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.04,
+      "feed_flow_m3h": 120.9
+    }
+  },
+  {
+    "timestamp": "2026-06-02T03:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.18,
+      "pump_load_kw": 15.25,
+      "permeate_flow_m3h": 76.42,
+      "feed_conductivity_us": 1200.42,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.06,
+      "feed_flow_m3h": 118.69
+    }
+  },
+  {
+    "timestamp": "2026-06-02T03:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.17,
+      "pump_load_kw": 14.97,
+      "permeate_flow_m3h": 78.18,
+      "feed_conductivity_us": 1195.83,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.04,
+      "feed_flow_m3h": 120.05
+    }
+  },
+  {
+    "timestamp": "2026-06-02T03:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.26,
+      "pump_load_kw": 15.21,
+      "permeate_flow_m3h": 76.4,
+      "feed_conductivity_us": 1221.43,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.01,
+      "feed_flow_m3h": 119.45
+    }
+  },
+  {
+    "timestamp": "2026-06-02T04:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.35,
+      "pump_load_kw": 15.27,
+      "permeate_flow_m3h": 75.86,
+      "feed_conductivity_us": 1203.57,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.07,
+      "feed_flow_m3h": 117.48
+    }
+  },
+  {
+    "timestamp": "2026-06-02T04:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.13,
+      "pump_load_kw": 15.23,
+      "permeate_flow_m3h": 77.8,
+      "feed_conductivity_us": 1196.49,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.06,
+      "feed_flow_m3h": 120.86
+    }
+  },
+  {
+    "timestamp": "2026-06-02T04:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.28,
+      "pump_load_kw": 15.19,
+      "permeate_flow_m3h": 77.56,
+      "feed_conductivity_us": 1199.89,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.06,
+      "feed_flow_m3h": 119.58
+    }
+  },
+  {
+    "timestamp": "2026-06-02T04:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.18,
+      "pump_load_kw": 14.99,
+      "permeate_flow_m3h": 76.84,
+      "feed_conductivity_us": 1199.91,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.03,
+      "feed_flow_m3h": 118.96
+    }
+  },
+  {
+    "timestamp": "2026-06-02T04:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.27,
+      "pump_load_kw": 15.31,
+      "permeate_flow_m3h": 77.81,
+      "feed_conductivity_us": 1193.85,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.06,
+      "feed_flow_m3h": 121.11
+    }
+  },
+  {
+    "timestamp": "2026-06-02T04:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.22,
+      "pump_load_kw": 15.22,
+      "permeate_flow_m3h": 76.22,
+      "feed_conductivity_us": 1199.29,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.03,
+      "feed_flow_m3h": 118.7
+    }
+  },
+  {
+    "timestamp": "2026-06-02T04:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.07,
+      "pump_load_kw": 15.33,
+      "permeate_flow_m3h": 78.78,
+      "feed_conductivity_us": 1203.55,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.05,
+      "feed_flow_m3h": 122.0
+    }
+  },
+  {
+    "timestamp": "2026-06-02T04:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.12,
+      "pump_load_kw": 15.31,
+      "permeate_flow_m3h": 78.45,
+      "feed_conductivity_us": 1191.51,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.07,
+      "feed_flow_m3h": 120.43
+    }
+  },
+  {
+    "timestamp": "2026-06-02T04:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.18,
+      "pump_load_kw": 14.99,
+      "permeate_flow_m3h": 76.04,
+      "feed_conductivity_us": 1190.56,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.05,
+      "feed_flow_m3h": 117.19
+    }
+  },
+  {
+    "timestamp": "2026-06-02T04:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.33,
+      "pump_load_kw": 15.18,
+      "permeate_flow_m3h": 77.59,
+      "feed_conductivity_us": 1195.35,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.03,
+      "feed_flow_m3h": 119.15
+    }
+  },
+  {
+    "timestamp": "2026-06-02T04:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.0,
+      "pump_load_kw": 15.09,
+      "permeate_flow_m3h": 77.88,
+      "feed_conductivity_us": 1199.29,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.06,
+      "feed_flow_m3h": 119.57
+    }
+  },
+  {
+    "timestamp": "2026-06-02T04:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.18,
+      "pump_load_kw": 15.12,
+      "permeate_flow_m3h": 78.52,
+      "feed_conductivity_us": 1194.32,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.08,
+      "feed_flow_m3h": 121.22
+    }
+  },
+  {
+    "timestamp": "2026-06-02T05:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.3,
+      "pump_load_kw": 15.28,
+      "permeate_flow_m3h": 78.55,
+      "feed_conductivity_us": 1180.13,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.06,
+      "feed_flow_m3h": 122.02
+    }
+  },
+  {
+    "timestamp": "2026-06-02T05:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.27,
+      "pump_load_kw": 15.09,
+      "permeate_flow_m3h": 77.66,
+      "feed_conductivity_us": 1211.76,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.02,
+      "feed_flow_m3h": 120.33
+    }
+  },
+  {
+    "timestamp": "2026-06-02T05:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.32,
+      "pump_load_kw": 15.14,
+      "permeate_flow_m3h": 76.78,
+      "feed_conductivity_us": 1203.86,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.03,
+      "feed_flow_m3h": 118.81
+    }
+  },
+  {
+    "timestamp": "2026-06-02T05:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.18,
+      "pump_load_kw": 15.03,
+      "permeate_flow_m3h": 77.33,
+      "feed_conductivity_us": 1194.51,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.09,
+      "feed_flow_m3h": 119.63
+    }
+  },
+  {
+    "timestamp": "2026-06-02T05:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.18,
+      "pump_load_kw": 15.05,
+      "permeate_flow_m3h": 77.14,
+      "feed_conductivity_us": 1213.39,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.03,
+      "feed_flow_m3h": 120.26
+    }
+  },
+  {
+    "timestamp": "2026-06-02T05:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.25,
+      "pump_load_kw": 15.07,
+      "permeate_flow_m3h": 77.15,
+      "feed_conductivity_us": 1199.49,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.08,
+      "feed_flow_m3h": 118.22
+    }
+  },
+  {
+    "timestamp": "2026-06-02T05:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.18,
+      "pump_load_kw": 15.17,
+      "permeate_flow_m3h": 76.39,
+      "feed_conductivity_us": 1223.22,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.06,
+      "feed_flow_m3h": 118.34
+    }
+  },
+  {
+    "timestamp": "2026-06-02T05:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.07,
+      "pump_load_kw": 14.96,
+      "permeate_flow_m3h": 78.17,
+      "feed_conductivity_us": 1182.83,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.11,
+      "feed_flow_m3h": 122.02
+    }
+  },
+  {
+    "timestamp": "2026-06-02T05:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.16,
+      "pump_load_kw": 15.04,
+      "permeate_flow_m3h": 78.31,
+      "feed_conductivity_us": 1201.91,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.08,
+      "feed_flow_m3h": 120.91
+    }
+  },
+  {
+    "timestamp": "2026-06-02T05:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.25,
+      "pump_load_kw": 15.35,
+      "permeate_flow_m3h": 76.59,
+      "feed_conductivity_us": 1215.95,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.06,
+      "feed_flow_m3h": 117.73
+    }
+  },
+  {
+    "timestamp": "2026-06-02T05:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.31,
+      "pump_load_kw": 15.24,
+      "permeate_flow_m3h": 77.79,
+      "feed_conductivity_us": 1199.13,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.05,
+      "feed_flow_m3h": 119.82
+    }
+  },
+  {
+    "timestamp": "2026-06-02T05:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.23,
+      "pump_load_kw": 15.05,
+      "permeate_flow_m3h": 77.53,
+      "feed_conductivity_us": 1184.13,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.05,
+      "feed_flow_m3h": 120.15
+    }
+  },
+  {
+    "timestamp": "2026-06-02T06:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.34,
+      "pump_load_kw": 14.99,
+      "permeate_flow_m3h": 78.47,
+      "feed_conductivity_us": 1200.67,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.07,
+      "feed_flow_m3h": 119.35
+    }
+  },
+  {
+    "timestamp": "2026-06-02T06:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.1,
+      "pump_load_kw": 15.34,
+      "permeate_flow_m3h": 75.56,
+      "feed_conductivity_us": 1183.44,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.1,
+      "feed_flow_m3h": 117.62
+    }
+  },
+  {
+    "timestamp": "2026-06-02T06:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.21,
+      "pump_load_kw": 15.38,
+      "permeate_flow_m3h": 79.03,
+      "feed_conductivity_us": 1218.41,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.08,
+      "feed_flow_m3h": 122.62
+    }
+  },
+  {
+    "timestamp": "2026-06-02T06:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.39,
+      "pump_load_kw": 15.25,
+      "permeate_flow_m3h": 76.81,
+      "feed_conductivity_us": 1191.7,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.09,
+      "feed_flow_m3h": 118.3
+    }
+  },
+  {
+    "timestamp": "2026-06-02T06:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.26,
+      "pump_load_kw": 15.04,
+      "permeate_flow_m3h": 77.03,
+      "feed_conductivity_us": 1214.23,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.08,
+      "feed_flow_m3h": 119.93
+    }
+  },
+  {
+    "timestamp": "2026-06-02T06:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.16,
+      "pump_load_kw": 15.28,
+      "permeate_flow_m3h": 76.5,
+      "feed_conductivity_us": 1205.74,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.09,
+      "feed_flow_m3h": 119.27
+    }
+  },
+  {
+    "timestamp": "2026-06-02T06:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.27,
+      "pump_load_kw": 14.95,
+      "permeate_flow_m3h": 76.97,
+      "feed_conductivity_us": 1189.62,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.05,
+      "feed_flow_m3h": 120.18
+    }
+  },
+  {
+    "timestamp": "2026-06-02T06:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.11,
+      "pump_load_kw": 15.37,
+      "permeate_flow_m3h": 76.23,
+      "feed_conductivity_us": 1180.57,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.08,
+      "feed_flow_m3h": 119.09
+    }
+  },
+  {
+    "timestamp": "2026-06-02T06:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.19,
+      "pump_load_kw": 15.07,
+      "permeate_flow_m3h": 77.59,
+      "feed_conductivity_us": 1194.07,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.07,
+      "feed_flow_m3h": 120.11
+    }
+  },
+  {
+    "timestamp": "2026-06-02T06:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.18,
+      "pump_load_kw": 15.24,
+      "permeate_flow_m3h": 76.75,
+      "feed_conductivity_us": 1184.71,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.08,
+      "feed_flow_m3h": 119.05
+    }
+  },
+  {
+    "timestamp": "2026-06-02T06:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.17,
+      "pump_load_kw": 15.27,
+      "permeate_flow_m3h": 77.16,
+      "feed_conductivity_us": 1203.64,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.09,
+      "feed_flow_m3h": 119.41
+    }
+  },
+  {
+    "timestamp": "2026-06-02T06:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.14,
+      "pump_load_kw": 15.37,
+      "permeate_flow_m3h": 78.09,
+      "feed_conductivity_us": 1196.75,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.09,
+      "feed_flow_m3h": 119.49
+    }
+  },
+  {
+    "timestamp": "2026-06-02T07:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.28,
+      "pump_load_kw": 15.18,
+      "permeate_flow_m3h": 77.87,
+      "feed_conductivity_us": 1193.09,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.13,
+      "feed_flow_m3h": 120.7
+    }
+  },
+  {
+    "timestamp": "2026-06-02T07:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.28,
+      "pump_load_kw": 14.97,
+      "permeate_flow_m3h": 74.7,
+      "feed_conductivity_us": 1191.84,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.13,
+      "feed_flow_m3h": 116.62
+    }
+  },
+  {
+    "timestamp": "2026-06-02T07:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.28,
+      "pump_load_kw": 15.24,
+      "permeate_flow_m3h": 77.26,
+      "feed_conductivity_us": 1210.88,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.12,
+      "feed_flow_m3h": 118.85
+    }
+  },
+  {
+    "timestamp": "2026-06-02T07:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.4,
+      "pump_load_kw": 15.29,
+      "permeate_flow_m3h": 76.12,
+      "feed_conductivity_us": 1200.59,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.1,
+      "feed_flow_m3h": 118.63
+    }
+  },
+  {
+    "timestamp": "2026-06-02T07:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.29,
+      "pump_load_kw": 15.06,
+      "permeate_flow_m3h": 77.49,
+      "feed_conductivity_us": 1202.18,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.1,
+      "feed_flow_m3h": 119.87
+    }
+  },
+  {
+    "timestamp": "2026-06-02T07:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.29,
+      "pump_load_kw": 15.19,
+      "permeate_flow_m3h": 77.55,
+      "feed_conductivity_us": 1210.44,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.09,
+      "feed_flow_m3h": 119.9
+    }
+  },
+  {
+    "timestamp": "2026-06-02T07:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.39,
+      "pump_load_kw": 15.25,
+      "permeate_flow_m3h": 77.41,
+      "feed_conductivity_us": 1205.47,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.09,
+      "feed_flow_m3h": 119.79
+    }
+  },
+  {
+    "timestamp": "2026-06-02T07:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.43,
+      "pump_load_kw": 15.34,
+      "permeate_flow_m3h": 76.57,
+      "feed_conductivity_us": 1204.04,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.06,
+      "feed_flow_m3h": 118.71
+    }
+  },
+  {
+    "timestamp": "2026-06-02T07:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.32,
+      "pump_load_kw": 15.43,
+      "permeate_flow_m3h": 76.16,
+      "feed_conductivity_us": 1202.06,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.1,
+      "feed_flow_m3h": 119.25
+    }
+  },
+  {
+    "timestamp": "2026-06-02T07:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.35,
+      "pump_load_kw": 15.25,
+      "permeate_flow_m3h": 75.82,
+      "feed_conductivity_us": 1197.66,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.07,
+      "feed_flow_m3h": 117.19
+    }
+  },
+  {
+    "timestamp": "2026-06-02T07:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.3,
+      "pump_load_kw": 15.24,
+      "permeate_flow_m3h": 77.26,
+      "feed_conductivity_us": 1198.77,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.12,
+      "feed_flow_m3h": 119.28
+    }
+  },
+  {
+    "timestamp": "2026-06-02T07:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.33,
+      "pump_load_kw": 15.48,
+      "permeate_flow_m3h": 76.72,
+      "feed_conductivity_us": 1203.87,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.1,
+      "feed_flow_m3h": 119.17
+    }
+  },
+  {
+    "timestamp": "2026-06-02T08:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.31,
+      "pump_load_kw": 15.26,
+      "permeate_flow_m3h": 76.73,
+      "feed_conductivity_us": 1195.76,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.08,
+      "feed_flow_m3h": 119.69
+    }
+  },
+  {
+    "timestamp": "2026-06-02T08:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.27,
+      "pump_load_kw": 15.31,
+      "permeate_flow_m3h": 76.65,
+      "feed_conductivity_us": 1222.54,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.08,
+      "feed_flow_m3h": 117.86
+    }
+  },
+  {
+    "timestamp": "2026-06-02T08:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.35,
+      "pump_load_kw": 15.26,
+      "permeate_flow_m3h": 75.8,
+      "feed_conductivity_us": 1221.55,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.11,
+      "feed_flow_m3h": 117.12
+    }
+  },
+  {
+    "timestamp": "2026-06-02T08:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.44,
+      "pump_load_kw": 15.3,
+      "permeate_flow_m3h": 78.57,
+      "feed_conductivity_us": 1199.83,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.09,
+      "feed_flow_m3h": 120.87
+    }
+  },
+  {
+    "timestamp": "2026-06-02T08:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.08,
+      "pump_load_kw": 15.23,
+      "permeate_flow_m3h": 77.3,
+      "feed_conductivity_us": 1206.92,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.08,
+      "feed_flow_m3h": 119.26
+    }
+  },
+  {
+    "timestamp": "2026-06-02T08:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.33,
+      "pump_load_kw": 15.39,
+      "permeate_flow_m3h": 76.67,
+      "feed_conductivity_us": 1193.72,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.11,
+      "feed_flow_m3h": 118.91
+    }
+  },
+  {
+    "timestamp": "2026-06-02T08:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.35,
+      "pump_load_kw": 15.18,
+      "permeate_flow_m3h": 75.76,
+      "feed_conductivity_us": 1199.46,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.11,
+      "feed_flow_m3h": 118.34
+    }
+  },
+  {
+    "timestamp": "2026-06-02T08:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.25,
+      "pump_load_kw": 15.15,
+      "permeate_flow_m3h": 77.07,
+      "feed_conductivity_us": 1184.1,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.11,
+      "feed_flow_m3h": 119.09
+    }
+  },
+  {
+    "timestamp": "2026-06-02T08:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.41,
+      "pump_load_kw": 15.11,
+      "permeate_flow_m3h": 76.63,
+      "feed_conductivity_us": 1178.32,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.09,
+      "feed_flow_m3h": 119.22
+    }
+  },
+  {
+    "timestamp": "2026-06-02T08:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.37,
+      "pump_load_kw": 15.23,
+      "permeate_flow_m3h": 76.44,
+      "feed_conductivity_us": 1191.08,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.14,
+      "feed_flow_m3h": 118.66
+    }
+  },
+  {
+    "timestamp": "2026-06-02T08:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.45,
+      "pump_load_kw": 15.29,
+      "permeate_flow_m3h": 76.46,
+      "feed_conductivity_us": 1205.17,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.08,
+      "feed_flow_m3h": 118.8
+    }
+  },
+  {
+    "timestamp": "2026-06-02T08:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.34,
+      "pump_load_kw": 15.1,
+      "permeate_flow_m3h": 76.81,
+      "feed_conductivity_us": 1205.63,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.13,
+      "feed_flow_m3h": 119.52
+    }
+  },
+  {
+    "timestamp": "2026-06-02T09:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.37,
+      "pump_load_kw": 15.35,
+      "permeate_flow_m3h": 77.77,
+      "feed_conductivity_us": 1220.35,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.1,
+      "feed_flow_m3h": 119.92
+    }
+  },
+  {
+    "timestamp": "2026-06-02T09:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.36,
+      "pump_load_kw": 15.46,
+      "permeate_flow_m3h": 77.63,
+      "feed_conductivity_us": 1198.51,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.14,
+      "feed_flow_m3h": 119.48
+    }
+  },
+  {
+    "timestamp": "2026-06-02T09:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.37,
+      "pump_load_kw": 15.1,
+      "permeate_flow_m3h": 76.45,
+      "feed_conductivity_us": 1198.62,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.12,
+      "feed_flow_m3h": 118.67
+    }
+  },
+  {
+    "timestamp": "2026-06-02T09:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.26,
+      "pump_load_kw": 15.13,
+      "permeate_flow_m3h": 76.53,
+      "feed_conductivity_us": 1200.99,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.11,
+      "feed_flow_m3h": 119.07
+    }
+  },
+  {
+    "timestamp": "2026-06-02T09:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.32,
+      "pump_load_kw": 15.37,
+      "permeate_flow_m3h": 78.48,
+      "feed_conductivity_us": 1188.28,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.13,
+      "feed_flow_m3h": 120.45
+    }
+  },
+  {
+    "timestamp": "2026-06-02T09:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.37,
+      "pump_load_kw": 15.52,
+      "permeate_flow_m3h": 77.23,
+      "feed_conductivity_us": 1200.46,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.13,
+      "feed_flow_m3h": 120.71
+    }
+  },
+  {
+    "timestamp": "2026-06-02T09:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.28,
+      "pump_load_kw": 15.25,
+      "permeate_flow_m3h": 77.46,
+      "feed_conductivity_us": 1199.65,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.1,
+      "feed_flow_m3h": 119.8
+    }
+  },
+  {
+    "timestamp": "2026-06-02T09:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.37,
+      "pump_load_kw": 15.35,
+      "permeate_flow_m3h": 77.99,
+      "feed_conductivity_us": 1205.46,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.13,
+      "feed_flow_m3h": 119.87
+    }
+  },
+  {
+    "timestamp": "2026-06-02T09:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.23,
+      "pump_load_kw": 15.46,
+      "permeate_flow_m3h": 75.27,
+      "feed_conductivity_us": 1186.14,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.11,
+      "feed_flow_m3h": 118.07
+    }
+  },
+  {
+    "timestamp": "2026-06-02T09:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.38,
+      "pump_load_kw": 15.39,
+      "permeate_flow_m3h": 75.73,
+      "feed_conductivity_us": 1187.91,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.1,
+      "feed_flow_m3h": 118.04
+    }
+  },
+  {
+    "timestamp": "2026-06-02T09:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.25,
+      "pump_load_kw": 15.26,
+      "permeate_flow_m3h": 76.96,
+      "feed_conductivity_us": 1198.09,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.09,
+      "feed_flow_m3h": 119.16
+    }
+  },
+  {
+    "timestamp": "2026-06-02T09:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.28,
+      "pump_load_kw": 15.34,
+      "permeate_flow_m3h": 75.77,
+      "feed_conductivity_us": 1187.82,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.12,
+      "feed_flow_m3h": 118.34
+    }
+  },
+  {
+    "timestamp": "2026-06-02T10:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.33,
+      "pump_load_kw": 15.47,
+      "permeate_flow_m3h": 77.33,
+      "feed_conductivity_us": 1170.99,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.14,
+      "feed_flow_m3h": 119.83
+    }
+  },
+  {
+    "timestamp": "2026-06-02T10:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.32,
+      "pump_load_kw": 15.55,
+      "permeate_flow_m3h": 77.72,
+      "feed_conductivity_us": 1196.04,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.14,
+      "feed_flow_m3h": 120.54
+    }
+  },
+  {
+    "timestamp": "2026-06-02T10:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.3,
+      "pump_load_kw": 15.48,
+      "permeate_flow_m3h": 78.19,
+      "feed_conductivity_us": 1190.23,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.12,
+      "feed_flow_m3h": 119.37
+    }
+  },
+  {
+    "timestamp": "2026-06-02T10:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.29,
+      "pump_load_kw": 15.42,
+      "permeate_flow_m3h": 75.37,
+      "feed_conductivity_us": 1191.5,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.08,
+      "feed_flow_m3h": 116.75
+    }
+  },
+  {
+    "timestamp": "2026-06-02T10:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.21,
+      "pump_load_kw": 15.48,
+      "permeate_flow_m3h": 75.81,
+      "feed_conductivity_us": 1202.45,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.11,
+      "feed_flow_m3h": 118.18
+    }
+  },
+  {
+    "timestamp": "2026-06-02T10:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.54,
+      "pump_load_kw": 15.4,
+      "permeate_flow_m3h": 77.58,
+      "feed_conductivity_us": 1235.29,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.15,
+      "feed_flow_m3h": 119.07
+    }
+  },
+  {
+    "timestamp": "2026-06-02T10:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.43,
+      "pump_load_kw": 15.35,
+      "permeate_flow_m3h": 77.5,
+      "feed_conductivity_us": 1205.64,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.09,
+      "feed_flow_m3h": 118.93
+    }
+  },
+  {
+    "timestamp": "2026-06-02T10:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.31,
+      "pump_load_kw": 15.38,
+      "permeate_flow_m3h": 76.12,
+      "feed_conductivity_us": 1208.16,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.1,
+      "feed_flow_m3h": 119.58
+    }
+  },
+  {
+    "timestamp": "2026-06-02T10:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.57,
+      "pump_load_kw": 15.33,
+      "permeate_flow_m3h": 75.97,
+      "feed_conductivity_us": 1185.21,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.11,
+      "feed_flow_m3h": 118.49
+    }
+  },
+  {
+    "timestamp": "2026-06-02T10:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.29,
+      "pump_load_kw": 15.29,
+      "permeate_flow_m3h": 76.7,
+      "feed_conductivity_us": 1169.64,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.11,
+      "feed_flow_m3h": 119.45
+    }
+  },
+  {
+    "timestamp": "2026-06-02T10:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.45,
+      "pump_load_kw": 15.21,
+      "permeate_flow_m3h": 76.17,
+      "feed_conductivity_us": 1202.95,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.14,
+      "feed_flow_m3h": 118.58
+    }
+  },
+  {
+    "timestamp": "2026-06-02T10:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.53,
+      "pump_load_kw": 15.42,
+      "permeate_flow_m3h": 76.22,
+      "feed_conductivity_us": 1191.04,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.13,
+      "feed_flow_m3h": 118.64
+    }
+  },
+  {
+    "timestamp": "2026-06-02T11:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.43,
+      "pump_load_kw": 15.43,
+      "permeate_flow_m3h": 76.52,
+      "feed_conductivity_us": 1217.73,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.11,
+      "feed_flow_m3h": 118.37
+    }
+  },
+  {
+    "timestamp": "2026-06-02T11:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.39,
+      "pump_load_kw": 15.43,
+      "permeate_flow_m3h": 75.75,
+      "feed_conductivity_us": 1206.67,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.08,
+      "feed_flow_m3h": 118.85
+    }
+  },
+  {
+    "timestamp": "2026-06-02T11:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.49,
+      "pump_load_kw": 15.32,
+      "permeate_flow_m3h": 75.1,
+      "feed_conductivity_us": 1188.94,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.12,
+      "feed_flow_m3h": 117.08
+    }
+  },
+  {
+    "timestamp": "2026-06-02T11:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.52,
+      "pump_load_kw": 15.35,
+      "permeate_flow_m3h": 77.64,
+      "feed_conductivity_us": 1203.8,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.15,
+      "feed_flow_m3h": 120.82
+    }
+  },
+  {
+    "timestamp": "2026-06-02T11:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.43,
+      "pump_load_kw": 15.47,
+      "permeate_flow_m3h": 77.11,
+      "feed_conductivity_us": 1194.92,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.16,
+      "feed_flow_m3h": 119.63
+    }
+  },
+  {
+    "timestamp": "2026-06-02T11:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.44,
+      "pump_load_kw": 15.52,
+      "permeate_flow_m3h": 76.25,
+      "feed_conductivity_us": 1205.28,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.13,
+      "feed_flow_m3h": 118.64
+    }
+  },
+  {
+    "timestamp": "2026-06-02T11:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.45,
+      "pump_load_kw": 15.34,
+      "permeate_flow_m3h": 76.09,
+      "feed_conductivity_us": 1191.79,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.14,
+      "feed_flow_m3h": 118.92
+    }
+  },
+  {
+    "timestamp": "2026-06-02T11:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.42,
+      "pump_load_kw": 15.45,
+      "permeate_flow_m3h": 76.44,
+      "feed_conductivity_us": 1199.34,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.1,
+      "feed_flow_m3h": 118.64
+    }
+  },
+  {
+    "timestamp": "2026-06-02T11:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.53,
+      "pump_load_kw": 15.38,
+      "permeate_flow_m3h": 77.26,
+      "feed_conductivity_us": 1184.13,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.16,
+      "feed_flow_m3h": 119.42
+    }
+  },
+  {
+    "timestamp": "2026-06-02T11:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.44,
+      "pump_load_kw": 15.22,
+      "permeate_flow_m3h": 76.05,
+      "feed_conductivity_us": 1196.86,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.14,
+      "feed_flow_m3h": 118.83
+    }
+  },
+  {
+    "timestamp": "2026-06-02T11:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.26,
+      "pump_load_kw": 15.1,
+      "permeate_flow_m3h": 77.37,
+      "feed_conductivity_us": 1196.26,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.16,
+      "feed_flow_m3h": 120.23
+    }
+  },
+  {
+    "timestamp": "2026-06-02T11:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.53,
+      "pump_load_kw": 15.52,
+      "permeate_flow_m3h": 74.96,
+      "feed_conductivity_us": 1197.75,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.16,
+      "feed_flow_m3h": 117.55
+    }
+  },
+  {
+    "timestamp": "2026-06-02T12:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.53,
+      "pump_load_kw": 15.85,
+      "permeate_flow_m3h": 76.44,
+      "feed_conductivity_us": 1184.43,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.1,
+      "feed_flow_m3h": 118.66
+    }
+  },
+  {
+    "timestamp": "2026-06-02T12:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.42,
+      "pump_load_kw": 15.36,
+      "permeate_flow_m3h": 77.36,
+      "feed_conductivity_us": 1201.9,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.16,
+      "feed_flow_m3h": 120.53
+    }
+  },
+  {
+    "timestamp": "2026-06-02T12:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.43,
+      "pump_load_kw": 15.65,
+      "permeate_flow_m3h": 75.6,
+      "feed_conductivity_us": 1211.54,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.14,
+      "feed_flow_m3h": 117.54
+    }
+  },
+  {
+    "timestamp": "2026-06-02T12:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.42,
+      "pump_load_kw": 15.63,
+      "permeate_flow_m3h": 75.73,
+      "feed_conductivity_us": 1196.81,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.14,
+      "feed_flow_m3h": 118.13
+    }
+  },
+  {
+    "timestamp": "2026-06-02T12:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.16,
+      "pump_load_kw": 15.7,
+      "permeate_flow_m3h": 77.64,
+      "feed_conductivity_us": 1199.36,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.1,
+      "feed_flow_m3h": 119.6
+    }
+  },
+  {
+    "timestamp": "2026-06-02T12:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.48,
+      "pump_load_kw": 15.39,
+      "permeate_flow_m3h": 77.59,
+      "feed_conductivity_us": 1230.63,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.16,
+      "feed_flow_m3h": 119.28
+    }
+  },
+  {
+    "timestamp": "2026-06-02T12:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.45,
+      "pump_load_kw": 15.43,
+      "permeate_flow_m3h": 77.13,
+      "feed_conductivity_us": 1206.06,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.14,
+      "feed_flow_m3h": 119.33
+    }
+  },
+  {
+    "timestamp": "2026-06-02T12:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.5,
+      "pump_load_kw": 15.33,
+      "permeate_flow_m3h": 76.76,
+      "feed_conductivity_us": 1211.21,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.16,
+      "feed_flow_m3h": 119.52
+    }
+  },
+  {
+    "timestamp": "2026-06-02T12:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.59,
+      "pump_load_kw": 15.56,
+      "permeate_flow_m3h": 77.23,
+      "feed_conductivity_us": 1214.32,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.1,
+      "feed_flow_m3h": 119.1
+    }
+  },
+  {
+    "timestamp": "2026-06-02T12:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.48,
+      "pump_load_kw": 15.67,
+      "permeate_flow_m3h": 75.48,
+      "feed_conductivity_us": 1206.13,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.13,
+      "feed_flow_m3h": 118.02
+    }
+  },
+  {
+    "timestamp": "2026-06-02T12:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.56,
+      "pump_load_kw": 15.49,
+      "permeate_flow_m3h": 76.25,
+      "feed_conductivity_us": 1201.93,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.11,
+      "feed_flow_m3h": 118.86
+    }
+  },
+  {
+    "timestamp": "2026-06-02T12:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.43,
+      "pump_load_kw": 15.48,
+      "permeate_flow_m3h": 75.76,
+      "feed_conductivity_us": 1204.49,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.12,
+      "feed_flow_m3h": 118.42
+    }
+  },
+  {
+    "timestamp": "2026-06-02T13:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.53,
+      "pump_load_kw": 15.52,
+      "permeate_flow_m3h": 75.16,
+      "feed_conductivity_us": 1198.4,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.15,
+      "feed_flow_m3h": 117.7
+    }
+  },
+  {
+    "timestamp": "2026-06-02T13:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.37,
+      "pump_load_kw": 15.2,
+      "permeate_flow_m3h": 75.51,
+      "feed_conductivity_us": 1181.05,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.11,
+      "feed_flow_m3h": 118.58
+    }
+  },
+  {
+    "timestamp": "2026-06-02T13:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.44,
+      "pump_load_kw": 15.54,
+      "permeate_flow_m3h": 76.33,
+      "feed_conductivity_us": 1191.05,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.15,
+      "feed_flow_m3h": 118.31
+    }
+  },
+  {
+    "timestamp": "2026-06-02T13:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.41,
+      "pump_load_kw": 15.38,
+      "permeate_flow_m3h": 75.54,
+      "feed_conductivity_us": 1195.81,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.14,
+      "feed_flow_m3h": 118.58
+    }
+  },
+  {
+    "timestamp": "2026-06-02T13:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.41,
+      "pump_load_kw": 15.26,
+      "permeate_flow_m3h": 76.5,
+      "feed_conductivity_us": 1198.11,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.2,
+      "feed_flow_m3h": 119.2
+    }
+  },
+  {
+    "timestamp": "2026-06-02T13:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.65,
+      "pump_load_kw": 15.53,
+      "permeate_flow_m3h": 77.22,
+      "feed_conductivity_us": 1191.25,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.18,
+      "feed_flow_m3h": 120.07
+    }
+  },
+  {
+    "timestamp": "2026-06-02T13:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.6,
+      "pump_load_kw": 15.21,
+      "permeate_flow_m3h": 76.84,
+      "feed_conductivity_us": 1208.3,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.17,
+      "feed_flow_m3h": 118.77
+    }
+  },
+  {
+    "timestamp": "2026-06-02T13:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.27,
+      "pump_load_kw": 15.48,
+      "permeate_flow_m3h": 76.05,
+      "feed_conductivity_us": 1194.33,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.21,
+      "feed_flow_m3h": 119.4
+    }
+  },
+  {
+    "timestamp": "2026-06-02T13:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.66,
+      "pump_load_kw": 15.3,
+      "permeate_flow_m3h": 77.0,
+      "feed_conductivity_us": 1186.12,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.18,
+      "feed_flow_m3h": 118.99
+    }
+  },
+  {
+    "timestamp": "2026-06-02T13:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.32,
+      "pump_load_kw": 15.47,
+      "permeate_flow_m3h": 77.16,
+      "feed_conductivity_us": 1201.7,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.19,
+      "feed_flow_m3h": 119.46
+    }
+  },
+  {
+    "timestamp": "2026-06-02T13:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.41,
+      "pump_load_kw": 15.54,
+      "permeate_flow_m3h": 76.02,
+      "feed_conductivity_us": 1198.57,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.17,
+      "feed_flow_m3h": 118.04
+    }
+  },
+  {
+    "timestamp": "2026-06-02T13:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.72,
+      "pump_load_kw": 15.56,
+      "permeate_flow_m3h": 75.6,
+      "feed_conductivity_us": 1181.74,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.18,
+      "feed_flow_m3h": 117.53
+    }
+  },
+  {
+    "timestamp": "2026-06-02T14:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.42,
+      "pump_load_kw": 15.56,
+      "permeate_flow_m3h": 74.91,
+      "feed_conductivity_us": 1196.22,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.17,
+      "feed_flow_m3h": 118.75
+    }
+  },
+  {
+    "timestamp": "2026-06-02T14:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.44,
+      "pump_load_kw": 15.62,
+      "permeate_flow_m3h": 74.77,
+      "feed_conductivity_us": 1189.69,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.17,
+      "feed_flow_m3h": 116.61
+    }
+  },
+  {
+    "timestamp": "2026-06-02T14:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.59,
+      "pump_load_kw": 15.65,
+      "permeate_flow_m3h": 76.05,
+      "feed_conductivity_us": 1217.26,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.18,
+      "feed_flow_m3h": 119.43
+    }
+  },
+  {
+    "timestamp": "2026-06-02T14:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.17,
+      "pump_load_kw": 15.57,
+      "permeate_flow_m3h": 74.2,
+      "feed_conductivity_us": 1193.21,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.2,
+      "feed_flow_m3h": 116.98
+    }
+  },
+  {
+    "timestamp": "2026-06-02T14:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.59,
+      "pump_load_kw": 15.75,
+      "permeate_flow_m3h": 77.69,
+      "feed_conductivity_us": 1205.18,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.21,
+      "feed_flow_m3h": 119.33
+    }
+  },
+  {
+    "timestamp": "2026-06-02T14:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.68,
+      "pump_load_kw": 15.47,
+      "permeate_flow_m3h": 77.0,
+      "feed_conductivity_us": 1196.77,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.14,
+      "feed_flow_m3h": 120.08
+    }
+  },
+  {
+    "timestamp": "2026-06-02T14:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.71,
+      "pump_load_kw": 15.46,
+      "permeate_flow_m3h": 77.12,
+      "feed_conductivity_us": 1190.12,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.17,
+      "feed_flow_m3h": 120.15
+    }
+  },
+  {
+    "timestamp": "2026-06-02T14:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.45,
+      "pump_load_kw": 15.54,
+      "permeate_flow_m3h": 77.5,
+      "feed_conductivity_us": 1195.36,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.2,
+      "feed_flow_m3h": 120.33
+    }
+  },
+  {
+    "timestamp": "2026-06-02T14:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.51,
+      "pump_load_kw": 15.54,
+      "permeate_flow_m3h": 77.75,
+      "feed_conductivity_us": 1190.4,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.16,
+      "feed_flow_m3h": 120.54
+    }
+  },
+  {
+    "timestamp": "2026-06-02T14:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.59,
+      "pump_load_kw": 15.46,
+      "permeate_flow_m3h": 75.43,
+      "feed_conductivity_us": 1195.74,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.15,
+      "feed_flow_m3h": 118.06
+    }
+  },
+  {
+    "timestamp": "2026-06-02T14:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.55,
+      "pump_load_kw": 15.56,
+      "permeate_flow_m3h": 76.57,
+      "feed_conductivity_us": 1224.47,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.2,
+      "feed_flow_m3h": 118.87
+    }
+  },
+  {
+    "timestamp": "2026-06-02T14:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.44,
+      "pump_load_kw": 15.82,
+      "permeate_flow_m3h": 75.28,
+      "feed_conductivity_us": 1197.29,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.16,
+      "feed_flow_m3h": 116.98
+    }
+  },
+  {
+    "timestamp": "2026-06-02T15:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.65,
+      "pump_load_kw": 15.56,
+      "permeate_flow_m3h": 77.4,
+      "feed_conductivity_us": 1205.0,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.18,
+      "feed_flow_m3h": 120.84
+    }
+  },
+  {
+    "timestamp": "2026-06-02T15:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.76,
+      "pump_load_kw": 15.58,
+      "permeate_flow_m3h": 75.69,
+      "feed_conductivity_us": 1201.97,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.17,
+      "feed_flow_m3h": 117.44
+    }
+  },
+  {
+    "timestamp": "2026-06-02T15:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.44,
+      "pump_load_kw": 15.41,
+      "permeate_flow_m3h": 75.6,
+      "feed_conductivity_us": 1188.86,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.21,
+      "feed_flow_m3h": 118.05
+    }
+  },
+  {
+    "timestamp": "2026-06-02T15:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.62,
+      "pump_load_kw": 15.69,
+      "permeate_flow_m3h": 76.14,
+      "feed_conductivity_us": 1207.26,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.18,
+      "feed_flow_m3h": 119.8
+    }
+  },
+  {
+    "timestamp": "2026-06-02T15:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.5,
+      "pump_load_kw": 15.64,
+      "permeate_flow_m3h": 76.53,
+      "feed_conductivity_us": 1204.47,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.2,
+      "feed_flow_m3h": 118.57
+    }
+  },
+  {
+    "timestamp": "2026-06-02T15:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.53,
+      "pump_load_kw": 15.73,
+      "permeate_flow_m3h": 74.91,
+      "feed_conductivity_us": 1204.46,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.19,
+      "feed_flow_m3h": 118.0
+    }
+  },
+  {
+    "timestamp": "2026-06-02T15:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.55,
+      "pump_load_kw": 15.76,
+      "permeate_flow_m3h": 76.42,
+      "feed_conductivity_us": 1204.98,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.18,
+      "feed_flow_m3h": 118.81
+    }
+  },
+  {
+    "timestamp": "2026-06-02T15:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.69,
+      "pump_load_kw": 15.78,
+      "permeate_flow_m3h": 75.37,
+      "feed_conductivity_us": 1204.25,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.2,
+      "feed_flow_m3h": 117.39
+    }
+  },
+  {
+    "timestamp": "2026-06-02T15:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.61,
+      "pump_load_kw": 15.55,
+      "permeate_flow_m3h": 76.44,
+      "feed_conductivity_us": 1212.96,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.2,
+      "feed_flow_m3h": 118.72
+    }
+  },
+  {
+    "timestamp": "2026-06-02T15:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.44,
+      "pump_load_kw": 15.73,
+      "permeate_flow_m3h": 76.48,
+      "feed_conductivity_us": 1198.23,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.17,
+      "feed_flow_m3h": 119.71
+    }
+  },
+  {
+    "timestamp": "2026-06-02T15:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.58,
+      "pump_load_kw": 15.81,
+      "permeate_flow_m3h": 75.43,
+      "feed_conductivity_us": 1197.64,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.19,
+      "feed_flow_m3h": 117.95
+    }
+  },
+  {
+    "timestamp": "2026-06-02T15:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.83,
+      "pump_load_kw": 15.7,
+      "permeate_flow_m3h": 75.35,
+      "feed_conductivity_us": 1191.51,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.21,
+      "feed_flow_m3h": 116.83
+    }
+  },
+  {
+    "timestamp": "2026-06-02T16:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.51,
+      "pump_load_kw": 15.57,
+      "permeate_flow_m3h": 74.95,
+      "feed_conductivity_us": 1219.28,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.21,
+      "feed_flow_m3h": 118.42
+    }
+  },
+  {
+    "timestamp": "2026-06-02T16:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.67,
+      "pump_load_kw": 15.73,
+      "permeate_flow_m3h": 76.6,
+      "feed_conductivity_us": 1183.52,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.18,
+      "feed_flow_m3h": 119.14
+    }
+  },
+  {
+    "timestamp": "2026-06-02T16:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.49,
+      "pump_load_kw": 15.6,
+      "permeate_flow_m3h": 75.32,
+      "feed_conductivity_us": 1197.03,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.18,
+      "feed_flow_m3h": 116.73
+    }
+  },
+  {
+    "timestamp": "2026-06-02T16:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.55,
+      "pump_load_kw": 15.65,
+      "permeate_flow_m3h": 73.78,
+      "feed_conductivity_us": 1215.44,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.21,
+      "feed_flow_m3h": 116.64
+    }
+  },
+  {
+    "timestamp": "2026-06-02T16:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.73,
+      "pump_load_kw": 15.62,
+      "permeate_flow_m3h": 76.46,
+      "feed_conductivity_us": 1183.74,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.21,
+      "feed_flow_m3h": 117.87
+    }
+  },
+  {
+    "timestamp": "2026-06-02T16:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.6,
+      "pump_load_kw": 15.61,
+      "permeate_flow_m3h": 76.27,
+      "feed_conductivity_us": 1210.28,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.19,
+      "feed_flow_m3h": 118.86
+    }
+  },
+  {
+    "timestamp": "2026-06-02T16:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.53,
+      "pump_load_kw": 15.75,
+      "permeate_flow_m3h": 73.59,
+      "feed_conductivity_us": 1197.18,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.19,
+      "feed_flow_m3h": 116.38
+    }
+  },
+  {
+    "timestamp": "2026-06-02T16:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.56,
+      "pump_load_kw": 15.57,
+      "permeate_flow_m3h": 75.5,
+      "feed_conductivity_us": 1202.75,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.2,
+      "feed_flow_m3h": 117.2
+    }
+  },
+  {
+    "timestamp": "2026-06-02T16:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.55,
+      "pump_load_kw": 15.56,
+      "permeate_flow_m3h": 75.17,
+      "feed_conductivity_us": 1224.67,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.18,
+      "feed_flow_m3h": 117.51
+    }
+  },
+  {
+    "timestamp": "2026-06-02T16:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.48,
+      "pump_load_kw": 15.54,
+      "permeate_flow_m3h": 74.81,
+      "feed_conductivity_us": 1199.87,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.21,
+      "feed_flow_m3h": 117.86
+    }
+  },
+  {
+    "timestamp": "2026-06-02T16:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.61,
+      "pump_load_kw": 15.66,
+      "permeate_flow_m3h": 76.6,
+      "feed_conductivity_us": 1200.04,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.21,
+      "feed_flow_m3h": 118.74
+    }
+  },
+  {
+    "timestamp": "2026-06-02T16:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.69,
+      "pump_load_kw": 15.49,
+      "permeate_flow_m3h": 76.24,
+      "feed_conductivity_us": 1181.06,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.19,
+      "feed_flow_m3h": 119.36
+    }
+  },
+  {
+    "timestamp": "2026-06-02T17:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.86,
+      "pump_load_kw": 15.56,
+      "permeate_flow_m3h": 76.69,
+      "feed_conductivity_us": 1204.1,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.19,
+      "feed_flow_m3h": 119.22
+    }
+  },
+  {
+    "timestamp": "2026-06-02T17:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.73,
+      "pump_load_kw": 15.46,
+      "permeate_flow_m3h": 75.36,
+      "feed_conductivity_us": 1199.79,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.22,
+      "feed_flow_m3h": 118.72
+    }
+  },
+  {
+    "timestamp": "2026-06-02T17:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.54,
+      "pump_load_kw": 15.5,
+      "permeate_flow_m3h": 74.55,
+      "feed_conductivity_us": 1191.65,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.2,
+      "feed_flow_m3h": 118.54
+    }
+  },
+  {
+    "timestamp": "2026-06-02T17:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.62,
+      "pump_load_kw": 15.68,
+      "permeate_flow_m3h": 75.89,
+      "feed_conductivity_us": 1206.9,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.21,
+      "feed_flow_m3h": 117.62
+    }
+  },
+  {
+    "timestamp": "2026-06-02T17:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.58,
+      "pump_load_kw": 15.56,
+      "permeate_flow_m3h": 75.09,
+      "feed_conductivity_us": 1201.53,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.2,
+      "feed_flow_m3h": 117.7
+    }
+  },
+  {
+    "timestamp": "2026-06-02T17:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.66,
+      "pump_load_kw": 15.64,
+      "permeate_flow_m3h": 75.07,
+      "feed_conductivity_us": 1212.6,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.19,
+      "feed_flow_m3h": 117.22
+    }
+  },
+  {
+    "timestamp": "2026-06-02T17:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.63,
+      "pump_load_kw": 15.83,
+      "permeate_flow_m3h": 75.6,
+      "feed_conductivity_us": 1202.04,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.22,
+      "feed_flow_m3h": 118.05
+    }
+  },
+  {
+    "timestamp": "2026-06-02T17:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.69,
+      "pump_load_kw": 15.53,
+      "permeate_flow_m3h": 75.17,
+      "feed_conductivity_us": 1201.93,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.19,
+      "feed_flow_m3h": 117.42
+    }
+  },
+  {
+    "timestamp": "2026-06-02T17:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.66,
+      "pump_load_kw": 15.45,
+      "permeate_flow_m3h": 75.88,
+      "feed_conductivity_us": 1194.74,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.22,
+      "feed_flow_m3h": 118.19
+    }
+  },
+  {
+    "timestamp": "2026-06-02T17:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.67,
+      "pump_load_kw": 15.68,
+      "permeate_flow_m3h": 75.95,
+      "feed_conductivity_us": 1192.75,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.19,
+      "feed_flow_m3h": 118.99
+    }
+  },
+  {
+    "timestamp": "2026-06-02T17:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.67,
+      "pump_load_kw": 15.69,
+      "permeate_flow_m3h": 75.78,
+      "feed_conductivity_us": 1199.35,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.22,
+      "feed_flow_m3h": 119.74
+    }
+  },
+  {
+    "timestamp": "2026-06-02T17:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.65,
+      "pump_load_kw": 15.77,
+      "permeate_flow_m3h": 75.56,
+      "feed_conductivity_us": 1210.82,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.21,
+      "feed_flow_m3h": 118.68
+    }
+  },
+  {
+    "timestamp": "2026-06-02T18:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.83,
+      "pump_load_kw": 15.58,
+      "permeate_flow_m3h": 74.7,
+      "feed_conductivity_us": 1192.54,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.21,
+      "feed_flow_m3h": 117.2
+    }
+  },
+  {
+    "timestamp": "2026-06-02T18:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.72,
+      "pump_load_kw": 15.6,
+      "permeate_flow_m3h": 75.99,
+      "feed_conductivity_us": 1208.68,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.17,
+      "feed_flow_m3h": 118.54
+    }
+  },
+  {
+    "timestamp": "2026-06-02T18:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.57,
+      "pump_load_kw": 15.87,
+      "permeate_flow_m3h": 74.94,
+      "feed_conductivity_us": 1215.24,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.25,
+      "feed_flow_m3h": 117.38
+    }
+  },
+  {
+    "timestamp": "2026-06-02T18:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.45,
+      "pump_load_kw": 15.98,
+      "permeate_flow_m3h": 74.45,
+      "feed_conductivity_us": 1189.38,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.2,
+      "feed_flow_m3h": 117.1
+    }
+  },
+  {
+    "timestamp": "2026-06-02T18:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.53,
+      "pump_load_kw": 15.89,
+      "permeate_flow_m3h": 75.22,
+      "feed_conductivity_us": 1191.54,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.25,
+      "feed_flow_m3h": 118.23
+    }
+  },
+  {
+    "timestamp": "2026-06-02T18:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.66,
+      "pump_load_kw": 15.92,
+      "permeate_flow_m3h": 76.24,
+      "feed_conductivity_us": 1208.35,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.22,
+      "feed_flow_m3h": 118.45
+    }
+  },
+  {
+    "timestamp": "2026-06-02T18:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.68,
+      "pump_load_kw": 15.67,
+      "permeate_flow_m3h": 74.89,
+      "feed_conductivity_us": 1199.19,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.22,
+      "feed_flow_m3h": 117.44
+    }
+  },
+  {
+    "timestamp": "2026-06-02T18:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.66,
+      "pump_load_kw": 15.64,
+      "permeate_flow_m3h": 76.12,
+      "feed_conductivity_us": 1216.76,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.2,
+      "feed_flow_m3h": 118.37
+    }
+  },
+  {
+    "timestamp": "2026-06-02T18:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.61,
+      "pump_load_kw": 15.64,
+      "permeate_flow_m3h": 75.19,
+      "feed_conductivity_us": 1192.58,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.2,
+      "feed_flow_m3h": 117.45
+    }
+  },
+  {
+    "timestamp": "2026-06-02T18:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.75,
+      "pump_load_kw": 15.52,
+      "permeate_flow_m3h": 75.7,
+      "feed_conductivity_us": 1183.2,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.25,
+      "feed_flow_m3h": 117.89
+    }
+  },
+  {
+    "timestamp": "2026-06-02T18:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.69,
+      "pump_load_kw": 15.76,
+      "permeate_flow_m3h": 74.72,
+      "feed_conductivity_us": 1193.87,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.22,
+      "feed_flow_m3h": 117.33
+    }
+  },
+  {
+    "timestamp": "2026-06-02T18:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.66,
+      "pump_load_kw": 15.67,
+      "permeate_flow_m3h": 74.29,
+      "feed_conductivity_us": 1186.39,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.22,
+      "feed_flow_m3h": 117.6
+    }
+  },
+  {
+    "timestamp": "2026-06-02T19:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.62,
+      "pump_load_kw": 15.48,
+      "permeate_flow_m3h": 74.84,
+      "feed_conductivity_us": 1206.46,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.23,
+      "feed_flow_m3h": 116.0
+    }
+  },
+  {
+    "timestamp": "2026-06-02T19:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.79,
+      "pump_load_kw": 15.69,
+      "permeate_flow_m3h": 76.61,
+      "feed_conductivity_us": 1203.95,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.21,
+      "feed_flow_m3h": 118.09
+    }
+  },
+  {
+    "timestamp": "2026-06-02T19:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.79,
+      "pump_load_kw": 15.8,
+      "permeate_flow_m3h": 75.19,
+      "feed_conductivity_us": 1200.18,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.21,
+      "feed_flow_m3h": 118.06
+    }
+  },
+  {
+    "timestamp": "2026-06-02T19:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.57,
+      "pump_load_kw": 15.8,
+      "permeate_flow_m3h": 75.7,
+      "feed_conductivity_us": 1188.42,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.24,
+      "feed_flow_m3h": 118.97
+    }
+  },
+  {
+    "timestamp": "2026-06-02T19:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.83,
+      "pump_load_kw": 15.61,
+      "permeate_flow_m3h": 76.64,
+      "feed_conductivity_us": 1203.07,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.22,
+      "feed_flow_m3h": 118.42
+    }
+  },
+  {
+    "timestamp": "2026-06-02T19:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.72,
+      "pump_load_kw": 15.66,
+      "permeate_flow_m3h": 75.23,
+      "feed_conductivity_us": 1186.86,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.25,
+      "feed_flow_m3h": 116.52
+    }
+  },
+  {
+    "timestamp": "2026-06-02T19:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.84,
+      "pump_load_kw": 15.63,
+      "permeate_flow_m3h": 74.96,
+      "feed_conductivity_us": 1223.14,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.25,
+      "feed_flow_m3h": 117.85
+    }
+  },
+  {
+    "timestamp": "2026-06-02T19:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.98,
+      "pump_load_kw": 15.58,
+      "permeate_flow_m3h": 75.27,
+      "feed_conductivity_us": 1201.07,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.25,
+      "feed_flow_m3h": 117.66
+    }
+  },
+  {
+    "timestamp": "2026-06-02T19:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.8,
+      "pump_load_kw": 15.7,
+      "permeate_flow_m3h": 75.57,
+      "feed_conductivity_us": 1196.02,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.23,
+      "feed_flow_m3h": 118.37
+    }
+  },
+  {
+    "timestamp": "2026-06-02T19:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.8,
+      "pump_load_kw": 15.86,
+      "permeate_flow_m3h": 75.06,
+      "feed_conductivity_us": 1198.34,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.22,
+      "feed_flow_m3h": 117.96
+    }
+  },
+  {
+    "timestamp": "2026-06-02T19:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.7,
+      "pump_load_kw": 15.84,
+      "permeate_flow_m3h": 74.83,
+      "feed_conductivity_us": 1194.15,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.24,
+      "feed_flow_m3h": 118.13
+    }
+  },
+  {
+    "timestamp": "2026-06-02T19:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.71,
+      "pump_load_kw": 15.84,
+      "permeate_flow_m3h": 75.35,
+      "feed_conductivity_us": 1182.69,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.28,
+      "feed_flow_m3h": 117.57
+    }
+  },
+  {
+    "timestamp": "2026-06-02T20:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.77,
+      "pump_load_kw": 15.89,
+      "permeate_flow_m3h": 75.41,
+      "feed_conductivity_us": 1205.02,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.24,
+      "feed_flow_m3h": 118.06
+    }
+  },
+  {
+    "timestamp": "2026-06-02T20:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.54,
+      "pump_load_kw": 15.7,
+      "permeate_flow_m3h": 74.39,
+      "feed_conductivity_us": 1205.52,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.22,
+      "feed_flow_m3h": 116.72
+    }
+  },
+  {
+    "timestamp": "2026-06-02T20:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.8,
+      "pump_load_kw": 15.52,
+      "permeate_flow_m3h": 76.23,
+      "feed_conductivity_us": 1210.37,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.25,
+      "feed_flow_m3h": 119.55
+    }
+  },
+  {
+    "timestamp": "2026-06-02T20:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.79,
+      "pump_load_kw": 15.65,
+      "permeate_flow_m3h": 74.68,
+      "feed_conductivity_us": 1202.13,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.27,
+      "feed_flow_m3h": 116.82
+    }
+  },
+  {
+    "timestamp": "2026-06-02T20:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.77,
+      "pump_load_kw": 15.48,
+      "permeate_flow_m3h": 75.68,
+      "feed_conductivity_us": 1189.74,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.25,
+      "feed_flow_m3h": 118.08
+    }
+  },
+  {
+    "timestamp": "2026-06-02T20:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.69,
+      "pump_load_kw": 15.73,
+      "permeate_flow_m3h": 75.69,
+      "feed_conductivity_us": 1194.56,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.25,
+      "feed_flow_m3h": 119.23
+    }
+  },
+  {
+    "timestamp": "2026-06-02T20:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.97,
+      "pump_load_kw": 15.73,
+      "permeate_flow_m3h": 74.24,
+      "feed_conductivity_us": 1198.01,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.21,
+      "feed_flow_m3h": 117.8
+    }
+  },
+  {
+    "timestamp": "2026-06-02T20:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.72,
+      "pump_load_kw": 15.88,
+      "permeate_flow_m3h": 76.18,
+      "feed_conductivity_us": 1188.53,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.26,
+      "feed_flow_m3h": 119.01
+    }
+  },
+  {
+    "timestamp": "2026-06-02T20:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.71,
+      "pump_load_kw": 15.69,
+      "permeate_flow_m3h": 74.02,
+      "feed_conductivity_us": 1198.95,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.23,
+      "feed_flow_m3h": 115.22
+    }
+  },
+  {
+    "timestamp": "2026-06-02T20:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.77,
+      "pump_load_kw": 15.96,
+      "permeate_flow_m3h": 76.33,
+      "feed_conductivity_us": 1216.54,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.25,
+      "feed_flow_m3h": 119.34
+    }
+  },
+  {
+    "timestamp": "2026-06-02T20:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.65,
+      "pump_load_kw": 16.01,
+      "permeate_flow_m3h": 73.41,
+      "feed_conductivity_us": 1221.4,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.24,
+      "feed_flow_m3h": 116.26
+    }
+  },
+  {
+    "timestamp": "2026-06-02T20:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.6,
+      "pump_load_kw": 15.82,
+      "permeate_flow_m3h": 74.49,
+      "feed_conductivity_us": 1195.6,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.21,
+      "feed_flow_m3h": 117.03
+    }
+  },
+  {
+    "timestamp": "2026-06-02T21:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.58,
+      "pump_load_kw": 15.68,
+      "permeate_flow_m3h": 74.89,
+      "feed_conductivity_us": 1192.99,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.22,
+      "feed_flow_m3h": 117.08
+    }
+  },
+  {
+    "timestamp": "2026-06-02T21:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.89,
+      "pump_load_kw": 15.95,
+      "permeate_flow_m3h": 76.5,
+      "feed_conductivity_us": 1192.71,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.25,
+      "feed_flow_m3h": 119.0
+    }
+  },
+  {
+    "timestamp": "2026-06-02T21:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.78,
+      "pump_load_kw": 15.7,
+      "permeate_flow_m3h": 74.38,
+      "feed_conductivity_us": 1205.95,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.24,
+      "feed_flow_m3h": 117.26
+    }
+  },
+  {
+    "timestamp": "2026-06-02T21:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.75,
+      "pump_load_kw": 15.72,
+      "permeate_flow_m3h": 74.35,
+      "feed_conductivity_us": 1183.15,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.29,
+      "feed_flow_m3h": 117.61
+    }
+  },
+  {
+    "timestamp": "2026-06-02T21:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.85,
+      "pump_load_kw": 15.71,
+      "permeate_flow_m3h": 75.56,
+      "feed_conductivity_us": 1206.79,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.22,
+      "feed_flow_m3h": 118.21
+    }
+  },
+  {
+    "timestamp": "2026-06-02T21:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.7,
+      "pump_load_kw": 15.74,
+      "permeate_flow_m3h": 74.22,
+      "feed_conductivity_us": 1188.27,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.26,
+      "feed_flow_m3h": 118.02
+    }
+  },
+  {
+    "timestamp": "2026-06-02T21:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.87,
+      "pump_load_kw": 15.65,
+      "permeate_flow_m3h": 75.11,
+      "feed_conductivity_us": 1211.42,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.24,
+      "feed_flow_m3h": 117.19
+    }
+  },
+  {
+    "timestamp": "2026-06-02T21:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.72,
+      "pump_load_kw": 15.65,
+      "permeate_flow_m3h": 76.68,
+      "feed_conductivity_us": 1199.76,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.27,
+      "feed_flow_m3h": 120.35
+    }
+  },
+  {
+    "timestamp": "2026-06-02T21:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.64,
+      "pump_load_kw": 15.57,
+      "permeate_flow_m3h": 74.16,
+      "feed_conductivity_us": 1200.35,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.26,
+      "feed_flow_m3h": 116.73
+    }
+  },
+  {
+    "timestamp": "2026-06-02T21:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.8,
+      "pump_load_kw": 15.66,
+      "permeate_flow_m3h": 75.62,
+      "feed_conductivity_us": 1203.4,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.24,
+      "feed_flow_m3h": 118.01
+    }
+  },
+  {
+    "timestamp": "2026-06-02T21:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.85,
+      "pump_load_kw": 15.75,
+      "permeate_flow_m3h": 74.82,
+      "feed_conductivity_us": 1207.87,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.26,
+      "feed_flow_m3h": 116.37
+    }
+  },
+  {
+    "timestamp": "2026-06-02T21:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.6,
+      "pump_load_kw": 15.75,
+      "permeate_flow_m3h": 76.02,
+      "feed_conductivity_us": 1202.75,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.26,
+      "feed_flow_m3h": 119.11
+    }
+  },
+  {
+    "timestamp": "2026-06-02T22:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.94,
+      "pump_load_kw": 15.68,
+      "permeate_flow_m3h": 72.59,
+      "feed_conductivity_us": 1194.24,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.26,
+      "feed_flow_m3h": 115.12
+    }
+  },
+  {
+    "timestamp": "2026-06-02T22:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.7,
+      "pump_load_kw": 15.85,
+      "permeate_flow_m3h": 74.57,
+      "feed_conductivity_us": 1205.14,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.26,
+      "feed_flow_m3h": 117.76
+    }
+  },
+  {
+    "timestamp": "2026-06-02T22:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.84,
+      "pump_load_kw": 15.85,
+      "permeate_flow_m3h": 74.41,
+      "feed_conductivity_us": 1213.72,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.25,
+      "feed_flow_m3h": 116.64
+    }
+  },
+  {
+    "timestamp": "2026-06-02T22:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.75,
+      "pump_load_kw": 15.94,
+      "permeate_flow_m3h": 74.75,
+      "feed_conductivity_us": 1200.97,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.27,
+      "feed_flow_m3h": 117.45
+    }
+  },
+  {
+    "timestamp": "2026-06-02T22:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.78,
+      "pump_load_kw": 15.89,
+      "permeate_flow_m3h": 74.31,
+      "feed_conductivity_us": 1202.45,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.26,
+      "feed_flow_m3h": 117.42
+    }
+  },
+  {
+    "timestamp": "2026-06-02T22:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.87,
+      "pump_load_kw": 15.94,
+      "permeate_flow_m3h": 73.09,
+      "feed_conductivity_us": 1196.38,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.28,
+      "feed_flow_m3h": 117.22
+    }
+  },
+  {
+    "timestamp": "2026-06-02T22:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.83,
+      "pump_load_kw": 15.84,
+      "permeate_flow_m3h": 75.06,
+      "feed_conductivity_us": 1213.48,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.28,
+      "feed_flow_m3h": 117.57
+    }
+  },
+  {
+    "timestamp": "2026-06-02T22:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.9,
+      "pump_load_kw": 15.71,
+      "permeate_flow_m3h": 74.48,
+      "feed_conductivity_us": 1203.62,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.25,
+      "feed_flow_m3h": 117.78
+    }
+  },
+  {
+    "timestamp": "2026-06-02T22:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.86,
+      "pump_load_kw": 15.71,
+      "permeate_flow_m3h": 74.7,
+      "feed_conductivity_us": 1198.0,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.29,
+      "feed_flow_m3h": 118.05
+    }
+  },
+  {
+    "timestamp": "2026-06-02T22:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.91,
+      "pump_load_kw": 15.84,
+      "permeate_flow_m3h": 76.08,
+      "feed_conductivity_us": 1192.09,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.27,
+      "feed_flow_m3h": 117.67
+    }
+  },
+  {
+    "timestamp": "2026-06-02T22:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.85,
+      "pump_load_kw": 15.69,
+      "permeate_flow_m3h": 74.3,
+      "feed_conductivity_us": 1199.76,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.26,
+      "feed_flow_m3h": 116.08
+    }
+  },
+  {
+    "timestamp": "2026-06-02T22:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.88,
+      "pump_load_kw": 15.87,
+      "permeate_flow_m3h": 75.17,
+      "feed_conductivity_us": 1188.28,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.26,
+      "feed_flow_m3h": 118.91
+    }
+  },
+  {
+    "timestamp": "2026-06-02T23:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.98,
+      "pump_load_kw": 15.67,
+      "permeate_flow_m3h": 75.83,
+      "feed_conductivity_us": 1207.81,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.24,
+      "feed_flow_m3h": 119.14
+    }
+  },
+  {
+    "timestamp": "2026-06-02T23:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.89,
+      "pump_load_kw": 15.92,
+      "permeate_flow_m3h": 75.98,
+      "feed_conductivity_us": 1197.96,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.27,
+      "feed_flow_m3h": 117.33
+    }
+  },
+  {
+    "timestamp": "2026-06-02T23:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.79,
+      "pump_load_kw": 15.9,
+      "permeate_flow_m3h": 74.01,
+      "feed_conductivity_us": 1214.05,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.28,
+      "feed_flow_m3h": 116.53
+    }
+  },
+  {
+    "timestamp": "2026-06-02T23:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.85,
+      "pump_load_kw": 15.63,
+      "permeate_flow_m3h": 74.15,
+      "feed_conductivity_us": 1206.95,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.31,
+      "feed_flow_m3h": 116.56
+    }
+  },
+  {
+    "timestamp": "2026-06-02T23:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.92,
+      "pump_load_kw": 16.07,
+      "permeate_flow_m3h": 74.14,
+      "feed_conductivity_us": 1203.54,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.29,
+      "feed_flow_m3h": 116.97
+    }
+  },
+  {
+    "timestamp": "2026-06-02T23:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.95,
+      "pump_load_kw": 15.75,
+      "permeate_flow_m3h": 74.57,
+      "feed_conductivity_us": 1198.73,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.25,
+      "feed_flow_m3h": 117.42
+    }
+  },
+  {
+    "timestamp": "2026-06-02T23:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.91,
+      "pump_load_kw": 15.99,
+      "permeate_flow_m3h": 74.96,
+      "feed_conductivity_us": 1191.45,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.29,
+      "feed_flow_m3h": 116.96
+    }
+  },
+  {
+    "timestamp": "2026-06-02T23:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.0,
+      "pump_load_kw": 15.87,
+      "permeate_flow_m3h": 74.93,
+      "feed_conductivity_us": 1203.72,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.25,
+      "feed_flow_m3h": 116.95
+    }
+  },
+  {
+    "timestamp": "2026-06-02T23:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.87,
+      "pump_load_kw": 15.75,
+      "permeate_flow_m3h": 74.08,
+      "feed_conductivity_us": 1199.36,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.26,
+      "feed_flow_m3h": 117.14
+    }
+  },
+  {
+    "timestamp": "2026-06-02T23:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.83,
+      "pump_load_kw": 15.55,
+      "permeate_flow_m3h": 75.21,
+      "feed_conductivity_us": 1215.88,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.29,
+      "feed_flow_m3h": 118.22
+    }
+  },
+  {
+    "timestamp": "2026-06-02T23:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.94,
+      "pump_load_kw": 15.85,
+      "permeate_flow_m3h": 75.27,
+      "feed_conductivity_us": 1191.29,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.29,
+      "feed_flow_m3h": 117.47
+    }
+  },
+  {
+    "timestamp": "2026-06-02T23:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.83,
+      "pump_load_kw": 15.91,
+      "permeate_flow_m3h": 73.29,
+      "feed_conductivity_us": 1207.89,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.31,
+      "feed_flow_m3h": 116.85
+    }
+  },
+  {
+    "timestamp": "2026-06-03T00:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.88,
+      "pump_load_kw": 15.75,
+      "permeate_flow_m3h": 74.91,
+      "feed_conductivity_us": 1220.61,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.3,
+      "feed_flow_m3h": 116.25
+    }
+  },
+  {
+    "timestamp": "2026-06-03T00:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.96,
+      "pump_load_kw": 15.87,
+      "permeate_flow_m3h": 75.4,
+      "feed_conductivity_us": 1198.69,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.27,
+      "feed_flow_m3h": 118.15
+    }
+  },
+  {
+    "timestamp": "2026-06-03T00:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.67,
+      "pump_load_kw": 15.84,
+      "permeate_flow_m3h": 73.27,
+      "feed_conductivity_us": 1206.47,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.27,
+      "feed_flow_m3h": 114.84
+    }
+  },
+  {
+    "timestamp": "2026-06-03T00:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.88,
+      "pump_load_kw": 15.77,
+      "permeate_flow_m3h": 74.27,
+      "feed_conductivity_us": 1199.96,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.29,
+      "feed_flow_m3h": 117.18
+    }
+  },
+  {
+    "timestamp": "2026-06-03T00:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.92,
+      "pump_load_kw": 15.83,
+      "permeate_flow_m3h": 73.79,
+      "feed_conductivity_us": 1194.64,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.3,
+      "feed_flow_m3h": 116.0
+    }
+  },
+  {
+    "timestamp": "2026-06-03T00:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.95,
+      "pump_load_kw": 15.77,
+      "permeate_flow_m3h": 74.73,
+      "feed_conductivity_us": 1189.16,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.31,
+      "feed_flow_m3h": 117.57
+    }
+  },
+  {
+    "timestamp": "2026-06-03T00:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.72,
+      "pump_load_kw": 15.93,
+      "permeate_flow_m3h": 73.61,
+      "feed_conductivity_us": 1184.0,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.26,
+      "feed_flow_m3h": 116.0
+    }
+  },
+  {
+    "timestamp": "2026-06-03T00:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.0,
+      "pump_load_kw": 15.86,
+      "permeate_flow_m3h": 74.9,
+      "feed_conductivity_us": 1205.64,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.26,
+      "feed_flow_m3h": 117.21
+    }
+  },
+  {
+    "timestamp": "2026-06-03T00:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.8,
+      "pump_load_kw": 15.89,
+      "permeate_flow_m3h": 74.82,
+      "feed_conductivity_us": 1211.3,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.31,
+      "feed_flow_m3h": 118.0
+    }
+  },
+  {
+    "timestamp": "2026-06-03T00:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.82,
+      "pump_load_kw": 15.72,
+      "permeate_flow_m3h": 75.28,
+      "feed_conductivity_us": 1197.0,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.28,
+      "feed_flow_m3h": 117.63
+    }
+  },
+  {
+    "timestamp": "2026-06-03T00:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.89,
+      "pump_load_kw": 15.83,
+      "permeate_flow_m3h": 72.38,
+      "feed_conductivity_us": 1195.45,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.31,
+      "feed_flow_m3h": 114.3
+    }
+  },
+  {
+    "timestamp": "2026-06-03T00:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.93,
+      "pump_load_kw": 15.99,
+      "permeate_flow_m3h": 74.49,
+      "feed_conductivity_us": 1195.95,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.29,
+      "feed_flow_m3h": 116.42
+    }
+  },
+  {
+    "timestamp": "2026-06-03T01:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.8,
+      "pump_load_kw": 15.78,
+      "permeate_flow_m3h": 74.78,
+      "feed_conductivity_us": 1205.29,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.27,
+      "feed_flow_m3h": 117.4
+    }
+  },
+  {
+    "timestamp": "2026-06-03T01:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.86,
+      "pump_load_kw": 15.82,
+      "permeate_flow_m3h": 75.3,
+      "feed_conductivity_us": 1222.65,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.25,
+      "feed_flow_m3h": 119.52
+    }
+  },
+  {
+    "timestamp": "2026-06-03T01:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.02,
+      "pump_load_kw": 16.06,
+      "permeate_flow_m3h": 74.9,
+      "feed_conductivity_us": 1198.69,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.31,
+      "feed_flow_m3h": 117.39
+    }
+  },
+  {
+    "timestamp": "2026-06-03T01:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.87,
+      "pump_load_kw": 15.92,
+      "permeate_flow_m3h": 74.55,
+      "feed_conductivity_us": 1203.91,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.32,
+      "feed_flow_m3h": 116.91
+    }
+  },
+  {
+    "timestamp": "2026-06-03T01:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.86,
+      "pump_load_kw": 15.85,
+      "permeate_flow_m3h": 73.28,
+      "feed_conductivity_us": 1203.22,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.29,
+      "feed_flow_m3h": 116.48
+    }
+  },
+  {
+    "timestamp": "2026-06-03T01:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.92,
+      "pump_load_kw": 15.98,
+      "permeate_flow_m3h": 75.06,
+      "feed_conductivity_us": 1192.8,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.32,
+      "feed_flow_m3h": 117.61
+    }
+  },
+  {
+    "timestamp": "2026-06-03T01:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.85,
+      "pump_load_kw": 15.95,
+      "permeate_flow_m3h": 75.41,
+      "feed_conductivity_us": 1199.71,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.28,
+      "feed_flow_m3h": 117.94
+    }
+  },
+  {
+    "timestamp": "2026-06-03T01:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.91,
+      "pump_load_kw": 15.85,
+      "permeate_flow_m3h": 74.31,
+      "feed_conductivity_us": 1197.37,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.32,
+      "feed_flow_m3h": 117.24
+    }
+  },
+  {
+    "timestamp": "2026-06-03T01:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.84,
+      "pump_load_kw": 15.91,
+      "permeate_flow_m3h": 72.57,
+      "feed_conductivity_us": 1204.08,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.33,
+      "feed_flow_m3h": 115.41
+    }
+  },
+  {
+    "timestamp": "2026-06-03T01:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.79,
+      "pump_load_kw": 15.85,
+      "permeate_flow_m3h": 72.73,
+      "feed_conductivity_us": 1204.87,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.29,
+      "feed_flow_m3h": 116.38
+    }
+  },
+  {
+    "timestamp": "2026-06-03T01:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.76,
+      "pump_load_kw": 16.0,
+      "permeate_flow_m3h": 74.0,
+      "feed_conductivity_us": 1217.7,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.34,
+      "feed_flow_m3h": 116.61
+    }
+  },
+  {
+    "timestamp": "2026-06-03T01:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.77,
+      "pump_load_kw": 16.03,
+      "permeate_flow_m3h": 75.11,
+      "feed_conductivity_us": 1204.0,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.35,
+      "feed_flow_m3h": 117.89
+    }
+  },
+  {
+    "timestamp": "2026-06-03T02:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.95,
+      "pump_load_kw": 15.89,
+      "permeate_flow_m3h": 74.09,
+      "feed_conductivity_us": 1214.04,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.35,
+      "feed_flow_m3h": 116.61
+    }
+  },
+  {
+    "timestamp": "2026-06-03T02:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.93,
+      "pump_load_kw": 15.69,
+      "permeate_flow_m3h": 73.07,
+      "feed_conductivity_us": 1179.7,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.32,
+      "feed_flow_m3h": 115.79
+    }
+  },
+  {
+    "timestamp": "2026-06-03T02:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.74,
+      "pump_load_kw": 15.84,
+      "permeate_flow_m3h": 73.89,
+      "feed_conductivity_us": 1213.41,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.32,
+      "feed_flow_m3h": 116.43
+    }
+  },
+  {
+    "timestamp": "2026-06-03T02:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.96,
+      "pump_load_kw": 16.04,
+      "permeate_flow_m3h": 74.74,
+      "feed_conductivity_us": 1190.37,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.29,
+      "feed_flow_m3h": 117.53
+    }
+  },
+  {
+    "timestamp": "2026-06-03T02:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.94,
+      "pump_load_kw": 15.76,
+      "permeate_flow_m3h": 72.6,
+      "feed_conductivity_us": 1192.35,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.32,
+      "feed_flow_m3h": 115.27
+    }
+  },
+  {
+    "timestamp": "2026-06-03T02:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.85,
+      "pump_load_kw": 16.22,
+      "permeate_flow_m3h": 73.22,
+      "feed_conductivity_us": 1192.32,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.32,
+      "feed_flow_m3h": 115.49
+    }
+  },
+  {
+    "timestamp": "2026-06-03T02:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.95,
+      "pump_load_kw": 16.01,
+      "permeate_flow_m3h": 72.22,
+      "feed_conductivity_us": 1199.51,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.29,
+      "feed_flow_m3h": 114.22
+    }
+  },
+  {
+    "timestamp": "2026-06-03T02:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.91,
+      "pump_load_kw": 15.75,
+      "permeate_flow_m3h": 73.89,
+      "feed_conductivity_us": 1212.74,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.31,
+      "feed_flow_m3h": 117.72
+    }
+  },
+  {
+    "timestamp": "2026-06-03T02:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.96,
+      "pump_load_kw": 16.34,
+      "permeate_flow_m3h": 72.92,
+      "feed_conductivity_us": 1194.27,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.29,
+      "feed_flow_m3h": 116.62
+    }
+  },
+  {
+    "timestamp": "2026-06-03T02:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.09,
+      "pump_load_kw": 15.87,
+      "permeate_flow_m3h": 74.34,
+      "feed_conductivity_us": 1199.42,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.3,
+      "feed_flow_m3h": 117.39
+    }
+  },
+  {
+    "timestamp": "2026-06-03T02:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.9,
+      "pump_load_kw": 15.89,
+      "permeate_flow_m3h": 73.89,
+      "feed_conductivity_us": 1204.18,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.36,
+      "feed_flow_m3h": 115.91
+    }
+  },
+  {
+    "timestamp": "2026-06-03T02:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.81,
+      "pump_load_kw": 16.04,
+      "permeate_flow_m3h": 73.97,
+      "feed_conductivity_us": 1196.69,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.35,
+      "feed_flow_m3h": 117.97
+    }
+  },
+  {
+    "timestamp": "2026-06-03T03:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.16,
+      "pump_load_kw": 16.2,
+      "permeate_flow_m3h": 74.67,
+      "feed_conductivity_us": 1199.99,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.33,
+      "feed_flow_m3h": 117.84
+    }
+  },
+  {
+    "timestamp": "2026-06-03T03:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.82,
+      "pump_load_kw": 16.14,
+      "permeate_flow_m3h": 73.91,
+      "feed_conductivity_us": 1175.11,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.33,
+      "feed_flow_m3h": 115.89
+    }
+  },
+  {
+    "timestamp": "2026-06-03T03:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.01,
+      "pump_load_kw": 16.12,
+      "permeate_flow_m3h": 74.58,
+      "feed_conductivity_us": 1192.13,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.31,
+      "feed_flow_m3h": 116.83
+    }
+  },
+  {
+    "timestamp": "2026-06-03T03:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.84,
+      "pump_load_kw": 15.87,
+      "permeate_flow_m3h": 74.23,
+      "feed_conductivity_us": 1205.7,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.37,
+      "feed_flow_m3h": 117.06
+    }
+  },
+  {
+    "timestamp": "2026-06-03T03:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.09,
+      "pump_load_kw": 16.16,
+      "permeate_flow_m3h": 73.82,
+      "feed_conductivity_us": 1187.1,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.33,
+      "feed_flow_m3h": 116.92
+    }
+  },
+  {
+    "timestamp": "2026-06-03T03:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.03,
+      "pump_load_kw": 16.35,
+      "permeate_flow_m3h": 74.2,
+      "feed_conductivity_us": 1212.64,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.34,
+      "feed_flow_m3h": 117.33
+    }
+  },
+  {
+    "timestamp": "2026-06-03T03:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.91,
+      "pump_load_kw": 16.03,
+      "permeate_flow_m3h": 73.45,
+      "feed_conductivity_us": 1209.01,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.34,
+      "feed_flow_m3h": 116.41
+    }
+  },
+  {
+    "timestamp": "2026-06-03T03:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.94,
+      "pump_load_kw": 15.87,
+      "permeate_flow_m3h": 73.03,
+      "feed_conductivity_us": 1193.89,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.33,
+      "feed_flow_m3h": 115.86
+    }
+  },
+  {
+    "timestamp": "2026-06-03T03:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.97,
+      "pump_load_kw": 15.98,
+      "permeate_flow_m3h": 73.98,
+      "feed_conductivity_us": 1218.33,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.31,
+      "feed_flow_m3h": 116.74
+    }
+  },
+  {
+    "timestamp": "2026-06-03T03:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.03,
+      "pump_load_kw": 16.01,
+      "permeate_flow_m3h": 73.51,
+      "feed_conductivity_us": 1181.74,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.35,
+      "feed_flow_m3h": 115.52
+    }
+  },
+  {
+    "timestamp": "2026-06-03T03:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.08,
+      "pump_load_kw": 15.58,
+      "permeate_flow_m3h": 74.23,
+      "feed_conductivity_us": 1218.66,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.36,
+      "feed_flow_m3h": 117.49
+    }
+  },
+  {
+    "timestamp": "2026-06-03T03:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.0,
+      "pump_load_kw": 15.95,
+      "permeate_flow_m3h": 75.64,
+      "feed_conductivity_us": 1206.27,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.34,
+      "feed_flow_m3h": 118.91
+    }
+  },
+  {
+    "timestamp": "2026-06-03T04:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.03,
+      "pump_load_kw": 15.97,
+      "permeate_flow_m3h": 73.73,
+      "feed_conductivity_us": 1196.43,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.35,
+      "feed_flow_m3h": 116.47
+    }
+  },
+  {
+    "timestamp": "2026-06-03T04:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.99,
+      "pump_load_kw": 15.76,
+      "permeate_flow_m3h": 73.98,
+      "feed_conductivity_us": 1205.03,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.34,
+      "feed_flow_m3h": 117.26
+    }
+  },
+  {
+    "timestamp": "2026-06-03T04:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.79,
+      "pump_load_kw": 15.95,
+      "permeate_flow_m3h": 73.8,
+      "feed_conductivity_us": 1200.31,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.3,
+      "feed_flow_m3h": 117.17
+    }
+  },
+  {
+    "timestamp": "2026-06-03T04:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.0,
+      "pump_load_kw": 16.05,
+      "permeate_flow_m3h": 74.42,
+      "feed_conductivity_us": 1219.75,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.35,
+      "feed_flow_m3h": 116.92
+    }
+  },
+  {
+    "timestamp": "2026-06-03T04:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.85,
+      "pump_load_kw": 15.84,
+      "permeate_flow_m3h": 73.65,
+      "feed_conductivity_us": 1213.93,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.33,
+      "feed_flow_m3h": 116.11
+    }
+  },
+  {
+    "timestamp": "2026-06-03T04:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.2,
+      "pump_load_kw": 16.02,
+      "permeate_flow_m3h": 73.23,
+      "feed_conductivity_us": 1197.73,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.33,
+      "feed_flow_m3h": 115.42
+    }
+  },
+  {
+    "timestamp": "2026-06-03T04:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.95,
+      "pump_load_kw": 16.12,
+      "permeate_flow_m3h": 73.46,
+      "feed_conductivity_us": 1187.19,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.37,
+      "feed_flow_m3h": 116.44
+    }
+  },
+  {
+    "timestamp": "2026-06-03T04:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.99,
+      "pump_load_kw": 15.81,
+      "permeate_flow_m3h": 74.09,
+      "feed_conductivity_us": 1196.55,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.37,
+      "feed_flow_m3h": 116.59
+    }
+  },
+  {
+    "timestamp": "2026-06-03T04:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.05,
+      "pump_load_kw": 15.93,
+      "permeate_flow_m3h": 73.98,
+      "feed_conductivity_us": 1204.67,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.36,
+      "feed_flow_m3h": 116.95
+    }
+  },
+  {
+    "timestamp": "2026-06-03T04:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.02,
+      "pump_load_kw": 16.23,
+      "permeate_flow_m3h": 72.99,
+      "feed_conductivity_us": 1183.79,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.35,
+      "feed_flow_m3h": 116.24
+    }
+  },
+  {
+    "timestamp": "2026-06-03T04:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.91,
+      "pump_load_kw": 16.15,
+      "permeate_flow_m3h": 74.77,
+      "feed_conductivity_us": 1211.43,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.32,
+      "feed_flow_m3h": 118.29
+    }
+  },
+  {
+    "timestamp": "2026-06-03T04:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.13,
+      "pump_load_kw": 16.02,
+      "permeate_flow_m3h": 74.52,
+      "feed_conductivity_us": 1206.81,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.33,
+      "feed_flow_m3h": 117.63
+    }
+  },
+  {
+    "timestamp": "2026-06-03T05:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.86,
+      "pump_load_kw": 15.96,
+      "permeate_flow_m3h": 73.86,
+      "feed_conductivity_us": 1183.33,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.39,
+      "feed_flow_m3h": 116.18
+    }
+  },
+  {
+    "timestamp": "2026-06-03T05:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.06,
+      "pump_load_kw": 16.18,
+      "permeate_flow_m3h": 74.24,
+      "feed_conductivity_us": 1200.33,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.35,
+      "feed_flow_m3h": 117.42
+    }
+  },
+  {
+    "timestamp": "2026-06-03T05:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.97,
+      "pump_load_kw": 16.15,
+      "permeate_flow_m3h": 72.95,
+      "feed_conductivity_us": 1200.17,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.34,
+      "feed_flow_m3h": 115.62
+    }
+  },
+  {
+    "timestamp": "2026-06-03T05:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.93,
+      "pump_load_kw": 15.86,
+      "permeate_flow_m3h": 74.2,
+      "feed_conductivity_us": 1189.94,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.36,
+      "feed_flow_m3h": 117.41
+    }
+  },
+  {
+    "timestamp": "2026-06-03T05:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.02,
+      "pump_load_kw": 15.89,
+      "permeate_flow_m3h": 73.64,
+      "feed_conductivity_us": 1201.47,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.34,
+      "feed_flow_m3h": 116.83
+    }
+  },
+  {
+    "timestamp": "2026-06-03T05:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.85,
+      "pump_load_kw": 16.03,
+      "permeate_flow_m3h": 72.68,
+      "feed_conductivity_us": 1196.46,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.35,
+      "feed_flow_m3h": 115.54
+    }
+  },
+  {
+    "timestamp": "2026-06-03T05:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.89,
+      "pump_load_kw": 16.2,
+      "permeate_flow_m3h": 72.77,
+      "feed_conductivity_us": 1189.46,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.36,
+      "feed_flow_m3h": 115.14
+    }
+  },
+  {
+    "timestamp": "2026-06-03T05:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.18,
+      "pump_load_kw": 16.28,
+      "permeate_flow_m3h": 73.48,
+      "feed_conductivity_us": 1189.88,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.38,
+      "feed_flow_m3h": 115.34
+    }
+  },
+  {
+    "timestamp": "2026-06-03T05:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.96,
+      "pump_load_kw": 16.2,
+      "permeate_flow_m3h": 74.85,
+      "feed_conductivity_us": 1190.2,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.38,
+      "feed_flow_m3h": 117.06
+    }
+  },
+  {
+    "timestamp": "2026-06-03T05:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.13,
+      "pump_load_kw": 16.0,
+      "permeate_flow_m3h": 73.04,
+      "feed_conductivity_us": 1212.78,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.36,
+      "feed_flow_m3h": 115.93
+    }
+  },
+  {
+    "timestamp": "2026-06-03T05:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.07,
+      "pump_load_kw": 16.09,
+      "permeate_flow_m3h": 74.2,
+      "feed_conductivity_us": 1200.95,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.37,
+      "feed_flow_m3h": 117.11
+    }
+  },
+  {
+    "timestamp": "2026-06-03T05:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.03,
+      "pump_load_kw": 16.27,
+      "permeate_flow_m3h": 75.16,
+      "feed_conductivity_us": 1201.82,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.36,
+      "feed_flow_m3h": 117.56
+    }
+  },
+  {
+    "timestamp": "2026-06-03T06:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.82,
+      "pump_load_kw": 15.92,
+      "permeate_flow_m3h": 73.43,
+      "feed_conductivity_us": 1202.92,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.33,
+      "feed_flow_m3h": 117.16
+    }
+  },
+  {
+    "timestamp": "2026-06-03T06:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.15,
+      "pump_load_kw": 16.03,
+      "permeate_flow_m3h": 73.36,
+      "feed_conductivity_us": 1201.67,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.34,
+      "feed_flow_m3h": 116.65
+    }
+  },
+  {
+    "timestamp": "2026-06-03T06:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.24,
+      "pump_load_kw": 16.22,
+      "permeate_flow_m3h": 73.53,
+      "feed_conductivity_us": 1198.56,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.36,
+      "feed_flow_m3h": 116.41
+    }
+  },
+  {
+    "timestamp": "2026-06-03T06:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.12,
+      "pump_load_kw": 16.29,
+      "permeate_flow_m3h": 74.37,
+      "feed_conductivity_us": 1198.27,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.33,
+      "feed_flow_m3h": 117.67
+    }
+  },
+  {
+    "timestamp": "2026-06-03T06:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.88,
+      "pump_load_kw": 16.06,
+      "permeate_flow_m3h": 73.78,
+      "feed_conductivity_us": 1201.23,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.34,
+      "feed_flow_m3h": 116.81
+    }
+  },
+  {
+    "timestamp": "2026-06-03T06:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.2,
+      "pump_load_kw": 16.14,
+      "permeate_flow_m3h": 73.46,
+      "feed_conductivity_us": 1192.38,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.37,
+      "feed_flow_m3h": 116.64
+    }
+  },
+  {
+    "timestamp": "2026-06-03T06:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.92,
+      "pump_load_kw": 15.74,
+      "permeate_flow_m3h": 73.09,
+      "feed_conductivity_us": 1207.96,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.4,
+      "feed_flow_m3h": 115.61
+    }
+  },
+  {
+    "timestamp": "2026-06-03T06:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.14,
+      "pump_load_kw": 16.24,
+      "permeate_flow_m3h": 72.87,
+      "feed_conductivity_us": 1203.19,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.36,
+      "feed_flow_m3h": 115.59
+    }
+  },
+  {
+    "timestamp": "2026-06-03T06:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.23,
+      "pump_load_kw": 15.95,
+      "permeate_flow_m3h": 74.33,
+      "feed_conductivity_us": 1223.46,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.38,
+      "feed_flow_m3h": 118.17
+    }
+  },
+  {
+    "timestamp": "2026-06-03T06:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.22,
+      "pump_load_kw": 16.22,
+      "permeate_flow_m3h": 73.81,
+      "feed_conductivity_us": 1215.42,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.35,
+      "feed_flow_m3h": 116.82
+    }
+  },
+  {
+    "timestamp": "2026-06-03T06:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.08,
+      "pump_load_kw": 15.93,
+      "permeate_flow_m3h": 74.37,
+      "feed_conductivity_us": 1198.62,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.35,
+      "feed_flow_m3h": 117.55
+    }
+  },
+  {
+    "timestamp": "2026-06-03T06:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.07,
+      "pump_load_kw": 16.05,
+      "permeate_flow_m3h": 73.32,
+      "feed_conductivity_us": 1207.06,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.34,
+      "feed_flow_m3h": 115.67
+    }
+  },
+  {
+    "timestamp": "2026-06-03T07:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.27,
+      "pump_load_kw": 16.43,
+      "permeate_flow_m3h": 74.45,
+      "feed_conductivity_us": 1194.89,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.35,
+      "feed_flow_m3h": 117.81
+    }
+  },
+  {
+    "timestamp": "2026-06-03T07:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.09,
+      "pump_load_kw": 16.18,
+      "permeate_flow_m3h": 74.23,
+      "feed_conductivity_us": 1186.78,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.38,
+      "feed_flow_m3h": 117.53
+    }
+  },
+  {
+    "timestamp": "2026-06-03T07:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 12.97,
+      "pump_load_kw": 15.78,
+      "permeate_flow_m3h": 73.18,
+      "feed_conductivity_us": 1199.91,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.39,
+      "feed_flow_m3h": 115.61
+    }
+  },
+  {
+    "timestamp": "2026-06-03T07:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.11,
+      "pump_load_kw": 16.02,
+      "permeate_flow_m3h": 72.28,
+      "feed_conductivity_us": 1195.55,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.38,
+      "feed_flow_m3h": 114.53
+    }
+  },
+  {
+    "timestamp": "2026-06-03T07:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.06,
+      "pump_load_kw": 16.47,
+      "permeate_flow_m3h": 72.67,
+      "feed_conductivity_us": 1183.48,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.38,
+      "feed_flow_m3h": 115.34
+    }
+  },
+  {
+    "timestamp": "2026-06-03T07:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.37,
+      "pump_load_kw": 16.14,
+      "permeate_flow_m3h": 72.74,
+      "feed_conductivity_us": 1200.16,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.37,
+      "feed_flow_m3h": 116.15
+    }
+  },
+  {
+    "timestamp": "2026-06-03T07:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.09,
+      "pump_load_kw": 16.13,
+      "permeate_flow_m3h": 72.67,
+      "feed_conductivity_us": 1207.82,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.38,
+      "feed_flow_m3h": 116.26
+    }
+  },
+  {
+    "timestamp": "2026-06-03T07:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.17,
+      "pump_load_kw": 16.04,
+      "permeate_flow_m3h": 73.76,
+      "feed_conductivity_us": 1195.14,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.43,
+      "feed_flow_m3h": 116.05
+    }
+  },
+  {
+    "timestamp": "2026-06-03T07:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.29,
+      "pump_load_kw": 16.2,
+      "permeate_flow_m3h": 72.78,
+      "feed_conductivity_us": 1202.47,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.38,
+      "feed_flow_m3h": 116.2
+    }
+  },
+  {
+    "timestamp": "2026-06-03T07:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.18,
+      "pump_load_kw": 16.2,
+      "permeate_flow_m3h": 72.49,
+      "feed_conductivity_us": 1210.19,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.38,
+      "feed_flow_m3h": 115.26
+    }
+  },
+  {
+    "timestamp": "2026-06-03T07:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.05,
+      "pump_load_kw": 16.17,
+      "permeate_flow_m3h": 72.84,
+      "feed_conductivity_us": 1215.88,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.39,
+      "feed_flow_m3h": 115.5
+    }
+  },
+  {
+    "timestamp": "2026-06-03T07:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.31,
+      "pump_load_kw": 16.0,
+      "permeate_flow_m3h": 72.18,
+      "feed_conductivity_us": 1200.7,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.41,
+      "feed_flow_m3h": 114.8
+    }
+  },
+  {
+    "timestamp": "2026-06-03T08:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.03,
+      "pump_load_kw": 16.17,
+      "permeate_flow_m3h": 73.28,
+      "feed_conductivity_us": 1204.37,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.42,
+      "feed_flow_m3h": 116.42
+    }
+  },
+  {
+    "timestamp": "2026-06-03T08:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.17,
+      "pump_load_kw": 16.45,
+      "permeate_flow_m3h": 73.52,
+      "feed_conductivity_us": 1179.66,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.41,
+      "feed_flow_m3h": 117.26
+    }
+  },
+  {
+    "timestamp": "2026-06-03T08:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.15,
+      "pump_load_kw": 16.23,
+      "permeate_flow_m3h": 73.45,
+      "feed_conductivity_us": 1182.53,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.41,
+      "feed_flow_m3h": 116.26
+    }
+  },
+  {
+    "timestamp": "2026-06-03T08:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.09,
+      "pump_load_kw": 15.99,
+      "permeate_flow_m3h": 72.08,
+      "feed_conductivity_us": 1199.4,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.39,
+      "feed_flow_m3h": 115.47
+    }
+  },
+  {
+    "timestamp": "2026-06-03T08:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.13,
+      "pump_load_kw": 16.2,
+      "permeate_flow_m3h": 72.14,
+      "feed_conductivity_us": 1215.68,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.39,
+      "feed_flow_m3h": 115.61
+    }
+  },
+  {
+    "timestamp": "2026-06-03T08:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.14,
+      "pump_load_kw": 16.28,
+      "permeate_flow_m3h": 73.29,
+      "feed_conductivity_us": 1199.37,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.39,
+      "feed_flow_m3h": 116.66
+    }
+  },
+  {
+    "timestamp": "2026-06-03T08:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.14,
+      "pump_load_kw": 15.97,
+      "permeate_flow_m3h": 72.62,
+      "feed_conductivity_us": 1193.33,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.37,
+      "feed_flow_m3h": 116.23
+    }
+  },
+  {
+    "timestamp": "2026-06-03T08:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.07,
+      "pump_load_kw": 16.36,
+      "permeate_flow_m3h": 72.43,
+      "feed_conductivity_us": 1192.67,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.42,
+      "feed_flow_m3h": 115.76
+    }
+  },
+  {
+    "timestamp": "2026-06-03T08:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.12,
+      "pump_load_kw": 16.27,
+      "permeate_flow_m3h": 72.65,
+      "feed_conductivity_us": 1192.53,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.44,
+      "feed_flow_m3h": 116.42
+    }
+  },
+  {
+    "timestamp": "2026-06-03T08:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.28,
+      "pump_load_kw": 16.07,
+      "permeate_flow_m3h": 73.11,
+      "feed_conductivity_us": 1202.66,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.41,
+      "feed_flow_m3h": 115.8
+    }
+  },
+  {
+    "timestamp": "2026-06-03T08:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.39,
+      "pump_load_kw": 16.3,
+      "permeate_flow_m3h": 73.57,
+      "feed_conductivity_us": 1220.94,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.42,
+      "feed_flow_m3h": 116.77
+    }
+  },
+  {
+    "timestamp": "2026-06-03T08:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.32,
+      "pump_load_kw": 15.94,
+      "permeate_flow_m3h": 73.78,
+      "feed_conductivity_us": 1206.28,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.39,
+      "feed_flow_m3h": 116.46
+    }
+  },
+  {
+    "timestamp": "2026-06-03T09:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.28,
+      "pump_load_kw": 16.22,
+      "permeate_flow_m3h": 71.51,
+      "feed_conductivity_us": 1207.49,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.39,
+      "feed_flow_m3h": 113.94
+    }
+  },
+  {
+    "timestamp": "2026-06-03T09:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.14,
+      "pump_load_kw": 16.62,
+      "permeate_flow_m3h": 72.97,
+      "feed_conductivity_us": 1210.69,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.4,
+      "feed_flow_m3h": 115.83
+    }
+  },
+  {
+    "timestamp": "2026-06-03T09:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.16,
+      "pump_load_kw": 16.11,
+      "permeate_flow_m3h": 72.48,
+      "feed_conductivity_us": 1194.78,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.38,
+      "feed_flow_m3h": 116.47
+    }
+  },
+  {
+    "timestamp": "2026-06-03T09:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.26,
+      "pump_load_kw": 16.14,
+      "permeate_flow_m3h": 72.68,
+      "feed_conductivity_us": 1206.92,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.38,
+      "feed_flow_m3h": 114.97
+    }
+  },
+  {
+    "timestamp": "2026-06-03T09:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.15,
+      "pump_load_kw": 16.19,
+      "permeate_flow_m3h": 71.61,
+      "feed_conductivity_us": 1209.46,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.4,
+      "feed_flow_m3h": 114.43
+    }
+  },
+  {
+    "timestamp": "2026-06-03T09:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.16,
+      "pump_load_kw": 16.14,
+      "permeate_flow_m3h": 71.58,
+      "feed_conductivity_us": 1214.01,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.42,
+      "feed_flow_m3h": 114.55
+    }
+  },
+  {
+    "timestamp": "2026-06-03T09:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.24,
+      "pump_load_kw": 16.33,
+      "permeate_flow_m3h": 71.71,
+      "feed_conductivity_us": 1213.92,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.37,
+      "feed_flow_m3h": 115.12
+    }
+  },
+  {
+    "timestamp": "2026-06-03T09:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.2,
+      "pump_load_kw": 16.11,
+      "permeate_flow_m3h": 73.13,
+      "feed_conductivity_us": 1185.56,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.42,
+      "feed_flow_m3h": 115.93
+    }
+  },
+  {
+    "timestamp": "2026-06-03T09:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.19,
+      "pump_load_kw": 16.02,
+      "permeate_flow_m3h": 73.1,
+      "feed_conductivity_us": 1207.21,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.42,
+      "feed_flow_m3h": 116.17
+    }
+  },
+  {
+    "timestamp": "2026-06-03T09:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.17,
+      "pump_load_kw": 16.28,
+      "permeate_flow_m3h": 72.08,
+      "feed_conductivity_us": 1183.72,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.38,
+      "feed_flow_m3h": 115.45
+    }
+  },
+  {
+    "timestamp": "2026-06-03T09:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.27,
+      "pump_load_kw": 16.12,
+      "permeate_flow_m3h": 73.63,
+      "feed_conductivity_us": 1196.48,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.41,
+      "feed_flow_m3h": 117.89
+    }
+  },
+  {
+    "timestamp": "2026-06-03T09:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.18,
+      "pump_load_kw": 16.22,
+      "permeate_flow_m3h": 71.74,
+      "feed_conductivity_us": 1195.84,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.39,
+      "feed_flow_m3h": 115.16
+    }
+  },
+  {
+    "timestamp": "2026-06-03T10:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.02,
+      "pump_load_kw": 16.35,
+      "permeate_flow_m3h": 71.51,
+      "feed_conductivity_us": 1217.7,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.39,
+      "feed_flow_m3h": 114.89
+    }
+  },
+  {
+    "timestamp": "2026-06-03T10:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.3,
+      "pump_load_kw": 16.36,
+      "permeate_flow_m3h": 72.66,
+      "feed_conductivity_us": 1203.69,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.42,
+      "feed_flow_m3h": 115.46
+    }
+  },
+  {
+    "timestamp": "2026-06-03T10:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.12,
+      "pump_load_kw": 15.95,
+      "permeate_flow_m3h": 72.42,
+      "feed_conductivity_us": 1188.2,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.38,
+      "feed_flow_m3h": 115.53
+    }
+  },
+  {
+    "timestamp": "2026-06-03T10:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.3,
+      "pump_load_kw": 16.46,
+      "permeate_flow_m3h": 75.32,
+      "feed_conductivity_us": 1200.88,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.39,
+      "feed_flow_m3h": 119.49
+    }
+  },
+  {
+    "timestamp": "2026-06-03T10:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.34,
+      "pump_load_kw": 16.2,
+      "permeate_flow_m3h": 72.21,
+      "feed_conductivity_us": 1204.95,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.44,
+      "feed_flow_m3h": 115.71
+    }
+  },
+  {
+    "timestamp": "2026-06-03T10:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.24,
+      "pump_load_kw": 16.28,
+      "permeate_flow_m3h": 72.65,
+      "feed_conductivity_us": 1187.39,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.4,
+      "feed_flow_m3h": 116.19
+    }
+  },
+  {
+    "timestamp": "2026-06-03T10:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.46,
+      "pump_load_kw": 16.17,
+      "permeate_flow_m3h": 73.32,
+      "feed_conductivity_us": 1187.79,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.4,
+      "feed_flow_m3h": 115.14
+    }
+  },
+  {
+    "timestamp": "2026-06-03T10:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.37,
+      "pump_load_kw": 16.73,
+      "permeate_flow_m3h": 72.58,
+      "feed_conductivity_us": 1211.2,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.44,
+      "feed_flow_m3h": 115.94
+    }
+  },
+  {
+    "timestamp": "2026-06-03T10:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.08,
+      "pump_load_kw": 16.46,
+      "permeate_flow_m3h": 72.52,
+      "feed_conductivity_us": 1204.7,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.42,
+      "feed_flow_m3h": 117.22
+    }
+  },
+  {
+    "timestamp": "2026-06-03T10:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.33,
+      "pump_load_kw": 16.42,
+      "permeate_flow_m3h": 73.44,
+      "feed_conductivity_us": 1189.13,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.42,
+      "feed_flow_m3h": 115.4
+    }
+  },
+  {
+    "timestamp": "2026-06-03T10:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.24,
+      "pump_load_kw": 16.43,
+      "permeate_flow_m3h": 71.73,
+      "feed_conductivity_us": 1198.49,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.44,
+      "feed_flow_m3h": 114.76
+    }
+  },
+  {
+    "timestamp": "2026-06-03T10:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.3,
+      "pump_load_kw": 16.35,
+      "permeate_flow_m3h": 73.5,
+      "feed_conductivity_us": 1199.53,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.41,
+      "feed_flow_m3h": 117.58
+    }
+  },
+  {
+    "timestamp": "2026-06-03T11:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.24,
+      "pump_load_kw": 16.28,
+      "permeate_flow_m3h": 73.51,
+      "feed_conductivity_us": 1211.69,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.44,
+      "feed_flow_m3h": 116.45
+    }
+  },
+  {
+    "timestamp": "2026-06-03T11:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.11,
+      "pump_load_kw": 15.94,
+      "permeate_flow_m3h": 72.72,
+      "feed_conductivity_us": 1197.7,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.45,
+      "feed_flow_m3h": 116.34
+    }
+  },
+  {
+    "timestamp": "2026-06-03T11:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.29,
+      "pump_load_kw": 16.55,
+      "permeate_flow_m3h": 71.66,
+      "feed_conductivity_us": 1198.54,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.44,
+      "feed_flow_m3h": 114.61
+    }
+  },
+  {
+    "timestamp": "2026-06-03T11:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.55,
+      "pump_load_kw": 16.25,
+      "permeate_flow_m3h": 72.39,
+      "feed_conductivity_us": 1202.39,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.43,
+      "feed_flow_m3h": 116.83
+    }
+  },
+  {
+    "timestamp": "2026-06-03T11:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.22,
+      "pump_load_kw": 16.33,
+      "permeate_flow_m3h": 73.46,
+      "feed_conductivity_us": 1209.43,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.43,
+      "feed_flow_m3h": 116.53
+    }
+  },
+  {
+    "timestamp": "2026-06-03T11:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.4,
+      "pump_load_kw": 16.21,
+      "permeate_flow_m3h": 73.23,
+      "feed_conductivity_us": 1206.75,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.44,
+      "feed_flow_m3h": 116.18
+    }
+  },
+  {
+    "timestamp": "2026-06-03T11:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.29,
+      "pump_load_kw": 16.31,
+      "permeate_flow_m3h": 72.38,
+      "feed_conductivity_us": 1200.91,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.42,
+      "feed_flow_m3h": 115.1
+    }
+  },
+  {
+    "timestamp": "2026-06-03T11:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.24,
+      "pump_load_kw": 16.31,
+      "permeate_flow_m3h": 72.62,
+      "feed_conductivity_us": 1191.51,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.45,
+      "feed_flow_m3h": 115.77
+    }
+  },
+  {
+    "timestamp": "2026-06-03T11:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.24,
+      "pump_load_kw": 16.26,
+      "permeate_flow_m3h": 72.21,
+      "feed_conductivity_us": 1202.89,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.45,
+      "feed_flow_m3h": 115.19
+    }
+  },
+  {
+    "timestamp": "2026-06-03T11:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.24,
+      "pump_load_kw": 16.22,
+      "permeate_flow_m3h": 73.53,
+      "feed_conductivity_us": 1211.67,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.44,
+      "feed_flow_m3h": 117.22
+    }
+  },
+  {
+    "timestamp": "2026-06-03T11:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.32,
+      "pump_load_kw": 16.24,
+      "permeate_flow_m3h": 72.18,
+      "feed_conductivity_us": 1191.76,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.41,
+      "feed_flow_m3h": 115.05
+    }
+  },
+  {
+    "timestamp": "2026-06-03T11:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.33,
+      "pump_load_kw": 16.34,
+      "permeate_flow_m3h": 72.32,
+      "feed_conductivity_us": 1214.18,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.44,
+      "feed_flow_m3h": 115.07
+    }
+  },
+  {
+    "timestamp": "2026-06-03T12:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.4,
+      "pump_load_kw": 16.14,
+      "permeate_flow_m3h": 72.46,
+      "feed_conductivity_us": 1195.25,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.41,
+      "feed_flow_m3h": 115.68
+    }
+  },
+  {
+    "timestamp": "2026-06-03T12:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.3,
+      "pump_load_kw": 16.33,
+      "permeate_flow_m3h": 72.89,
+      "feed_conductivity_us": 1211.2,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.43,
+      "feed_flow_m3h": 114.88
+    }
+  },
+  {
+    "timestamp": "2026-06-03T12:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.15,
+      "pump_load_kw": 16.48,
+      "permeate_flow_m3h": 72.41,
+      "feed_conductivity_us": 1210.15,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.44,
+      "feed_flow_m3h": 114.81
+    }
+  },
+  {
+    "timestamp": "2026-06-03T12:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.17,
+      "pump_load_kw": 16.28,
+      "permeate_flow_m3h": 72.42,
+      "feed_conductivity_us": 1195.03,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.45,
+      "feed_flow_m3h": 115.02
+    }
+  },
+  {
+    "timestamp": "2026-06-03T12:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.19,
+      "pump_load_kw": 16.52,
+      "permeate_flow_m3h": 71.55,
+      "feed_conductivity_us": 1191.58,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.42,
+      "feed_flow_m3h": 114.76
+    }
+  },
+  {
+    "timestamp": "2026-06-03T12:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.2,
+      "pump_load_kw": 16.55,
+      "permeate_flow_m3h": 72.46,
+      "feed_conductivity_us": 1197.93,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.45,
+      "feed_flow_m3h": 115.97
+    }
+  },
+  {
+    "timestamp": "2026-06-03T12:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.38,
+      "pump_load_kw": 16.3,
+      "permeate_flow_m3h": 71.6,
+      "feed_conductivity_us": 1201.36,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.46,
+      "feed_flow_m3h": 115.13
+    }
+  },
+  {
+    "timestamp": "2026-06-03T12:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.53,
+      "pump_load_kw": 16.34,
+      "permeate_flow_m3h": 73.57,
+      "feed_conductivity_us": 1202.55,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.44,
+      "feed_flow_m3h": 116.03
+    }
+  },
+  {
+    "timestamp": "2026-06-03T12:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.2,
+      "pump_load_kw": 16.32,
+      "permeate_flow_m3h": 72.42,
+      "feed_conductivity_us": 1206.31,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.44,
+      "feed_flow_m3h": 116.52
+    }
+  },
+  {
+    "timestamp": "2026-06-03T12:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.32,
+      "pump_load_kw": 16.04,
+      "permeate_flow_m3h": 72.47,
+      "feed_conductivity_us": 1211.08,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.42,
+      "feed_flow_m3h": 115.74
+    }
+  },
+  {
+    "timestamp": "2026-06-03T12:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.47,
+      "pump_load_kw": 16.37,
+      "permeate_flow_m3h": 73.17,
+      "feed_conductivity_us": 1201.48,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.46,
+      "feed_flow_m3h": 117.98
+    }
+  },
+  {
+    "timestamp": "2026-06-03T12:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.35,
+      "pump_load_kw": 16.29,
+      "permeate_flow_m3h": 73.32,
+      "feed_conductivity_us": 1196.11,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.45,
+      "feed_flow_m3h": 114.82
+    }
+  },
+  {
+    "timestamp": "2026-06-03T13:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.35,
+      "pump_load_kw": 16.44,
+      "permeate_flow_m3h": 72.69,
+      "feed_conductivity_us": 1193.77,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.48,
+      "feed_flow_m3h": 114.55
+    }
+  },
+  {
+    "timestamp": "2026-06-03T13:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.31,
+      "pump_load_kw": 16.45,
+      "permeate_flow_m3h": 73.92,
+      "feed_conductivity_us": 1203.28,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.45,
+      "feed_flow_m3h": 116.58
+    }
+  },
+  {
+    "timestamp": "2026-06-03T13:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.37,
+      "pump_load_kw": 16.28,
+      "permeate_flow_m3h": 71.94,
+      "feed_conductivity_us": 1208.88,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.43,
+      "feed_flow_m3h": 114.56
+    }
+  },
+  {
+    "timestamp": "2026-06-03T13:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.03,
+      "pump_load_kw": 16.32,
+      "permeate_flow_m3h": 71.35,
+      "feed_conductivity_us": 1203.83,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.47,
+      "feed_flow_m3h": 113.85
+    }
+  },
+  {
+    "timestamp": "2026-06-03T13:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.24,
+      "pump_load_kw": 16.43,
+      "permeate_flow_m3h": 71.93,
+      "feed_conductivity_us": 1208.59,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.42,
+      "feed_flow_m3h": 115.21
+    }
+  },
+  {
+    "timestamp": "2026-06-03T13:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.17,
+      "pump_load_kw": 16.45,
+      "permeate_flow_m3h": 72.11,
+      "feed_conductivity_us": 1188.51,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.44,
+      "feed_flow_m3h": 117.11
+    }
+  },
+  {
+    "timestamp": "2026-06-03T13:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.48,
+      "pump_load_kw": 16.55,
+      "permeate_flow_m3h": 72.81,
+      "feed_conductivity_us": 1198.41,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.46,
+      "feed_flow_m3h": 116.57
+    }
+  },
+  {
+    "timestamp": "2026-06-03T13:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.17,
+      "pump_load_kw": 16.39,
+      "permeate_flow_m3h": 72.64,
+      "feed_conductivity_us": 1188.56,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.45,
+      "feed_flow_m3h": 114.94
+    }
+  },
+  {
+    "timestamp": "2026-06-03T13:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.38,
+      "pump_load_kw": 16.36,
+      "permeate_flow_m3h": 72.56,
+      "feed_conductivity_us": 1196.08,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.46,
+      "feed_flow_m3h": 115.8
+    }
+  },
+  {
+    "timestamp": "2026-06-03T13:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.39,
+      "pump_load_kw": 16.38,
+      "permeate_flow_m3h": 72.02,
+      "feed_conductivity_us": 1199.85,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.42,
+      "feed_flow_m3h": 115.42
+    }
+  },
+  {
+    "timestamp": "2026-06-03T13:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.43,
+      "pump_load_kw": 16.6,
+      "permeate_flow_m3h": 71.78,
+      "feed_conductivity_us": 1181.78,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.41,
+      "feed_flow_m3h": 115.65
+    }
+  },
+  {
+    "timestamp": "2026-06-03T13:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.36,
+      "pump_load_kw": 16.22,
+      "permeate_flow_m3h": 71.52,
+      "feed_conductivity_us": 1175.99,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.43,
+      "feed_flow_m3h": 114.62
+    }
+  },
+  {
+    "timestamp": "2026-06-03T14:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.36,
+      "pump_load_kw": 16.51,
+      "permeate_flow_m3h": 72.64,
+      "feed_conductivity_us": 1200.92,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.46,
+      "feed_flow_m3h": 115.71
+    }
+  },
+  {
+    "timestamp": "2026-06-03T14:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.39,
+      "pump_load_kw": 16.77,
+      "permeate_flow_m3h": 72.41,
+      "feed_conductivity_us": 1202.63,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.46,
+      "feed_flow_m3h": 115.54
+    }
+  },
+  {
+    "timestamp": "2026-06-03T14:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.34,
+      "pump_load_kw": 16.41,
+      "permeate_flow_m3h": 72.38,
+      "feed_conductivity_us": 1205.35,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.45,
+      "feed_flow_m3h": 116.03
+    }
+  },
+  {
+    "timestamp": "2026-06-03T14:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.29,
+      "pump_load_kw": 16.53,
+      "permeate_flow_m3h": 72.22,
+      "feed_conductivity_us": 1193.6,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.46,
+      "feed_flow_m3h": 115.39
+    }
+  },
+  {
+    "timestamp": "2026-06-03T14:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.53,
+      "pump_load_kw": 16.19,
+      "permeate_flow_m3h": 72.18,
+      "feed_conductivity_us": 1192.23,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.47,
+      "feed_flow_m3h": 114.85
+    }
+  },
+  {
+    "timestamp": "2026-06-03T14:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.47,
+      "pump_load_kw": 16.46,
+      "permeate_flow_m3h": 73.27,
+      "feed_conductivity_us": 1205.25,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.48,
+      "feed_flow_m3h": 115.6
+    }
+  },
+  {
+    "timestamp": "2026-06-03T14:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.32,
+      "pump_load_kw": 16.37,
+      "permeate_flow_m3h": 71.72,
+      "feed_conductivity_us": 1201.7,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.48,
+      "feed_flow_m3h": 115.26
+    }
+  },
+  {
+    "timestamp": "2026-06-03T14:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.5,
+      "pump_load_kw": 16.41,
+      "permeate_flow_m3h": 72.51,
+      "feed_conductivity_us": 1216.0,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.42,
+      "feed_flow_m3h": 116.14
+    }
+  },
+  {
+    "timestamp": "2026-06-03T14:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.4,
+      "pump_load_kw": 16.57,
+      "permeate_flow_m3h": 72.08,
+      "feed_conductivity_us": 1197.11,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.44,
+      "feed_flow_m3h": 114.53
+    }
+  },
+  {
+    "timestamp": "2026-06-03T14:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.35,
+      "pump_load_kw": 16.25,
+      "permeate_flow_m3h": 72.06,
+      "feed_conductivity_us": 1220.2,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.49,
+      "feed_flow_m3h": 116.0
+    }
+  },
+  {
+    "timestamp": "2026-06-03T14:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.3,
+      "pump_load_kw": 16.24,
+      "permeate_flow_m3h": 72.85,
+      "feed_conductivity_us": 1233.12,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.43,
+      "feed_flow_m3h": 116.95
+    }
+  },
+  {
+    "timestamp": "2026-06-03T14:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.49,
+      "pump_load_kw": 16.42,
+      "permeate_flow_m3h": 72.82,
+      "feed_conductivity_us": 1210.12,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.46,
+      "feed_flow_m3h": 115.06
+    }
+  },
+  {
+    "timestamp": "2026-06-03T15:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.45,
+      "pump_load_kw": 16.26,
+      "permeate_flow_m3h": 72.16,
+      "feed_conductivity_us": 1212.78,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.45,
+      "feed_flow_m3h": 115.14
+    }
+  },
+  {
+    "timestamp": "2026-06-03T15:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.38,
+      "pump_load_kw": 16.63,
+      "permeate_flow_m3h": 72.67,
+      "feed_conductivity_us": 1208.72,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.48,
+      "feed_flow_m3h": 115.23
+    }
+  },
+  {
+    "timestamp": "2026-06-03T15:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.42,
+      "pump_load_kw": 16.45,
+      "permeate_flow_m3h": 72.11,
+      "feed_conductivity_us": 1208.34,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.5,
+      "feed_flow_m3h": 115.97
+    }
+  },
+  {
+    "timestamp": "2026-06-03T15:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.33,
+      "pump_load_kw": 16.37,
+      "permeate_flow_m3h": 71.58,
+      "feed_conductivity_us": 1205.27,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.45,
+      "feed_flow_m3h": 115.2
+    }
+  },
+  {
+    "timestamp": "2026-06-03T15:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.3,
+      "pump_load_kw": 16.48,
+      "permeate_flow_m3h": 73.26,
+      "feed_conductivity_us": 1199.98,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.47,
+      "feed_flow_m3h": 116.86
+    }
+  },
+  {
+    "timestamp": "2026-06-03T15:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.46,
+      "pump_load_kw": 16.48,
+      "permeate_flow_m3h": 73.27,
+      "feed_conductivity_us": 1189.48,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.5,
+      "feed_flow_m3h": 116.32
+    }
+  },
+  {
+    "timestamp": "2026-06-03T15:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.48,
+      "pump_load_kw": 16.69,
+      "permeate_flow_m3h": 73.61,
+      "feed_conductivity_us": 1208.68,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.46,
+      "feed_flow_m3h": 116.46
+    }
+  },
+  {
+    "timestamp": "2026-06-03T15:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.37,
+      "pump_load_kw": 16.31,
+      "permeate_flow_m3h": 71.82,
+      "feed_conductivity_us": 1190.45,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.44,
+      "feed_flow_m3h": 115.71
+    }
+  },
+  {
+    "timestamp": "2026-06-03T15:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.38,
+      "pump_load_kw": 16.45,
+      "permeate_flow_m3h": 71.08,
+      "feed_conductivity_us": 1202.93,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.47,
+      "feed_flow_m3h": 113.1
+    }
+  },
+  {
+    "timestamp": "2026-06-03T15:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.57,
+      "pump_load_kw": 16.45,
+      "permeate_flow_m3h": 71.96,
+      "feed_conductivity_us": 1195.31,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.46,
+      "feed_flow_m3h": 115.38
+    }
+  },
+  {
+    "timestamp": "2026-06-03T15:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.39,
+      "pump_load_kw": 16.3,
+      "permeate_flow_m3h": 71.81,
+      "feed_conductivity_us": 1200.36,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.47,
+      "feed_flow_m3h": 116.17
+    }
+  },
+  {
+    "timestamp": "2026-06-03T15:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.33,
+      "pump_load_kw": 16.33,
+      "permeate_flow_m3h": 71.61,
+      "feed_conductivity_us": 1211.76,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.46,
+      "feed_flow_m3h": 113.95
+    }
+  },
+  {
+    "timestamp": "2026-06-03T16:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.43,
+      "pump_load_kw": 16.64,
+      "permeate_flow_m3h": 71.39,
+      "feed_conductivity_us": 1207.21,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.46,
+      "feed_flow_m3h": 115.19
+    }
+  },
+  {
+    "timestamp": "2026-06-03T16:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.51,
+      "pump_load_kw": 16.15,
+      "permeate_flow_m3h": 72.57,
+      "feed_conductivity_us": 1179.46,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.45,
+      "feed_flow_m3h": 116.49
+    }
+  },
+  {
+    "timestamp": "2026-06-03T16:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.4,
+      "pump_load_kw": 16.47,
+      "permeate_flow_m3h": 71.64,
+      "feed_conductivity_us": 1201.53,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.46,
+      "feed_flow_m3h": 114.81
+    }
+  },
+  {
+    "timestamp": "2026-06-03T16:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.57,
+      "pump_load_kw": 16.47,
+      "permeate_flow_m3h": 71.21,
+      "feed_conductivity_us": 1176.98,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.49,
+      "feed_flow_m3h": 113.3
+    }
+  },
+  {
+    "timestamp": "2026-06-03T16:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.29,
+      "pump_load_kw": 16.61,
+      "permeate_flow_m3h": 72.57,
+      "feed_conductivity_us": 1186.01,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.48,
+      "feed_flow_m3h": 115.28
+    }
+  },
+  {
+    "timestamp": "2026-06-03T16:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.4,
+      "pump_load_kw": 16.62,
+      "permeate_flow_m3h": 70.98,
+      "feed_conductivity_us": 1196.5,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.49,
+      "feed_flow_m3h": 114.4
+    }
+  },
+  {
+    "timestamp": "2026-06-03T16:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.51,
+      "pump_load_kw": 16.15,
+      "permeate_flow_m3h": 72.34,
+      "feed_conductivity_us": 1203.99,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.47,
+      "feed_flow_m3h": 116.24
+    }
+  },
+  {
+    "timestamp": "2026-06-03T16:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.55,
+      "pump_load_kw": 16.46,
+      "permeate_flow_m3h": 72.36,
+      "feed_conductivity_us": 1195.76,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.51,
+      "feed_flow_m3h": 116.16
+    }
+  },
+  {
+    "timestamp": "2026-06-03T16:43:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.55,
+      "pump_load_kw": 16.39,
+      "permeate_flow_m3h": 72.58,
+      "feed_conductivity_us": 1198.69,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.52,
+      "feed_flow_m3h": 116.02
+    }
+  },
+  {
+    "timestamp": "2026-06-03T16:48:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.6,
+      "pump_load_kw": 16.65,
+      "permeate_flow_m3h": 72.09,
+      "feed_conductivity_us": 1206.1,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.48,
+      "feed_flow_m3h": 115.57
+    }
+  },
+  {
+    "timestamp": "2026-06-03T16:53:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.34,
+      "pump_load_kw": 16.33,
+      "permeate_flow_m3h": 71.84,
+      "feed_conductivity_us": 1196.53,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.51,
+      "feed_flow_m3h": 114.86
+    }
+  },
+  {
+    "timestamp": "2026-06-03T16:58:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.57,
+      "pump_load_kw": 16.53,
+      "permeate_flow_m3h": 72.08,
+      "feed_conductivity_us": 1194.84,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.47,
+      "feed_flow_m3h": 114.7
+    }
+  },
+  {
+    "timestamp": "2026-06-03T17:03:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.5,
+      "pump_load_kw": 16.49,
+      "permeate_flow_m3h": 72.32,
+      "feed_conductivity_us": 1196.29,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.5,
+      "feed_flow_m3h": 114.81
+    }
+  },
+  {
+    "timestamp": "2026-06-03T17:08:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.41,
+      "pump_load_kw": 16.49,
+      "permeate_flow_m3h": 73.64,
+      "feed_conductivity_us": 1219.26,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.49,
+      "feed_flow_m3h": 116.45
+    }
+  },
+  {
+    "timestamp": "2026-06-03T17:13:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.38,
+      "pump_load_kw": 16.56,
+      "permeate_flow_m3h": 70.2,
+      "feed_conductivity_us": 1196.62,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.5,
+      "feed_flow_m3h": 114.35
+    }
+  },
+  {
+    "timestamp": "2026-06-03T17:18:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.49,
+      "pump_load_kw": 16.59,
+      "permeate_flow_m3h": 70.73,
+      "feed_conductivity_us": 1197.15,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.49,
+      "feed_flow_m3h": 113.55
+    }
+  },
+  {
+    "timestamp": "2026-06-03T17:23:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.58,
+      "pump_load_kw": 16.43,
+      "permeate_flow_m3h": 72.26,
+      "feed_conductivity_us": 1210.73,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.47,
+      "feed_flow_m3h": 113.9
+    }
+  },
+  {
+    "timestamp": "2026-06-03T17:28:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.48,
+      "pump_load_kw": 16.52,
+      "permeate_flow_m3h": 72.11,
+      "feed_conductivity_us": 1199.69,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.49,
+      "feed_flow_m3h": 115.56
+    }
+  },
+  {
+    "timestamp": "2026-06-03T17:33:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.57,
+      "pump_load_kw": 16.65,
+      "permeate_flow_m3h": 71.43,
+      "feed_conductivity_us": 1202.15,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.49,
+      "feed_flow_m3h": 115.02
+    }
+  },
+  {
+    "timestamp": "2026-06-03T17:38:24Z",
+    "ro_501": {
+      "feed_pressure_bar": 13.52,
+      "pump_load_kw": 16.54,
+      "permeate_flow_m3h": 71.92,
+      "feed_conductivity_us": 1193.64,
+      "tmp_bar": 1.5
+    },
+    "uf_101": {
+      "trans_membrane_pressure": 1.49,
+      "feed_flow_m3h": 115.47
+    }
+  }
+]

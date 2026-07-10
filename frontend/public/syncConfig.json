@@ -1,0 +1,5 @@
+{
+  "dataSourceUrl": "/data/ETP_Digital_Twin_5min_Data.xlsx",
+  "refreshIntervalMs": 5000,
+  "loopEnabled": true
+}

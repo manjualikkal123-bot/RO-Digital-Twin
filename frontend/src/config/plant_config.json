@@ -1,0 +1,346 @@
+{
+  "jetl_hyderabad": {
+    "id": "jetl_hyderabad",
+    "display_name": "JETL — Jeedimetla ETP",
+    "full_name": "Jeedimetla Effluent Treatment Limited",
+    "client_name": "JETL",
+    "location": "Jeedimetla, Hyderabad",
+    "state": "Telangana",
+    "coordinates": {
+      "lat": 17.4849,
+      "lon": 78.3891
+    },
+    "plant_type": "CETP",
+    "industry": "Chemical & Pharmaceutical",
+    "capacity_kld": 1600,
+    "badge": null,
+    "access_code": "JETL-2024",
+    "commissioned": "Nov 2025",
+    "membrane_type": "HPA RO",
+    "limits": {
+      "ph_min": 6.5,
+      "ph_max": 8.5,
+      "cod_max": 250,
+      "bod_max": 30,
+      "tss_max": 100,
+      "tds_max": 2100,
+      "conductivity_max": 2500,
+      "turbidity_max": 10
+    },
+    "sensor_baseline": {
+      "ph": 7.2,
+      "conductivity": 1450,
+      "differential_pressure": 2.8,
+      "flow_feed": 50.7,
+      "flow_permeate": 38.0,
+      "flow_reject": 12.7,
+      "turbidity": 0.5,
+      "temperature": 25,
+      "recovery": 75,
+      "cod": 185,
+      "bod": 22,
+      "tss": 68,
+      "orp": 180
+    },
+    "display_params": [
+      "ph",
+      "conductivity",
+      "differential_pressure",
+      "flow_feed",
+      "turbidity",
+      "recovery",
+      "cod",
+      "bod",
+      "tss",
+      "temperature"
+    ],
+    "alarm_rules": {
+      "ph": {
+        "min": 6.5,
+        "max": 8.5,
+        "warning_min": 6.8,
+        "warning_max": 8.2
+      },
+      "cod": {
+        "max": 250,
+        "warning_max": 200
+      },
+      "bod": {
+        "max": 30,
+        "warning_max": 24
+      },
+      "differential_pressure": {
+        "max": 4,
+        "warning_max": 3.5
+      },
+      "turbidity": {
+        "max": 10,
+        "warning_max": 8
+      }
+    },
+    "leakage_factors": {
+      "antiscalant_conductivity_threshold": 1200,
+      "antiscalant_penalty_per_unit": 12,
+      "pressure_threshold_bar": 1.8,
+      "pressure_penalty_per_bar": 850,
+      "temp_threshold_celsius": 25,
+      "temp_penalty_per_degree": 50
+    },
+    "membrane_config": {
+      "manufacturer": "Permionics HPA",
+      "model": "Perma-HPA-8040",
+      "design_flux_lmh": 22,
+      "design_tmp_bar": 2.5,
+      "critical_tmp_bar": 4.5,
+      "tcf_a_coefficient": 0.0239
+    },
+    "live_data_source": {
+      "type": "simulated",
+      "api_url": null,
+      "api_key": null,
+      "poll_interval_seconds": 30
+    }
+  },
+  "nia_nandesari": {
+    "id": "nia_nandesari",
+    "display_name": "NIA — Nandesari CETP",
+    "full_name": "Nandesari Industries Association CETP",
+    "client_name": "Nandesari Industries Association",
+    "location": "Nandesari, Vadodara",
+    "state": "Gujarat",
+    "coordinates": {
+      "lat": 22.3833,
+      "lon": 73.2333
+    },
+    "plant_type": "CETP",
+    "industry": "Chemical and Pharma",
+    "capacity_kld": 20000,
+    "badge": "BOO scheme",
+    "access_code": "NIA-2026",
+    "commissioned": "2020",
+    "membrane_type": "RO (5 parallel HPA trains)",
+    "topology_note": "5 parallel HPA (High Pressure Array) trains, not sequential stages. Each train: TMF -> ACF -> RO Array 1 -> RO Array 2 -> 3rd stage RO -> degasser.",
+    "limits": {
+      "ph_min": 6.5,
+      "ph_max": 7.0,
+      "tds_max": 200,
+      "conductivity_max": 400,
+      "turbidity_max": 1
+    },
+    "sensor_baseline": {
+      "ph": 7.11,
+      "conductivity": 200,
+      "differential_pressure": 0.7,
+      "flow_feed": 1000,
+      "flow_permeate": 833,
+      "flow_reject": 167,
+      "turbidity": 0,
+      "temperature": 32,
+      "recovery": 83.3
+    },
+    "display_params": [
+      "ph",
+      "conductivity",
+      "differential_pressure",
+      "flow_feed",
+      "turbidity",
+      "recovery",
+      "temperature"
+    ],
+    "alarm_rules": {
+      "ph": {
+        "min": 6.5,
+        "max": 7.0,
+        "warning_min": 6.6,
+        "warning_max": 6.9
+      },
+      "differential_pressure": {
+        "max": 2,
+        "warning_max": 1.5
+      },
+      "turbidity": {
+        "max": 1,
+        "warning_max": 0.5
+      }
+    },
+    "leakage_factors": {
+      "antiscalant_conductivity_threshold": 800,
+      "antiscalant_penalty_per_unit": 12,
+      "pressure_threshold_bar": 1.5,
+      "pressure_penalty_per_bar": 850,
+      "temp_threshold_celsius": 25,
+      "temp_penalty_per_degree": 50
+    },
+    "membrane_config": {
+      "manufacturer": "Unknown",
+      "model": "HPA (5-train array)",
+      "design_flux_lmh": null,
+      "design_tmp_bar": 2.5,
+      "critical_tmp_bar": 4.5,
+      "tcf_a_coefficient": 0.0239
+    },
+    "live_data_source": {
+      "type": "simulated",
+      "api_url": null,
+      "api_key": null,
+      "poll_interval_seconds": 30
+    },
+    "_TODO": "capacity_kld, commissioned date, membrane manufacturer/model, and design_flux_lmh are placeholders (null/Unknown) - fill in from Nandesari's actual plant specs before going to production. sensor_baseline/limits were derived from the June 2026 logsheet averages, not a spec sheet - re-verify against design docs."
+  },
+  "pipes": [
+    {
+      "id": "P-FW",
+      "dn": "DN100",
+      "stream": "FEED",
+      "path": [
+        [
+          -18,
+          3.05,
+          0
+        ],
+        [
+          -15.5,
+          3.05,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "P-1",
+      "dn": "DN100",
+      "stream": "FEED",
+      "path": [
+        [
+          -14,
+          0.15,
+          0
+        ],
+        [
+          -10.4,
+          0.15,
+          0
+        ],
+        [
+          -10.4,
+          0.5,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "P-2",
+      "dn": "DN100",
+      "stream": "FEED",
+      "path": [
+        [
+          -10,
+          0.9,
+          0
+        ],
+        [
+          -10,
+          2.3,
+          0
+        ],
+        [
+          -6,
+          2.3,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "P-3",
+      "dn": "DN100",
+      "stream": "FEED",
+      "path": [
+        [
+          -6,
+          0.3,
+          0
+        ],
+        [
+          -2.4,
+          0.3,
+          0
+        ],
+        [
+          -2.4,
+          0.5,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "P-4",
+      "dn": "DN80",
+      "stream": "FEED",
+      "path": [
+        [
+          -2,
+          0.9,
+          0
+        ],
+        [
+          -2,
+          2.5,
+          0
+        ],
+        [
+          1.5,
+          2.5,
+          0
+        ],
+        [
+          1.5,
+          0.4,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "P-PERM",
+      "dn": "DN80",
+      "stream": "PERMEATE",
+      "path": [
+        [
+          7.5,
+          0.4,
+          0
+        ],
+        [
+          7.5,
+          4.5,
+          0
+        ],
+        [
+          12,
+          4.5,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "P-REJ",
+      "dn": "DN65",
+      "stream": "REJECT",
+      "path": [
+        [
+          7.5,
+          -0.4,
+          0
+        ],
+        [
+          7.5,
+          -0.8,
+          0
+        ],
+        [
+          12,
+          -0.8,
+          0
+        ]
+      ]
+    }
+  ]
+}

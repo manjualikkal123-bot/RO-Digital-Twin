@@ -1,0 +1,34 @@
+{
+  "name": "ro_digital_twin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\" \"npm run start:ml\"",
+    "start:backend": "node server.js",
+    "start:frontend": "cd frontend && npm run dev",
+    "start:ml": ".\\venv\\Scripts\\python.exe ml_server.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.104.1",
+    "@google/genai": "^2.10.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^8.0.11",
+    "pdfkit": "^0.19.1",
+    "pdfkit-table": "^0.2.11",
+    "pm2": "^7.0.3",
+    "sqlite3": "^6.0.1",
+    "twilio": "^6.0.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}

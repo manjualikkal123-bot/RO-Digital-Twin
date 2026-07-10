@@ -1,0 +1,831 @@
+{
+  "system": "UF-DUAL",
+  "timer": {
+    "elapsed": 40,
+    "remaining": 17
+  },
+  "shared": {
+    "equipment": [
+      {
+        "id": "FWST-101",
+        "type": "RectangularTank",
+        "pos": [
+          -34,
+          0,
+          4
+        ],
+        "dims": {
+          "w": 6,
+          "h": 10,
+          "d": 6
+        },
+        "label": "UF Feed Water Storage Tank"
+      },
+      {
+        "id": "T-101",
+        "type": "RectangularTank",
+        "pos": [
+          -7,
+          0,
+          14
+        ],
+        "dims": {
+          "w": 5,
+          "h": 6,
+          "d": 5
+        },
+        "label": "UF CIP Tank"
+      }
+    ],
+    "valves": [
+      {
+        "id": "AV-119",
+        "pos": [
+          -8.6,
+          0.4,
+          12.4
+        ],
+        "state": "Closed",
+        "axis": "Y"
+      }
+    ],
+    "instruments": [
+      {
+        "id": "LT-101",
+        "type": "level",
+        "pos": [
+          -34,
+          11,
+          4
+        ],
+        "value": "52.1%"
+      },
+      {
+        "id": "LT-401",
+        "type": "level",
+        "pos": [
+          29,
+          11,
+          -16
+        ],
+        "value": "68.7%"
+      },
+      {
+        "id": "HLS-101",
+        "type": "switch",
+        "pos": [
+          -9.6,
+          6.2,
+          14
+        ],
+        "value": "HIGH",
+        "state": "active"
+      },
+      {
+        "id": "LLS-101",
+        "type": "switch",
+        "pos": [
+          -9.6,
+          0.4,
+          14
+        ],
+        "value": "LOW",
+        "state": "inactive"
+      }
+    ]
+  },
+  "trainBlueprint": {
+    "equipment": [
+      {
+        "id": "ASF-101",
+        "type": "VerticalVessel",
+        "pos": [
+          -23,
+          0,
+          2
+        ],
+        "dims": {
+          "r": 1.6,
+          "h": 8
+        },
+        "label": "ASF 101"
+      },
+      {
+        "id": "MCF-101A",
+        "type": "VerticalVessel",
+        "pos": [
+          -18,
+          4.6,
+          -2
+        ],
+        "dims": {
+          "r": 1.5,
+          "h": 3.4
+        },
+        "label": "MCF 101A"
+      },
+      {
+        "id": "MCF-101B",
+        "type": "VerticalVessel",
+        "pos": [
+          -18,
+          0.6,
+          -2
+        ],
+        "dims": {
+          "r": 1.5,
+          "h": 3.4
+        },
+        "label": "MCF 101B"
+      },
+      {
+        "id": "P-101",
+        "type": "PumpAssembly",
+        "pos": [
+          -29,
+          0,
+          2
+        ],
+        "state": "Running",
+        "color": "green",
+        "label": "Feed Pump"
+      },
+      {
+        "id": "P-102",
+        "type": "PumpAssembly",
+        "pos": [
+          4,
+          0,
+          -2
+        ],
+        "state": "Running",
+        "rpm": 2539,
+        "color": "red",
+        "label": "System Pump"
+      },
+      {
+        "id": "AB-101",
+        "type": "PumpAssembly",
+        "pos": [
+          2,
+          0,
+          -10
+        ],
+        "state": "Running",
+        "color": "red",
+        "label": "Blower"
+      },
+      {
+        "id": "UF-101-SYSTEM",
+        "type": "UFRack",
+        "pos": [
+          16,
+          0,
+          -8
+        ],
+        "count": 14,
+        "spacing": 1.15,
+        "label": "UF-101 SYSTEM"
+      }
+    ],
+    "valves": [
+      {
+        "id": "AV-101",
+        "pos": [
+          -23,
+          0.4,
+          5.2
+        ],
+        "state": "Closed",
+        "axis": "Y"
+      },
+      {
+        "id": "AV-102",
+        "pos": [
+          -20.3,
+          1.2,
+          -1
+        ],
+        "state": "Closed",
+        "axis": "X"
+      },
+      {
+        "id": "AV-103",
+        "pos": [
+          -16.2,
+          5.4,
+          -3.6
+        ],
+        "state": "Open",
+        "axis": "X"
+      },
+      {
+        "id": "AV-104",
+        "pos": [
+          -16.2,
+          4,
+          -3.6
+        ],
+        "state": "Closed",
+        "axis": "X"
+      },
+      {
+        "id": "AV-105",
+        "pos": [
+          -20.3,
+          2.6,
+          -2.6
+        ],
+        "state": "Closed",
+        "axis": "Y"
+      },
+      {
+        "id": "AV-106",
+        "pos": [
+          -20.3,
+          0.4,
+          -1.6
+        ],
+        "state": "Closed",
+        "axis": "X"
+      },
+      {
+        "id": "AV-107",
+        "pos": [
+          -16.2,
+          1.4,
+          -3.6
+        ],
+        "state": "Open",
+        "axis": "X"
+      },
+      {
+        "id": "AV-108",
+        "pos": [
+          -16.2,
+          -0.2,
+          -3.6
+        ],
+        "state": "Closed",
+        "axis": "X"
+      },
+      {
+        "id": "AV-109",
+        "pos": [
+          -20.3,
+          -1,
+          -2.6
+        ],
+        "state": "Closed",
+        "axis": "Y"
+      },
+      {
+        "id": "AV-110",
+        "pos": [
+          27,
+          9.4,
+          -16
+        ],
+        "state": "Closed",
+        "axis": "X"
+      },
+      {
+        "id": "AV-111",
+        "pos": [
+          22,
+          9.4,
+          -16
+        ],
+        "state": "Closed",
+        "axis": "X"
+      },
+      {
+        "id": "AV-112",
+        "pos": [
+          16,
+          0.4,
+          6.5
+        ],
+        "state": "Open",
+        "axis": "X"
+      },
+      {
+        "id": "AV-113",
+        "pos": [
+          10,
+          0.4,
+          4.4
+        ],
+        "state": "Closed",
+        "axis": "Y"
+      },
+      {
+        "id": "AV-114",
+        "pos": [
+          6.5,
+          0.4,
+          4.4
+        ],
+        "state": "Open",
+        "axis": "Y"
+      },
+      {
+        "id": "AV-115",
+        "pos": [
+          2.5,
+          0.4,
+          4.4
+        ],
+        "state": "Closed",
+        "axis": "Y"
+      },
+      {
+        "id": "AV-116",
+        "pos": [
+          -2,
+          1.6,
+          -2
+        ],
+        "state": "Closed",
+        "axis": "Y"
+      },
+      {
+        "id": "AV-117",
+        "pos": [
+          1.5,
+          4.6,
+          -9.6
+        ],
+        "state": "Closed",
+        "axis": "Y"
+      },
+      {
+        "id": "AV-118",
+        "pos": [
+          24.5,
+          5.6,
+          -14
+        ],
+        "state": "Open",
+        "axis": "Y"
+      }
+    ],
+    "instruments": [
+      {
+        "id": "PT-101",
+        "type": "pressure",
+        "pos": [
+          -2,
+          4.4,
+          -4.6
+        ],
+        "value": "4.5 BAR"
+      },
+      {
+        "id": "PT-102",
+        "type": "pressure",
+        "pos": [
+          20,
+          1.6,
+          6.5
+        ],
+        "value": "2.9 BAR"
+      },
+      {
+        "id": "FT-101",
+        "type": "flow",
+        "pos": [
+          24.5,
+          7.6,
+          -10
+        ],
+        "value": "43.4 M3/HR"
+      },
+      {
+        "id": "LPS-101",
+        "type": "speed",
+        "pos": [
+          -2,
+          1,
+          -2.4
+        ],
+        "value": "2539 RPM"
+      },
+      {
+        "id": "DPS-101",
+        "type": "dp",
+        "pos": [
+          -23,
+          5,
+          1.4
+        ],
+        "value": ""
+      },
+      {
+        "id": "DPS-102",
+        "type": "dp",
+        "pos": [
+          -18,
+          9.6,
+          -2
+        ],
+        "value": ""
+      }
+    ],
+    "pipes": [
+      {
+        "id": "pipe-2",
+        "color": "WHITE",
+        "points": [
+          [
+            -29,
+            1.6,
+            2
+          ],
+          [
+            -26,
+            1.6,
+            2
+          ],
+          [
+            -23,
+            1.6,
+            2
+          ]
+        ]
+      },
+      {
+        "id": "pipe-3",
+        "color": "WHITE",
+        "points": [
+          [
+            -23,
+            6.6,
+            2
+          ],
+          [
+            -23,
+            6.6,
+            -2
+          ],
+          [
+            -20.3,
+            6.6,
+            -2
+          ]
+        ]
+      },
+      {
+        "id": "pipe-4",
+        "color": "WHITE",
+        "points": [
+          [
+            -20.3,
+            6.6,
+            -2
+          ],
+          [
+            -20.3,
+            0.6,
+            -2
+          ]
+        ]
+      },
+      {
+        "id": "pipe-5",
+        "color": "WHITE",
+        "points": [
+          [
+            -20.3,
+            4.6,
+            -2
+          ],
+          [
+            -18,
+            4.6,
+            -2
+          ]
+        ]
+      },
+      {
+        "id": "pipe-6",
+        "color": "WHITE",
+        "points": [
+          [
+            -20.3,
+            0.6,
+            -2
+          ],
+          [
+            -18,
+            0.6,
+            -2
+          ]
+        ]
+      },
+      {
+        "id": "pipe-7",
+        "color": "WHITE",
+        "points": [
+          [
+            -16.5,
+            4.6,
+            -2
+          ],
+          [
+            -13,
+            4.6,
+            -2
+          ],
+          [
+            -13,
+            1,
+            -2
+          ]
+        ]
+      },
+      {
+        "id": "pipe-8",
+        "color": "WHITE",
+        "points": [
+          [
+            -16.5,
+            0.6,
+            -2
+          ],
+          [
+            -13,
+            0.6,
+            -2
+          ],
+          [
+            -13,
+            1,
+            -2
+          ]
+        ]
+      },
+      {
+        "id": "pipe-9",
+        "color": "WHITE",
+        "points": [
+          [
+            -13,
+            1,
+            -2
+          ],
+          [
+            4,
+            1,
+            -2
+          ]
+        ]
+      },
+      {
+        "id": "pipe-10",
+        "color": "WHITE",
+        "points": [
+          [
+            4,
+            1.6,
+            -2
+          ],
+          [
+            4,
+            1.6,
+            -9.6
+          ],
+          [
+            2,
+            1.6,
+            -9.6
+          ]
+        ]
+      },
+      {
+        "id": "pipe-11",
+        "color": "WHITE",
+        "points": [
+          [
+            4,
+            1.6,
+            -2
+          ],
+          [
+            12,
+            1.6,
+            -2
+          ],
+          [
+            12,
+            0.4,
+            -2
+          ],
+          [
+            16,
+            0.4,
+            -2
+          ]
+        ]
+      },
+      {
+        "id": "pipe-12",
+        "color": "WHITE",
+        "points": [
+          [
+            16,
+            0.4,
+            -2
+          ],
+          [
+            16,
+            0.4,
+            -5
+          ],
+          [
+            16,
+            -0.7,
+            -5
+          ]
+        ]
+      },
+      {
+        "id": "pipe-15",
+        "color": "RED",
+        "points": [
+          [
+            16,
+            0.7,
+            -5
+          ],
+          [
+            16,
+            0.7,
+            6.5
+          ],
+          [
+            20,
+            0.7,
+            6.5
+          ]
+        ]
+      },
+      {
+        "id": "pipe-16",
+        "color": "GRAY",
+        "points": [
+          [
+            20,
+            0.4,
+            6.5
+          ],
+          [
+            28,
+            0.4,
+            6.5
+          ]
+        ]
+      },
+      {
+        "id": "pipe-18",
+        "color": "RED",
+        "points": [
+          [
+            -2,
+            1.6,
+            -2
+          ],
+          [
+            0,
+            1.6,
+            -2
+          ],
+          [
+            0,
+            1,
+            -2
+          ]
+        ]
+      },
+      {
+        "id": "pipe-21",
+        "color": "GRAY",
+        "points": [
+          [
+            -2,
+            0.4,
+            10
+          ],
+          [
+            -2,
+            0.4,
+            14
+          ],
+          [
+            -7,
+            0.4,
+            14
+          ]
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "TO UF FEED PUMP P-301",
+        "pos": [
+          -37,
+          3,
+          0
+        ]
+      },
+      {
+        "text": "TO UF FEED PUMP P-201",
+        "pos": [
+          -37,
+          1.5,
+          0
+        ]
+      },
+      {
+        "text": "FROM UF SYS. UF-201",
+        "pos": [
+          -13,
+          0.6,
+          4
+        ]
+      },
+      {
+        "text": "FROM UF SYS. UF-301",
+        "pos": [
+          -13,
+          -0.6,
+          4
+        ]
+      },
+      {
+        "text": "TO UF SYS. UI-201",
+        "pos": [
+          -2.5,
+          0.4,
+          9
+        ]
+      },
+      {
+        "text": "TO UF SYS. UI-301",
+        "pos": [
+          -2.5,
+          -1,
+          9
+        ]
+      },
+      {
+        "text": "SOFT WATER FOR BACKWASH",
+        "pos": [
+          -29,
+          0.6,
+          9
+        ]
+      },
+      {
+        "text": "TO CIP",
+        "pos": [
+          -34,
+          0.6,
+          11
+        ]
+      },
+      {
+        "text": "TO RO-1 FW STORAGE TANK",
+        "pos": [
+          30,
+          9.6,
+          -16
+        ]
+      },
+      {
+        "text": "TO FTP",
+        "pos": [
+          30,
+          0.4,
+          6.5
+        ]
+      },
+      {
+        "text": "FWI",
+        "pos": [
+          -2,
+          0.2,
+          11
+        ]
+      },
+      {
+        "text": "FROM LAMELLA CLARIFIER-1",
+        "pos": [
+          -40,
+          0.6,
+          0
+        ]
+      }
+    ]
+  }
+}

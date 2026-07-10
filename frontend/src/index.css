@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-main: #f8fafc;
+  --bg-panel: #ffffff;
+  --text-main: #020617;
+  --text-muted: #334155;
+  --border-panel: #cbd5e1;
+  --accent: #0284c7;
+  --glass-blur: blur(0px);
+  --panel-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+}
+
+.dark {
+  --bg-main: #070F1E;
+  --bg-panel: rgba(16, 27, 45, 0.8);
+  --text-main: #ffffff;
+  --text-muted: #94a3b8;
+  --border-panel: rgba(255, 255, 255, 0.1);
+  --accent: #00F0FF;
+  --glass-blur: blur(24px);
+  --panel-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+@layer base {
+  body {
+    @apply bg-theme-main text-theme-text antialiased transition-colors duration-300;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-theme-text font-semibold tracking-tight;
+  }
+
+  /* Scrollbar override for industrial dark mode */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-brand-navy;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-brand-slate rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate-600;
+  }
+
+  /* Force dark styling on native <select> dropdowns only in dark mode */
+  .dark select {
+    color-scheme: dark;
+  }
+  select {
+    color-scheme: light;
+  }
+  select option {
+    background-color: var(--bg-panel);
+    color: var(--text-main);
+  }
+  select option:hover,
+  select option:checked {
+    background-color: var(--accent);
+    color: #ffffff;
+  }
+}
+
+@layer components {
+  /* Premium Glass Panel */
+  .glass-panel {
+    @apply bg-theme-panel border border-theme-border rounded-2xl transition-all duration-300;
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    box-shadow: var(--panel-shadow);
+  }
+  
+  /* Premium Card KPI Styling */
+  .premium-card {
+    @apply relative overflow-hidden transition-all duration-300;
+  }
+  
+  .premium-card:hover {
+    @apply border-blue-900/60 dark:border-blue-800/80 shadow-[0_0_25px_rgba(30,58,138,0.25)] dark:shadow-[0_0_25px_rgba(30,64,175,0.4)];
+    transform: translateY(-2px);
+  }
+
+  .premium-card::after {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    background: linear-gradient(120deg, transparent, rgba(30,58,138,0.15), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .premium-card:hover::after {
+    opacity: 1;
+  }
+  
+  /* Make sure content inside premium card sits above the background gradient */
+  .premium-card > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Base buttons */
+  .btn-primary {
+    @apply bg-brand-cyan/10 text-brand-cyan border border-brand-cyan/50 hover:bg-brand-cyan/20 px-4 py-2 rounded-lg font-medium transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-slate-800 text-slate-300 border border-brand-slate hover:bg-slate-700 px-4 py-2 rounded-lg font-medium transition-colors duration-200;
+  }
+
+  /* Metric Cards */
+  .metric-card {
+    @apply glass-panel p-4 flex flex-col justify-between;
+  }
+  .metric-value {
+    @apply text-2xl font-bold mt-2;
+  }
+  .metric-label {
+    @apply text-sm text-slate-400 uppercase tracking-wider font-medium;
+  }
+}
+
+/* We will preserve some old class names just in case some components haven't been migrated yet, to prevent breaking */
+.flex-row { display: flex; flex-direction: row; align-items: center; }
+.flex-col { display: flex; flex-direction: column; }
+.space-between { justify-content: space-between; }
+.grid-2 { display: grid; grid-template-columns: repeat(1, minmax(0, 1fr)); gap: 1.5rem; }
+@media (min-width: 768px) { .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.grid-3 { display: grid; grid-template-columns: repeat(1, minmax(0, 1fr)); gap: 1.5rem; }
+@media (min-width: 768px) { .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.text-center { text-align: center; }
+.text-muted { color: #94a3b8; }
+
+/* Hide scrollbar across browsers while preserving scroll functionality */
+.invisible-scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.invisible-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+.bg-premium-gradient { background: linear-gradient(180deg, #081421 0%, #0D1B2A 100%); }
+.glass-panel { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); border-radius: 8px; }
+
+@keyframes water-fill {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(0%); }
+}
+
+@keyframes water-wave {
+  0% { background-position: 0px 0px; }
+  100% { background-position: 1000px 0px; }
+}
+
+.water-fill-animation {
+  animation: water-fill 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.water-wave-bg {
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M0,500 C150,400 350,600 500,500 C650,400 850,600 1000,500 L1000,1000 L0,1000 Z" fill="%2306b6d4" opacity="0.8"/><path d="M0,520 C150,620 350,420 500,520 C650,620 850,420 1000,520 L1000,1000 L0,1000 Z" fill="%233b82f6" opacity="0.6"/></svg>');
+  background-size: 1000px 100%;
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  animation: water-wave 3s linear infinite;
+}

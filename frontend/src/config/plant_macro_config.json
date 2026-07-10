@@ -1,0 +1,2920 @@
+{
+  "system": "ZLD-MACRO-PLANT",
+  "timer": {
+    "elapsed": 142,
+    "remaining": 38
+  },
+  "shared": {
+    "equipment": [
+      {
+        "id": "LAMELLA-1",
+        "type": "RectangularTank",
+        "pos": [
+          -55,
+          0,
+          -4
+        ],
+        "dims": {
+          "w": 8,
+          "h": 6,
+          "d": 12
+        },
+        "label": "LAMELLA CLARIFIER-1"
+      },
+      {
+        "id": "FWST-101",
+        "type": "RectangularTank",
+        "pos": [
+          -40,
+          0,
+          4
+        ],
+        "dims": {
+          "w": 8,
+          "h": 12,
+          "d": 8
+        },
+        "label": "UF Feed Water Tank"
+      },
+      {
+        "id": "ROFWST-401",
+        "type": "RectangularTank",
+        "pos": [
+          35,
+          0,
+          4
+        ],
+        "dims": {
+          "w": 6,
+          "h": 10,
+          "d": 6
+        },
+        "label": "RO-1 Feed Water Tank"
+      },
+      {
+        "id": "LAMELLA-2",
+        "type": "RectangularTank",
+        "pos": [
+          100,
+          0,
+          -20
+        ],
+        "dims": {
+          "w": 8,
+          "h": 6,
+          "d": 12
+        },
+        "label": "LAMELLA CLARIFIER-2"
+      },
+      {
+        "id": "ROFWST-701",
+        "type": "RectangularTank",
+        "pos": [
+          110,
+          0,
+          4
+        ],
+        "dims": {
+          "w": 6,
+          "h": 10,
+          "d": 6
+        },
+        "label": "RO-2 Feed Water Tank"
+      },
+      {
+        "id": "ROPFWST-1001",
+        "type": "RectangularTank",
+        "pos": [
+          180,
+          0,
+          4
+        ],
+        "dims": {
+          "w": 8,
+          "h": 12,
+          "d": 8
+        },
+        "label": "RO-P Feed Water Tank"
+      },
+      {
+        "id": "EVAPORATOR",
+        "type": "VerticalVessel",
+        "pos": [
+          180,
+          0,
+          -35
+        ],
+        "dims": {
+          "r": 4,
+          "h": 12
+        },
+        "label": "EVAPORATOR BLOCK"
+      },
+      {
+        "id": "LT-1201",
+        "type": "RectangularTank",
+        "pos": [
+          260,
+          0,
+          -10
+        ],
+        "dims": {
+          "w": 10,
+          "h": 15,
+          "d": 10
+        },
+        "label": "RO-P PERMEATE WATER STORAGE TANK"
+      },
+      {
+        "id": "T-101",
+        "type": "VerticalVessel",
+        "pos": [
+          -15,
+          0,
+          -12
+        ],
+        "dims": {
+          "r": 1.5,
+          "h": 4
+        },
+        "label": "UF CIP TANK",
+        "color": "#d97706"
+      },
+      {
+        "id": "T-404",
+        "type": "VerticalVessel",
+        "pos": [
+          45,
+          0,
+          -12
+        ],
+        "dims": {
+          "r": 1.5,
+          "h": 4
+        },
+        "label": "RO-1 CIP TANK",
+        "color": "#d97706"
+      },
+      {
+        "id": "T-702",
+        "type": "VerticalVessel",
+        "pos": [
+          115,
+          0,
+          -12
+        ],
+        "dims": {
+          "r": 1.5,
+          "h": 4
+        },
+        "label": "RO-2 CIP TANK",
+        "color": "#d97706"
+      },
+      {
+        "id": "T-1001",
+        "type": "VerticalVessel",
+        "pos": [
+          185,
+          0,
+          -12
+        ],
+        "dims": {
+          "r": 1.5,
+          "h": 4
+        },
+        "label": "RO-P CIP TANK",
+        "color": "#d97706"
+      }
+    ],
+    "valves": [],
+    "instruments": []
+  },
+  "trainBlueprint": {
+    "equipment": [
+      {
+        "id": "P-101",
+        "type": "PumpAssembly",
+        "pos": [
+          -25,
+          0,
+          2
+        ],
+        "state": "Running",
+        "rpm": 2850,
+        "label": "Feed Pump"
+      },
+      {
+        "id": "ASF-101",
+        "type": "VerticalVessel",
+        "pos": [
+          -18,
+          0,
+          2
+        ],
+        "dims": {
+          "r": 0.8,
+          "h": 3
+        },
+        "label": "Auto Strainer"
+      },
+      {
+        "id": "MCF-101A",
+        "type": "VerticalVessel",
+        "pos": [
+          -12,
+          0,
+          4
+        ],
+        "dims": {
+          "r": 0.6,
+          "h": 2.5
+        },
+        "label": "MCF Stack A"
+      },
+      {
+        "id": "MCF-101B",
+        "type": "VerticalVessel",
+        "pos": [
+          -12,
+          0,
+          0
+        ],
+        "dims": {
+          "r": 0.6,
+          "h": 2.5
+        },
+        "label": "MCF Stack B"
+      },
+      {
+        "id": "P-102",
+        "type": "PumpAssembly",
+        "pos": [
+          -7,
+          0,
+          2
+        ],
+        "state": "Running",
+        "rpm": 2900,
+        "label": "System Pump"
+      },
+      {
+        "id": "AB-101",
+        "type": "PumpAssembly",
+        "pos": [
+          0,
+          0,
+          10
+        ],
+        "state": "Stopped",
+        "rpm": 0,
+        "label": "Air Blower"
+      },
+      {
+        "id": "UF-RACK-101",
+        "type": "UFRack",
+        "pos": [
+          4,
+          0,
+          0
+        ],
+        "count": 14,
+        "label": "UF Membrane Rack"
+      }
+    ],
+    "valves": [],
+    "instruments": [],
+    "pipes": [
+      {
+        "id": "suction",
+        "color": "WHITE",
+        "points": [
+          [
+            -29,
+            0.6,
+            2
+          ],
+          [
+            -25,
+            0.6,
+            2
+          ]
+        ]
+      },
+      {
+        "id": "p101-to-asf",
+        "color": "WHITE",
+        "points": [
+          [
+            -25,
+            1.6,
+            2
+          ],
+          [
+            -18,
+            1.6,
+            2
+          ]
+        ]
+      },
+      {
+        "id": "asf-to-mcf",
+        "color": "WHITE",
+        "points": [
+          [
+            -18,
+            1.6,
+            2
+          ],
+          [
+            -14,
+            1.6,
+            2
+          ],
+          [
+            -14,
+            1.6,
+            4
+          ],
+          [
+            -12,
+            1.6,
+            4
+          ]
+        ]
+      },
+      {
+        "id": "asf-to-mcf-b",
+        "color": "WHITE",
+        "points": [
+          [
+            -14,
+            1.6,
+            2
+          ],
+          [
+            -14,
+            1.6,
+            0
+          ],
+          [
+            -12,
+            1.6,
+            0
+          ]
+        ]
+      },
+      {
+        "id": "mcf-to-p102",
+        "color": "WHITE",
+        "points": [
+          [
+            -10,
+            1.6,
+            4
+          ],
+          [
+            -10,
+            1.6,
+            2
+          ],
+          [
+            -7,
+            1.6,
+            2
+          ]
+        ]
+      },
+      {
+        "id": "mcf-b-to-p102",
+        "color": "WHITE",
+        "points": [
+          [
+            -10,
+            1.6,
+            0
+          ],
+          [
+            -10,
+            1.6,
+            2
+          ]
+        ]
+      },
+      {
+        "id": "p102-to-rack",
+        "color": "WHITE",
+        "points": [
+          [
+            -7,
+            1.6,
+            2
+          ],
+          [
+            4,
+            1.6,
+            2
+          ],
+          [
+            4,
+            1.6,
+            0
+          ]
+        ]
+      },
+      {
+        "id": "permeate-out",
+        "color": "SKYBLUE",
+        "points": [
+          [
+            4,
+            8.0,
+            0.9
+          ],
+          [
+            16,
+            8.0,
+            0.9
+          ]
+        ]
+      },
+      {
+        "id": "reject-out",
+        "color": "RED",
+        "points": [
+          [
+            4.85,
+            0.4,
+            0.6
+          ],
+          [
+            16,
+            0.4,
+            0.6
+          ]
+        ]
+      }
+    ]
+  },
+  "ro1Blueprints": {
+    "401": {
+      "equipment": [
+        {
+          "id": "P-401",
+          "type": "PumpAssembly",
+          "pos": [
+            50,
+            0,
+            4
+          ],
+          "state": "Running",
+          "color": "green",
+          "label": "RO Feed Pump"
+        },
+        {
+          "id": "MCF-401",
+          "type": "VerticalVessel",
+          "pos": [
+            57,
+            0,
+            4
+          ],
+          "dims": {
+            "r": 1.2,
+            "h": 3
+          },
+          "label": "Polishing MCF"
+        },
+        {
+          "id": "T-401",
+          "type": "VerticalVessel",
+          "pos": [
+            53,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "De-Chlorination"
+        },
+        {
+          "id": "T-402",
+          "type": "VerticalVessel",
+          "pos": [
+            55,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "Acid Dosing"
+        },
+        {
+          "id": "T-403",
+          "type": "VerticalVessel",
+          "pos": [
+            57,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "Antiscalant"
+        },
+        {
+          "id": "P-402",
+          "type": "PumpAssembly",
+          "pos": [
+            62,
+            0,
+            4
+          ],
+          "state": "Running",
+          "rpm": 2412,
+          "color": "green",
+          "label": "RO HP Pump"
+        },
+        {
+          "id": "RO-ARRAY-401",
+          "type": "RORack",
+          "pos": [
+            70,
+            0,
+            0
+          ],
+          "stages": [
+            6,
+            4,
+            2
+          ],
+          "label": "RO-401 CORE"
+        },
+        {
+          "id": "P-403",
+          "type": "PumpAssembly",
+          "pos": [
+            73,
+            0,
+            -4
+          ],
+          "state": "Running",
+          "rpm": 2375,
+          "color": "green",
+          "label": "Inter-Boost 1"
+        },
+        {
+          "id": "P-404",
+          "type": "PumpAssembly",
+          "pos": [
+            78,
+            0,
+            -4
+          ],
+          "state": "Running",
+          "rpm": 2104,
+          "color": "green",
+          "label": "Inter-Boost 2"
+        },
+        {
+          "id": "P-405",
+          "type": "PumpAssembly",
+          "pos": [
+            48,
+            0,
+            -8
+          ],
+          "state": "Stopped",
+          "rpm": 0,
+          "color": "red",
+          "label": "RO-1 CIP Pump"
+        }
+      ],
+      "valves": [],
+      "instruments": [],
+      "pipes": [
+        {
+          "id": "ro-feed-line",
+          "color": "SKYBLUE",
+          "points": [
+            [
+              45,
+              0.4,
+              4
+            ],
+            [
+              45,
+              0.4,
+              7
+            ],
+            [
+              50,
+              0.4,
+              7
+            ],
+            [
+              50,
+              0.4,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "ro-pre-treatment",
+          "color": "WHITE",
+          "points": [
+            [
+              50,
+              1.6,
+              4
+            ],
+            [
+              57,
+              1.6,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "dosing-tap-1",
+          "color": "WHITE",
+          "points": [
+            [
+              53,
+              1,
+              8
+            ],
+            [
+              53,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "dosing-tap-2",
+          "color": "WHITE",
+          "points": [
+            [
+              55,
+              1,
+              8
+            ],
+            [
+              55,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "dosing-tap-3",
+          "color": "WHITE",
+          "points": [
+            [
+              57,
+              1,
+              8
+            ],
+            [
+              57,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "ro-mcf-to-hp",
+          "color": "WHITE",
+          "points": [
+            [
+              57,
+              4.6,
+              4
+            ],
+            [
+              62,
+              4.6,
+              4
+            ],
+            [
+              62,
+              1.6,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "hp-to-ro",
+          "color": "WHITE",
+          "points": [
+            [
+              62,
+              1.6,
+              4
+            ],
+            [
+              67,
+              1.6,
+              4
+            ],
+            [
+              67,
+              1.6,
+              0
+            ],
+            [
+              70,
+              1.6,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "ro-product",
+          "color": "CYAN",
+          "points": [
+            [
+              70,
+              8,
+              0
+            ],
+            [
+              85,
+              8,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "ro-reject",
+          "color": "RED",
+          "points": [
+            [
+              80,
+              0.4,
+              0
+            ],
+            [
+              85,
+              0.4,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    "501": {
+      "equipment": [
+        {
+          "id": "P-501",
+          "type": "PumpAssembly",
+          "pos": [
+            50,
+            0,
+            4
+          ],
+          "state": "Stopped",
+          "color": "red",
+          "label": "RO Feed Pump"
+        },
+        {
+          "id": "MCF-501",
+          "type": "VerticalVessel",
+          "pos": [
+            57,
+            0,
+            4
+          ],
+          "dims": {
+            "r": 1.2,
+            "h": 3
+          },
+          "label": "Polishing MCF"
+        },
+        {
+          "id": "T-501",
+          "type": "VerticalVessel",
+          "pos": [
+            53,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "De-Chlorination"
+        },
+        {
+          "id": "T-502",
+          "type": "VerticalVessel",
+          "pos": [
+            55,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "Acid Dosing"
+        },
+        {
+          "id": "T-503",
+          "type": "VerticalVessel",
+          "pos": [
+            57,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "Antiscalant"
+        },
+        {
+          "id": "P-502",
+          "type": "PumpAssembly",
+          "pos": [
+            62,
+            0,
+            4
+          ],
+          "state": "Stopped",
+          "rpm": 0,
+          "color": "red",
+          "label": "RO HP Pump"
+        },
+        {
+          "id": "RO-ARRAY-501",
+          "type": "RORack",
+          "pos": [
+            70,
+            0,
+            0
+          ],
+          "stages": [
+            6,
+            4,
+            2
+          ],
+          "label": "RO-501 CORE"
+        },
+        {
+          "id": "P-503",
+          "type": "PumpAssembly",
+          "pos": [
+            73,
+            0,
+            -4
+          ],
+          "state": "Running",
+          "rpm": 107,
+          "color": "green",
+          "label": "Inter-Boost 1"
+        },
+        {
+          "id": "P-504",
+          "type": "PumpAssembly",
+          "pos": [
+            78,
+            0,
+            -4
+          ],
+          "state": "Running",
+          "rpm": 99,
+          "color": "green",
+          "label": "Inter-Boost 2"
+        }
+      ],
+      "valves": [],
+      "instruments": [],
+      "pipes": [
+        {
+          "id": "ro-feed-line",
+          "color": "SKYBLUE",
+          "points": [
+            [
+              45,
+              0.4,
+              4
+            ],
+            [
+              45,
+              0.4,
+              7
+            ],
+            [
+              50,
+              0.4,
+              7
+            ],
+            [
+              50,
+              0.4,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "ro-pre-treatment",
+          "color": "WHITE",
+          "points": [
+            [
+              50,
+              1.6,
+              4
+            ],
+            [
+              57,
+              1.6,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "dosing-tap-1",
+          "color": "WHITE",
+          "points": [
+            [
+              53,
+              1,
+              8
+            ],
+            [
+              53,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "dosing-tap-2",
+          "color": "WHITE",
+          "points": [
+            [
+              55,
+              1,
+              8
+            ],
+            [
+              55,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "dosing-tap-3",
+          "color": "WHITE",
+          "points": [
+            [
+              57,
+              1,
+              8
+            ],
+            [
+              57,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "ro-mcf-to-hp",
+          "color": "WHITE",
+          "points": [
+            [
+              57,
+              4.6,
+              4
+            ],
+            [
+              62,
+              4.6,
+              4
+            ],
+            [
+              62,
+              1.6,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "hp-to-ro",
+          "color": "WHITE",
+          "points": [
+            [
+              62,
+              1.6,
+              4
+            ],
+            [
+              67,
+              1.6,
+              4
+            ],
+            [
+              67,
+              1.6,
+              0
+            ],
+            [
+              70,
+              1.6,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "ro-product",
+          "color": "CYAN",
+          "points": [
+            [
+              70,
+              8,
+              0
+            ],
+            [
+              85,
+              8,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "ro-reject",
+          "color": "RED",
+          "points": [
+            [
+              80,
+              0.4,
+              0
+            ],
+            [
+              85,
+              0.4,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    "601": {
+      "equipment": [
+        {
+          "id": "P-601",
+          "type": "PumpAssembly",
+          "pos": [
+            50,
+            0,
+            4
+          ],
+          "state": "Running",
+          "color": "green",
+          "label": "RO Feed Pump"
+        },
+        {
+          "id": "MCF-601",
+          "type": "VerticalVessel",
+          "pos": [
+            57,
+            0,
+            4
+          ],
+          "dims": {
+            "r": 1.2,
+            "h": 3
+          },
+          "label": "Polishing MCF"
+        },
+        {
+          "id": "T-601",
+          "type": "VerticalVessel",
+          "pos": [
+            53,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "De-Chlorination"
+        },
+        {
+          "id": "T-602",
+          "type": "VerticalVessel",
+          "pos": [
+            55,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "Acid Dosing"
+        },
+        {
+          "id": "T-603",
+          "type": "VerticalVessel",
+          "pos": [
+            57,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "Antiscalant"
+        },
+        {
+          "id": "P-602",
+          "type": "PumpAssembly",
+          "pos": [
+            62,
+            0,
+            4
+          ],
+          "state": "Running",
+          "rpm": 2412,
+          "color": "green",
+          "label": "RO HP Pump"
+        },
+        {
+          "id": "RO-ARRAY-601",
+          "type": "RORack",
+          "pos": [
+            70,
+            0,
+            0
+          ],
+          "stages": [
+            6,
+            4,
+            2
+          ],
+          "label": "RO-601 CORE"
+        },
+        {
+          "id": "P-603",
+          "type": "PumpAssembly",
+          "pos": [
+            73,
+            0,
+            -4
+          ],
+          "state": "Running",
+          "rpm": 2375,
+          "color": "green",
+          "label": "Inter-Boost 1"
+        },
+        {
+          "id": "P-604",
+          "type": "PumpAssembly",
+          "pos": [
+            78,
+            0,
+            -4
+          ],
+          "state": "Running",
+          "rpm": 2104,
+          "color": "green",
+          "label": "Inter-Boost 2"
+        }
+      ],
+      "valves": [],
+      "instruments": [],
+      "pipes": [
+        {
+          "id": "ro-feed-line",
+          "color": "SKYBLUE",
+          "points": [
+            [
+              45,
+              0.4,
+              4
+            ],
+            [
+              45,
+              0.4,
+              7
+            ],
+            [
+              50,
+              0.4,
+              7
+            ],
+            [
+              50,
+              0.4,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "ro-pre-treatment",
+          "color": "WHITE",
+          "points": [
+            [
+              50,
+              1.6,
+              4
+            ],
+            [
+              57,
+              1.6,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "dosing-tap-1",
+          "color": "WHITE",
+          "points": [
+            [
+              53,
+              1,
+              8
+            ],
+            [
+              53,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "dosing-tap-2",
+          "color": "WHITE",
+          "points": [
+            [
+              55,
+              1,
+              8
+            ],
+            [
+              55,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "dosing-tap-3",
+          "color": "WHITE",
+          "points": [
+            [
+              57,
+              1,
+              8
+            ],
+            [
+              57,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "ro-mcf-to-hp",
+          "color": "WHITE",
+          "points": [
+            [
+              57,
+              4.6,
+              4
+            ],
+            [
+              62,
+              4.6,
+              4
+            ],
+            [
+              62,
+              1.6,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "hp-to-ro",
+          "color": "WHITE",
+          "points": [
+            [
+              62,
+              1.6,
+              4
+            ],
+            [
+              67,
+              1.6,
+              4
+            ],
+            [
+              67,
+              1.6,
+              0
+            ],
+            [
+              70,
+              1.6,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "ro-product",
+          "color": "CYAN",
+          "points": [
+            [
+              70,
+              8,
+              0
+            ],
+            [
+              85,
+              8,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "ro-reject",
+          "color": "RED",
+          "points": [
+            [
+              80,
+              0.4,
+              0
+            ],
+            [
+              85,
+              0.4,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "ro2Blueprints": {
+    "701": {
+      "equipment": [
+        {
+          "id": "P-701",
+          "type": "PumpAssembly",
+          "pos": [
+            120,
+            0,
+            4
+          ],
+          "state": "Running",
+          "color": "green",
+          "label": "RO Feed Pump"
+        },
+        {
+          "id": "MCF-701",
+          "type": "VerticalVessel",
+          "pos": [
+            127,
+            0,
+            4
+          ],
+          "dims": {
+            "r": 1.2,
+            "h": 3
+          },
+          "label": "Polishing MCF"
+        },
+        {
+          "id": "DOS-701A",
+          "type": "VerticalVessel",
+          "pos": [
+            123,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "Dosing Tank A (verify vs P&ID)"
+        },
+        {
+          "id": "DOS-701B",
+          "type": "VerticalVessel",
+          "pos": [
+            125,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "Dosing Tank B (verify vs P&ID)"
+        },
+        {
+          "id": "T-701",
+          "type": "VerticalVessel",
+          "pos": [
+            127,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "Antiscalant Dosing"
+        },
+        {
+          "id": "P-702",
+          "type": "PumpAssembly",
+          "pos": [
+            132,
+            0,
+            4
+          ],
+          "state": "Running",
+          "rpm": 2412,
+          "color": "green",
+          "label": "RO HP Pump"
+        },
+        {
+          "id": "RO-ARRAY-701",
+          "type": "RORack",
+          "pos": [
+            140,
+            0,
+            0
+          ],
+          "stages": [
+            6,
+            4,
+            2
+          ],
+          "label": "RO-701 CORE"
+        },
+        {
+          "id": "P-703",
+          "type": "PumpAssembly",
+          "pos": [
+            143,
+            0,
+            -4
+          ],
+          "state": "Running",
+          "rpm": 2375,
+          "color": "green",
+          "label": "Inter-Boost 1"
+        },
+        {
+          "id": "P-704",
+          "type": "PumpAssembly",
+          "pos": [
+            148,
+            0,
+            -4
+          ],
+          "state": "Running",
+          "rpm": 2104,
+          "color": "green",
+          "label": "Inter-Boost 2"
+        },
+        {
+          "id": "P-704",
+          "type": "PumpAssembly",
+          "pos": [
+            118,
+            0,
+            -8
+          ],
+          "state": "Stopped",
+          "rpm": 0,
+          "color": "red",
+          "label": "RO-2 CIP Pump"
+        }
+      ],
+      "valves": [],
+      "instruments": [],
+      "pipes": [
+        {
+          "id": "ro-feed-line",
+          "color": "SKYBLUE",
+          "points": [
+            [
+              115,
+              0.4,
+              4
+            ],
+            [
+              115,
+              0.4,
+              7
+            ],
+            [
+              120,
+              0.4,
+              7
+            ],
+            [
+              120,
+              0.4,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "ro-pre-treatment",
+          "color": "WHITE",
+          "points": [
+            [
+              120,
+              1.6,
+              4
+            ],
+            [
+              127,
+              1.6,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "dosing-tap-1",
+          "color": "WHITE",
+          "points": [
+            [
+              123,
+              1,
+              8
+            ],
+            [
+              123,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "dosing-tap-2",
+          "color": "WHITE",
+          "points": [
+            [
+              125,
+              1,
+              8
+            ],
+            [
+              125,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "dosing-tap-3",
+          "color": "WHITE",
+          "points": [
+            [
+              127,
+              1,
+              8
+            ],
+            [
+              127,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "ro-mcf-to-hp",
+          "color": "WHITE",
+          "points": [
+            [
+              127,
+              4.6,
+              4
+            ],
+            [
+              132,
+              4.6,
+              4
+            ],
+            [
+              132,
+              1.6,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "hp-to-ro",
+          "color": "WHITE",
+          "points": [
+            [
+              132,
+              1.6,
+              4
+            ],
+            [
+              137,
+              1.6,
+              4
+            ],
+            [
+              137,
+              1.6,
+              0
+            ],
+            [
+              140,
+              1.6,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "ro-product",
+          "color": "CYAN",
+          "points": [
+            [
+              140,
+              8,
+              0
+            ],
+            [
+              155,
+              8,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "ro-reject",
+          "color": "RED",
+          "points": [
+            [
+              150,
+              0.4,
+              0
+            ],
+            [
+              155,
+              0.4,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    "801": {
+      "equipment": [
+        {
+          "id": "P-801",
+          "type": "PumpAssembly",
+          "pos": [
+            120,
+            0,
+            4
+          ],
+          "state": "Running",
+          "color": "green",
+          "label": "RO Feed Pump"
+        },
+        {
+          "id": "MCF-801",
+          "type": "VerticalVessel",
+          "pos": [
+            127,
+            0,
+            4
+          ],
+          "dims": {
+            "r": 1.2,
+            "h": 3
+          },
+          "label": "Polishing MCF"
+        },
+        {
+          "id": "DOS-801A",
+          "type": "VerticalVessel",
+          "pos": [
+            123,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "Dosing Tank A (verify vs P&ID)"
+        },
+        {
+          "id": "DOS-801B",
+          "type": "VerticalVessel",
+          "pos": [
+            125,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "Dosing Tank B (verify vs P&ID)"
+        },
+        {
+          "id": "T-801",
+          "type": "VerticalVessel",
+          "pos": [
+            127,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "Antiscalant Dosing"
+        },
+        {
+          "id": "P-802",
+          "type": "PumpAssembly",
+          "pos": [
+            132,
+            0,
+            4
+          ],
+          "state": "Running",
+          "rpm": 2412,
+          "color": "green",
+          "label": "RO HP Pump"
+        },
+        {
+          "id": "RO-ARRAY-801",
+          "type": "RORack",
+          "pos": [
+            140,
+            0,
+            0
+          ],
+          "stages": [
+            6,
+            4,
+            2
+          ],
+          "label": "RO-801 CORE"
+        },
+        {
+          "id": "P-803",
+          "type": "PumpAssembly",
+          "pos": [
+            143,
+            0,
+            -4
+          ],
+          "state": "Running",
+          "rpm": 2375,
+          "color": "green",
+          "label": "Inter-Boost 1"
+        },
+        {
+          "id": "P-804",
+          "type": "PumpAssembly",
+          "pos": [
+            148,
+            0,
+            -4
+          ],
+          "state": "Running",
+          "rpm": 2104,
+          "color": "green",
+          "label": "Inter-Boost 2"
+        }
+      ],
+      "valves": [],
+      "instruments": [],
+      "pipes": [
+        {
+          "id": "ro-feed-line",
+          "color": "SKYBLUE",
+          "points": [
+            [
+              115,
+              0.4,
+              4
+            ],
+            [
+              115,
+              0.4,
+              7
+            ],
+            [
+              120,
+              0.4,
+              7
+            ],
+            [
+              120,
+              0.4,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "ro-pre-treatment",
+          "color": "WHITE",
+          "points": [
+            [
+              120,
+              1.6,
+              4
+            ],
+            [
+              127,
+              1.6,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "dosing-tap-1",
+          "color": "WHITE",
+          "points": [
+            [
+              123,
+              1,
+              8
+            ],
+            [
+              123,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "dosing-tap-2",
+          "color": "WHITE",
+          "points": [
+            [
+              125,
+              1,
+              8
+            ],
+            [
+              125,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "dosing-tap-3",
+          "color": "WHITE",
+          "points": [
+            [
+              127,
+              1,
+              8
+            ],
+            [
+              127,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "ro-mcf-to-hp",
+          "color": "WHITE",
+          "points": [
+            [
+              127,
+              4.6,
+              4
+            ],
+            [
+              132,
+              4.6,
+              4
+            ],
+            [
+              132,
+              1.6,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "hp-to-ro",
+          "color": "WHITE",
+          "points": [
+            [
+              132,
+              1.6,
+              4
+            ],
+            [
+              137,
+              1.6,
+              4
+            ],
+            [
+              137,
+              1.6,
+              0
+            ],
+            [
+              140,
+              1.6,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "ro-product",
+          "color": "CYAN",
+          "points": [
+            [
+              140,
+              8,
+              0
+            ],
+            [
+              155,
+              8,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "ro-reject",
+          "color": "RED",
+          "points": [
+            [
+              150,
+              0.4,
+              0
+            ],
+            [
+              155,
+              0.4,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    "901": {
+      "equipment": [
+        {
+          "id": "P-901",
+          "type": "PumpAssembly",
+          "pos": [
+            120,
+            0,
+            4
+          ],
+          "state": "Running",
+          "color": "green",
+          "label": "RO Feed Pump"
+        },
+        {
+          "id": "MCF-901",
+          "type": "VerticalVessel",
+          "pos": [
+            127,
+            0,
+            4
+          ],
+          "dims": {
+            "r": 1.2,
+            "h": 3
+          },
+          "label": "Polishing MCF"
+        },
+        {
+          "id": "DOS-901A",
+          "type": "VerticalVessel",
+          "pos": [
+            123,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "Dosing Tank A (verify vs P&ID)"
+        },
+        {
+          "id": "DOS-901B",
+          "type": "VerticalVessel",
+          "pos": [
+            125,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "Dosing Tank B (verify vs P&ID)"
+        },
+        {
+          "id": "T-901",
+          "type": "VerticalVessel",
+          "pos": [
+            127,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "Antiscalant Dosing"
+        },
+        {
+          "id": "P-902",
+          "type": "PumpAssembly",
+          "pos": [
+            132,
+            0,
+            4
+          ],
+          "state": "Running",
+          "rpm": 2412,
+          "color": "green",
+          "label": "RO HP Pump"
+        },
+        {
+          "id": "RO-ARRAY-901",
+          "type": "RORack",
+          "pos": [
+            140,
+            0,
+            0
+          ],
+          "stages": [
+            6,
+            4,
+            2
+          ],
+          "label": "RO-901 CORE"
+        },
+        {
+          "id": "P-903",
+          "type": "PumpAssembly",
+          "pos": [
+            143,
+            0,
+            -4
+          ],
+          "state": "Running",
+          "rpm": 2375,
+          "color": "green",
+          "label": "Inter-Boost 1"
+        },
+        {
+          "id": "P-904",
+          "type": "PumpAssembly",
+          "pos": [
+            148,
+            0,
+            -4
+          ],
+          "state": "Running",
+          "rpm": 2104,
+          "color": "green",
+          "label": "Inter-Boost 2"
+        }
+      ],
+      "valves": [],
+      "instruments": [],
+      "pipes": [
+        {
+          "id": "ro-feed-line",
+          "color": "SKYBLUE",
+          "points": [
+            [
+              115,
+              0.4,
+              4
+            ],
+            [
+              115,
+              0.4,
+              7
+            ],
+            [
+              120,
+              0.4,
+              7
+            ],
+            [
+              120,
+              0.4,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "ro-pre-treatment",
+          "color": "WHITE",
+          "points": [
+            [
+              120,
+              1.6,
+              4
+            ],
+            [
+              127,
+              1.6,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "dosing-tap-1",
+          "color": "WHITE",
+          "points": [
+            [
+              123,
+              1,
+              8
+            ],
+            [
+              123,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "dosing-tap-2",
+          "color": "WHITE",
+          "points": [
+            [
+              125,
+              1,
+              8
+            ],
+            [
+              125,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "dosing-tap-3",
+          "color": "WHITE",
+          "points": [
+            [
+              127,
+              1,
+              8
+            ],
+            [
+              127,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "ro-mcf-to-hp",
+          "color": "WHITE",
+          "points": [
+            [
+              127,
+              4.6,
+              4
+            ],
+            [
+              132,
+              4.6,
+              4
+            ],
+            [
+              132,
+              1.6,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "hp-to-ro",
+          "color": "WHITE",
+          "points": [
+            [
+              132,
+              1.6,
+              4
+            ],
+            [
+              137,
+              1.6,
+              4
+            ],
+            [
+              137,
+              1.6,
+              0
+            ],
+            [
+              140,
+              1.6,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "ro-product",
+          "color": "CYAN",
+          "points": [
+            [
+              140,
+              8,
+              0
+            ],
+            [
+              155,
+              8,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "ro-reject",
+          "color": "RED",
+          "points": [
+            [
+              150,
+              0.4,
+              0
+            ],
+            [
+              155,
+              0.4,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "ropBlueprints": {
+    "1001": {
+      "equipment": [
+        {
+          "id": "P-1001",
+          "type": "PumpAssembly",
+          "pos": [
+            195,
+            0,
+            4
+          ],
+          "state": "Running",
+          "color": "green",
+          "label": "RO-P Feed Pump"
+        },
+        {
+          "id": "DP-1001",
+          "type": "VerticalVessel",
+          "pos": [
+            199,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "Antiscalant Dosing"
+        },
+        {
+          "id": "MCF-1001",
+          "type": "VerticalVessel",
+          "pos": [
+            203,
+            0,
+            4
+          ],
+          "dims": {
+            "r": 1.2,
+            "h": 3
+          },
+          "label": "Polishing MCF"
+        },
+        {
+          "id": "P-1002",
+          "type": "PumpAssembly",
+          "pos": [
+            209,
+            0,
+            4
+          ],
+          "state": "Running",
+          "rpm": 2500,
+          "color": "green",
+          "label": "RO-P System Pump"
+        },
+        {
+          "id": "RO-ARRAY-1001",
+          "type": "RORack",
+          "pos": [
+            217,
+            0,
+            0
+          ],
+          "stages": [
+            4,
+            4
+          ],
+          "label": "ROP-1001 CORE"
+        }
+      ],
+      "valves": [],
+      "instruments": [],
+      "pipes": [
+        {
+          "id": "rop-feed-line",
+          "color": "SKYBLUE",
+          "points": [
+            [
+              190,
+              0.4,
+              4
+            ],
+            [
+              190,
+              0.4,
+              7
+            ],
+            [
+              195,
+              0.4,
+              7
+            ],
+            [
+              195,
+              0.4,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "rop-pre-treatment",
+          "color": "WHITE",
+          "points": [
+            [
+              195,
+              1.6,
+              4
+            ],
+            [
+              203,
+              1.6,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "rop-dosing-tap",
+          "color": "WHITE",
+          "points": [
+            [
+              199,
+              1,
+              8
+            ],
+            [
+              199,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "rop-mcf-to-hp",
+          "color": "WHITE",
+          "points": [
+            [
+              203,
+              4.6,
+              4
+            ],
+            [
+              209,
+              4.6,
+              4
+            ],
+            [
+              209,
+              1.6,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "rop-hp-to-ro",
+          "color": "WHITE",
+          "points": [
+            [
+              209,
+              1.6,
+              4
+            ],
+            [
+              214,
+              1.6,
+              4
+            ],
+            [
+              214,
+              1.6,
+              0
+            ],
+            [
+              217,
+              1.6,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "rop-product",
+          "color": "CYAN",
+          "points": [
+            [
+              217,
+              8,
+              0
+            ],
+            [
+              227,
+              8,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "rop-reject",
+          "color": "RED",
+          "points": [
+            [
+              221,
+              0.4,
+              0
+            ],
+            [
+              230,
+              0.4,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    "1101": {
+      "equipment": [
+        {
+          "id": "P-1101",
+          "type": "PumpAssembly",
+          "pos": [
+            195,
+            0,
+            4
+          ],
+          "state": "Running",
+          "color": "green",
+          "label": "RO-P Feed Pump"
+        },
+        {
+          "id": "DP-1101",
+          "type": "VerticalVessel",
+          "pos": [
+            199,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "Antiscalant Dosing"
+        },
+        {
+          "id": "MCF-1101",
+          "type": "VerticalVessel",
+          "pos": [
+            203,
+            0,
+            4
+          ],
+          "dims": {
+            "r": 1.2,
+            "h": 3
+          },
+          "label": "Polishing MCF"
+        },
+        {
+          "id": "P-1102",
+          "type": "PumpAssembly",
+          "pos": [
+            209,
+            0,
+            4
+          ],
+          "state": "Running",
+          "rpm": 2500,
+          "color": "green",
+          "label": "RO-P System Pump"
+        },
+        {
+          "id": "RO-ARRAY-1101",
+          "type": "RORack",
+          "pos": [
+            217,
+            0,
+            0
+          ],
+          "stages": [
+            4,
+            4
+          ],
+          "label": "ROP-1101 CORE"
+        }
+      ],
+      "valves": [],
+      "instruments": [],
+      "pipes": [
+        {
+          "id": "rop-feed-line",
+          "color": "SKYBLUE",
+          "points": [
+            [
+              190,
+              0.4,
+              4
+            ],
+            [
+              190,
+              0.4,
+              7
+            ],
+            [
+              195,
+              0.4,
+              7
+            ],
+            [
+              195,
+              0.4,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "rop-pre-treatment",
+          "color": "WHITE",
+          "points": [
+            [
+              195,
+              1.6,
+              4
+            ],
+            [
+              203,
+              1.6,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "rop-dosing-tap",
+          "color": "WHITE",
+          "points": [
+            [
+              199,
+              1,
+              8
+            ],
+            [
+              199,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "rop-mcf-to-hp",
+          "color": "WHITE",
+          "points": [
+            [
+              203,
+              4.6,
+              4
+            ],
+            [
+              209,
+              4.6,
+              4
+            ],
+            [
+              209,
+              1.6,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "rop-hp-to-ro",
+          "color": "WHITE",
+          "points": [
+            [
+              209,
+              1.6,
+              4
+            ],
+            [
+              214,
+              1.6,
+              4
+            ],
+            [
+              214,
+              1.6,
+              0
+            ],
+            [
+              217,
+              1.6,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "rop-product",
+          "color": "CYAN",
+          "points": [
+            [
+              217,
+              8,
+              0
+            ],
+            [
+              227,
+              8,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "rop-reject",
+          "color": "RED",
+          "points": [
+            [
+              221,
+              0.4,
+              0
+            ],
+            [
+              230,
+              0.4,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    "1201": {
+      "equipment": [
+        {
+          "id": "P-1201",
+          "type": "PumpAssembly",
+          "pos": [
+            195,
+            0,
+            4
+          ],
+          "state": "Running",
+          "color": "green",
+          "label": "RO-P Feed Pump"
+        },
+        {
+          "id": "DP-1201",
+          "type": "VerticalVessel",
+          "pos": [
+            199,
+            0,
+            8
+          ],
+          "dims": {
+            "r": 0.6,
+            "h": 2.5
+          },
+          "label": "Antiscalant Dosing"
+        },
+        {
+          "id": "MCF-1201",
+          "type": "VerticalVessel",
+          "pos": [
+            203,
+            0,
+            4
+          ],
+          "dims": {
+            "r": 1.2,
+            "h": 3
+          },
+          "label": "Polishing MCF"
+        },
+        {
+          "id": "P-1202",
+          "type": "PumpAssembly",
+          "pos": [
+            209,
+            0,
+            4
+          ],
+          "state": "Running",
+          "rpm": 2500,
+          "color": "green",
+          "label": "RO-P System Pump"
+        },
+        {
+          "id": "RO-ARRAY-1201",
+          "type": "RORack",
+          "pos": [
+            217,
+            0,
+            0
+          ],
+          "stages": [
+            4,
+            4
+          ],
+          "label": "ROP-1201 CORE"
+        }
+      ],
+      "valves": [],
+      "instruments": [],
+      "pipes": [
+        {
+          "id": "rop-feed-line",
+          "color": "SKYBLUE",
+          "points": [
+            [
+              190,
+              0.4,
+              4
+            ],
+            [
+              190,
+              0.4,
+              7
+            ],
+            [
+              195,
+              0.4,
+              7
+            ],
+            [
+              195,
+              0.4,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "rop-pre-treatment",
+          "color": "WHITE",
+          "points": [
+            [
+              195,
+              1.6,
+              4
+            ],
+            [
+              203,
+              1.6,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "rop-dosing-tap",
+          "color": "WHITE",
+          "points": [
+            [
+              199,
+              1,
+              8
+            ],
+            [
+              199,
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "rop-mcf-to-hp",
+          "color": "WHITE",
+          "points": [
+            [
+              203,
+              4.6,
+              4
+            ],
+            [
+              209,
+              4.6,
+              4
+            ],
+            [
+              209,
+              1.6,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "rop-hp-to-ro",
+          "color": "WHITE",
+          "points": [
+            [
+              209,
+              1.6,
+              4
+            ],
+            [
+              214,
+              1.6,
+              4
+            ],
+            [
+              214,
+              1.6,
+              0
+            ],
+            [
+              217,
+              1.6,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "rop-product",
+          "color": "CYAN",
+          "points": [
+            [
+              217,
+              8,
+              0
+            ],
+            [
+              227,
+              8,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "rop-reject",
+          "color": "RED",
+          "points": [
+            [
+              225,
+              0.4,
+              0
+            ],
+            [
+              230,
+              0.4,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

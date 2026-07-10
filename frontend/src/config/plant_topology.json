@@ -1,0 +1,127 @@
+{
+  "flowPath": [
+    { "from": "FEED", "to": "UF", "note": "Raw feed enters UF trains 101/201/301 in parallel" },
+    { "from": "UF", "to": "RO1_FEED_TANK", "tag": "ROFWST-401", "note": "UF permeate collects here" },
+    { "from": "RO1", "to": "ROP_FEED_TANK", "via": "permeate", "note": "RO-1 permeate -> RO-P feed" },
+    { "from": "RO1", "to": "RO2_FEED_TANK", "via": "reject", "tag": "ROFWST-701", "note": "RO-1 reject -> RO-2 feed" },
+    { "from": "RO2", "to": "ROP_FEED_TANK", "via": "permeate", "note": "RO-2 permeate -> RO-P feed" },
+    { "from": "RO2", "to": "ETP", "via": "reject", "note": "RO-2 reject -> ETP (final reject discharge)" },
+    { "from": "ROP", "to": "FINAL_COLLECTION_TANK", "via": "permeate", "note": "RO-P permeate = finished water" }
+  ],
+
+  "stages": {
+    "UF": {
+      "trains": ["101", "201", "301"],
+      "trainsConfirmedFromPID": ["101", "201"],
+      "cipTank": { "tag": "T-101", "levelHigh": "HLS-101", "levelLow": "LLS-101" },
+      "cipPump": null,
+      "cipPumpNote": "No dedicated CIP pump — uses train's own System Pump (e.g. P-102) to circulate",
+      "cipOutletValve": "AV-119",
+      "cipRoutesTo": ["UF-201", "UF-301"],
+      "cipInletFrom": ["UF-201", "UF-301"],
+      "cipInletNote": "CORRECTED: UF-101 P&ID shows 'FROM UF SYS. UF-201' and 'FROM UF SYS. UF-301' feeding into the UF-101 manifold — same bidirectional cross-connect pattern as RO1/RO2/ROP, not an exception as previously assumed.",
+      "instrumentPattern": {
+        "systemPumpRpm": "P-{n}02_RPM",
+        "pressureTransmitterOutlet": "PT-{n}01",
+        "pressureTransmitterReject": "PT-{n}02",
+        "flowTransmitterPermeate": "FT-{n}01",
+        "levelTransmitter": "LT-101",
+        "note": "LT-101 appears shared/global on UF-101 screen — confirm whether UF-201/301 have their own LT or reuse LT-101"
+      }
+    },
+
+    "RO1": {
+      "trains": ["401", "501", "601"],
+      "trainsConfirmedFromPID": ["401", "501"],
+      "feedTank": "ROFWST-401",
+      "cipTank": { "tag": "T-404", "levelLow": "LLS-404" },
+      "cipPump": "P-405",
+      "cipOutletValve": "AV-411",
+      "cipRoutesTo": ["RO-501", "RO-601"],
+      "cipInletFrom": ["RO-501", "RO-601"],
+      "cipInletValve": "AV-410 / red header (shared with reject line)",
+      "rejectDestinationValve": { "tag": "AV-404/AV-406/PID-401", "routesTo": ["Lamella Clarifier-2", "ETP"] },
+      "instrumentPattern": {
+        "hpPumpRpm": "P-{n}02_RPM",
+        "booster1Rpm": "P-{n}03_RPM",
+        "booster2Rpm": "P-{n}04_RPM",
+        "feedPressure": "PT-{n}01",
+        "boostSuction1": "PT-{n}02",
+        "boostDischarge1": "PT-{n}03",
+        "boostSuction2": "PT-{n}04",
+        "boostDischarge2": "PT-{n}05",
+        "rejectPressure": "PT-{n}06",
+        "levelFeedTank": "LT-401",
+        "feedConductivity": "CDT-{n}01",
+        "permeateConductivity": "CDT-{n}02",
+        "orp": "ORP-{n}01",
+        "ph": "pHT-{n}01",
+        "permeateFlow": "FT-{n}01",
+        "rejectFlow": "FT-{n}02",
+        "note": "PATTERN inferred from 401; NOT yet confirmed against 501/601 P&ID tag lists"
+      }
+    },
+
+    "RO2": {
+      "trains": ["701", "801", "901"],
+      "trainsConfirmedFromPID": ["701", "801"],
+      "feedTank": "ROFWST-701",
+      "cipTank": { "tag": "T-702", "levelLow": "LLS-702" },
+      "cipPump": "P-704",
+      "cipOutletValve": "AV-714",
+      "cipRoutesTo": ["RO-801", "RO-901"],
+      "cipInletFrom": ["RO-801", "RO-901"],
+      "rejectDestinationValve": { "tag": "AV-704/AV-705/PID-701", "routesTo": ["Evaporator", "ETP"] },
+      "instrumentPattern": {
+        "feedPumpRpm": "P-{n}01_RPM",
+        "hpPumpRpm": "P-{n}02_RPM",
+        "boosterRpm": "P-{n}03_RPM",
+        "feedPressure": "PT-{n}01",
+        "rejectPressure": "PT-{n}02",
+        "boostDischarge": "PT-{n}03",
+        "finalRejectPressure": "PT-{n}04",
+        "levelFeedTank": "LT-701",
+        "feedConductivity": "CDT-{n}01",
+        "permeateConductivity": "CDT-{n}02",
+        "ph": "pHT-{n}01",
+        "permeateFlow": "FT-{n}01",
+        "rejectFlow": "FT-{n}02",
+        "note": "PATTERN inferred from 701; NOT yet confirmed against 801/901 P&ID tag lists"
+      }
+    },
+
+    "ROP": {
+      "trains": ["1001", "1101", "1201"],
+      "trainsConfirmedFromPID": ["1001", "1101"],
+      "feedTank": "ROPFWST-1001",
+      "cipTank": { "tag": "T-1001", "levelLow": "LLS-1001" },
+      "cipPump": null,
+      "cipPumpNote": "No dedicated CIP pump — uses train's own System Pump (e.g. P-1002) to circulate",
+      "cipOutletValve": "AV-1008",
+      "cipRoutesTo": ["ROP-1101", "ROP-1201"],
+      "cipInletFrom": ["ROP-1101", "ROP-1201"],
+      "rejectDestinationValve": { "tag": "AV-1003/AV-1004/AV-1005/PID-1001", "routesTo": ["RO-1 Feed Water Storage Tank", "ETP"] },
+      "instrumentPattern": {
+        "pumpRpm": "P-{n}02_RPM",
+        "feedPressure": "PT-{n}01",
+        "rejectPressure": "PT-{n}02",
+        "levelFeedTank": "LT-1001",
+        "feedConductivity": "CDIC-{n}01",
+        "permeateConductivity": "CDIC-{n}02",
+        "permeateFlow": "FT-{n}01",
+        "rejectFlow": "FT-{n}02",
+        "note": "PATTERN inferred from 1001; NOT yet confirmed against 1101/1201 P&ID tag lists"
+      }
+    }
+  },
+
+  "operatingModes": [
+    "Service",
+    "AirScouring (UF only, post-Service, uses AB-101/201/301)",
+    "Flushing",
+    "CIP",
+    "Manual/Maintenance"
+  ],
+
+  "modeTransitionNote": "SOP: Service -> (setpoint reached) -> Air Scouring (UF only) -> Flushing -> CIP, PLC-automatic with LPS/DPS interlocks. Manual/Maintenance is operator-selected, bypasses auto sequence, only emergency interlocks remain active."
+}

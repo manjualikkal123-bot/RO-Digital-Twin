@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Databases (runtime files - will be created fresh)
+telemetry.db
+sessions.json
+
+# Dev/junk files
+ml_server_dump.txt
+check_nia.py
+convert_nia.py
+patch_config.py
+dummy_test.xlsx
+test_insert.js
+test_login.js
+clean_reqs.txt
+buildConfig.js
+cfd_pipeline/
+
+# OS files
+.DS_Store
+Thumbs.db

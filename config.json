@@ -1,0 +1,13 @@
+{
+  "Hyderabad - Jeedimetla ETP": { "max_safe_pressure": 22.0, "type": "ETP", "capacity_m3d": 12000, "location_city": "Hyderabad, TS", "membrane_manufacturer": "Filmtec", "alarm_limits": { "ph_min": 6.0, "ph_max": 9.0, "max_pressure_kpa": 2000 } },
+  "Hyderabad - ITC Nicotine Extract": { "max_safe_pressure": 40.0, "type": "PHARMA", "capacity_m3d": 2500, "location_city": "Hyderabad, TS", "membrane_manufacturer": "Toray", "alarm_limits": { "ph_min": 5.5, "ph_max": 7.5, "max_pressure_kpa": 4000 } },
+  "Hyderabad - Suite 42 Dairy": { "max_safe_pressure": 15.0, "type": "DAIRY", "capacity_m3d": 8000, "location_city": "Hyderabad, TS", "membrane_manufacturer": "Filmtec", "alarm_limits": { "ph_min": 6.0, "ph_max": 8.0, "max_pressure_kpa": 1500 } },
+  
+  "Chennai - Nemmeli SWRO": { "max_safe_pressure": 68.0, "type": "DESAL", "capacity_m3d": 150000, "location_city": "Chennai, TN", "membrane_manufacturer": "Hydranautics", "alarm_limits": { "ph_min": 6.5, "ph_max": 8.5, "max_pressure_kpa": 6800 } },
+  "Chennai - CPCL Refinery": { "max_safe_pressure": 25.0, "type": "PETRO", "capacity_m3d": 45000, "location_city": "Chennai, TN", "membrane_manufacturer": "Hydranautics", "alarm_limits": { "ph_min": 6.5, "ph_max": 8.5, "max_pressure_kpa": 2500 } },
+  "Chennai - Koyambedu TTRO": { "max_safe_pressure": 20.0, "type": "ETP", "capacity_m3d": 35000, "location_city": "Chennai, TN", "membrane_manufacturer": "Filmtec", "alarm_limits": { "ph_min": 6.0, "ph_max": 9.0, "max_pressure_kpa": 2000 } },
+  
+  "Mumbai - Colaba STP": { "max_safe_pressure": 16.0, "type": "ETP", "capacity_m3d": 40000, "location_city": "Mumbai, MH", "membrane_manufacturer": "Filmtec", "alarm_limits": { "ph_min": 6.0, "ph_max": 9.0, "max_pressure_kpa": 1600 } },
+  "Mumbai - Bhandup WTP": { "max_safe_pressure": 5.0, "type": "WTP", "capacity_m3d": 900000, "location_city": "Mumbai, MH", "membrane_manufacturer": "Filmtec", "alarm_limits": { "ph_min": 6.5, "ph_max": 8.5, "max_pressure_kpa": 500 } },
+  "Mumbai - Manori SWRO": { "max_safe_pressure": 66.0, "type": "DESAL", "capacity_m3d": 120000, "location_city": "Mumbai, MH", "membrane_manufacturer": "Hydranautics", "alarm_limits": { "ph_min": 6.5, "ph_max": 8.5, "max_pressure_kpa": 6600 } }
+}
