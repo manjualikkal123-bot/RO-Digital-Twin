@@ -166,5 +166,5 @@
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  animation: water-fill-wave 0.9s cubic-bezier(0.2, 0, 0.1, 1) forwards;
+  animation: water-fill-wave 1.8s cubic-bezier(0.2, 0, 0.1, 1) forwards;
 }

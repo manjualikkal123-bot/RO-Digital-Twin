@@ -14,7 +14,7 @@ export default function PageTransitionWrapper({ children }) {
       const timer = setTimeout(() => {
         setDisplayLocation(location);
         setIsTransitioning(false);
-      }, 900); // Wait 900ms to show the cool water animation
+      }, 1800); // Wait 1800ms to show the cool water animation
       
       return () => clearTimeout(timer);
     }
