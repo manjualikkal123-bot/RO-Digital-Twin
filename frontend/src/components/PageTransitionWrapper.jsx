@@ -36,11 +36,9 @@ export default function PageTransitionWrapper({ children }) {
             
             {/* Foreground filling text */}
             <div 
-              className="absolute inset-0 text-5xl md:text-7xl font-black tracking-widest uppercase select-none overflow-hidden water-fill-animation"
+              className="absolute inset-0 text-5xl md:text-7xl font-black tracking-widest uppercase select-none water-wave-bg"
             >
-              <div className="water-wave-bg text-transparent bg-clip-text">
-                PERMASENSE
-              </div>
+              PERMASENSE
             </div>
           </div>
           

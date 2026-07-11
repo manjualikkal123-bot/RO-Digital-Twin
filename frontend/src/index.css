@@ -152,24 +152,19 @@
 .bg-premium-gradient { background: linear-gradient(180deg, #081421 0%, #0D1B2A 100%); }
 .glass-panel { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); border-radius: 8px; }
 
-@keyframes water-fill {
-  0% { transform: translateY(100%); }
-  100% { transform: translateY(0%); }
-}
-
-@keyframes water-wave {
-  0% { background-position: 0px 0px; }
-  100% { background-position: 1000px 0px; }
-}
-
-.water-fill-animation {
-  animation: water-fill 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+@keyframes water-fill-wave {
+  0% { background-position: 0px 200%; }
+  100% { background-position: 1000px -20%; }
 }
 
 .water-wave-bg {
-  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M0,500 C150,400 350,600 500,500 C650,400 850,600 1000,500 L1000,1000 L0,1000 Z" fill="%2306b6d4" opacity="0.8"/><path d="M0,520 C150,620 350,420 500,520 C650,620 850,420 1000,520 L1000,1000 L0,1000 Z" fill="%233b82f6" opacity="0.6"/></svg>');
-  background-size: 1000px 100%;
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M0,500 C150,400 350,600 500,500 C650,400 850,600 1000,500 L1000,1000 L0,1000 Z" fill="%2306b6d4" opacity="0.9"/><path d="M0,530 C150,630 350,430 500,530 C650,630 850,430 1000,530 L1000,1000 L0,1000 Z" fill="%233b82f6" opacity="0.8"/></svg>');
+  background-size: 800px 300%;
   background-repeat: repeat-x;
-  background-position: center bottom;
-  animation: water-wave 3s linear infinite;
+  background-position: 0px 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: water-fill-wave 0.9s cubic-bezier(0.2, 0, 0.1, 1) forwards;
 }
