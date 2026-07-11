@@ -168,12 +168,12 @@ const Sidebar = () => {
           <ShieldCheck size={16} className="shrink-0" />
           {!isSidebarCollapsed && <span>Compliance</span>}
         </NavLink>
-        {userRole === 'admin' && (
+        {/* {userRole === 'admin' && (
           <NavLink to="/admin/logsheets" className={navLinkClass} title="Logsheet Parser">
             <Database size={16} className="shrink-0" />
             {!isSidebarCollapsed && <span>Logsheet Parser</span>}
           </NavLink>
-        )}
+        )} */}
         {userRole === 'admin' && (
           <NavLink to="/audit-log" className={navLinkClass} title="Audit Trail">
             <ClipboardList size={16} className="shrink-0" />
