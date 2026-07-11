@@ -246,19 +246,6 @@ const ModelTuning = () => {
     }
   };
 
-  const downloadTemplate = () => {
-    const headers = "timestamp,flux,tmp,pf,thdV,thdC,sec,opex,capex\n";
-    const blob = new Blob([headers], { type: 'text/csv' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'training_template.csv';
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-  };
-
   return (
     <div className="flex flex-col shrink-0 relative bg-theme-panel p-6 text-theme-text rounded-xl min-h-full shadow-xl">
       {/* Header */}
@@ -323,29 +310,25 @@ const ModelTuning = () => {
         <div className="border-t border-theme-border bg-theme-panel">
           <button
             onClick={() => setIsSchemaExpanded(!isSchemaExpanded)}
-            className="w-full px-6 py-3 flex items-center justify-between hover:bg-slate-100 dark:bg-slate-80050 transition-colors"
+            className="w-full px-6 py-3 flex items-center justify-between hover:bg-slate-100 dark:bg-slate-800 transition-colors"
           >
             <span className="font-bold text-sm text-theme-text flex items-center gap-2">
               <FileText size={16} className="text-theme-muted" />
-              Expected schema
+              Expected schema (Dynamic)
             </span>
             <ChevronDown size={16} className={`text-theme-muted transition-transform ${isSchemaExpanded ? 'rotate-180' : ''}`} />
           </button>
           {isSchemaExpanded && (
             <div className="px-6 pb-6 pt-2">
               <div className="bg-theme-panel rounded-lg border border-theme-border p-4">
-                <p className="text-xs text-theme-muted mb-4">Ensure your CSV contains the following exact column headers to be parsed properly. Missing columns will be filled with zeros.</p>
-                <div className="grid grid-cols-3 gap-3 mb-4">
-                  {['timestamp', 'flux', 'tmp', 'pf', 'thdV', 'thdC', 'sec', 'opex', 'capex'].map(col => (
-                    <div key={col} className="bg-slate-100 dark:bg-slate-80050 border border-theme-border px-3 py-1.5 rounded flex items-center justify-between">
-                      <span className="text-xs font-mono text-cyan-700 dark:text-cyan-400">{col}</span>
-                      <span className="text-[10px] text-theme-muted uppercase">{col === 'timestamp' ? 'datetime' : 'float'}</span>
-                    </div>
-                  ))}
+                <p className="text-xs text-theme-muted mb-4">
+                  <strong>Zero-Config AI Parsing is active.</strong> You no longer need a specific template. 
+                  Simply upload your raw logsheet (e.g. from Excel), and the Python AI Engine will use 
+                  fuzzy matching to automatically map your headers (e.g. 'Feed Temp', 'temperature', 'Deg C' &rarr; 'temperature').
+                </p>
+                <div className="flex items-center gap-2 text-xs font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-100 dark:bg-emerald-900/30 px-4 py-2 rounded-lg border border-emerald-300 dark:border-emerald-800 transition-colors">
+                  <CheckCircle2 size={14} /> Any .xlsx, .xls, or .csv is supported!
                 </div>
-                <button onClick={downloadTemplate} className="flex items-center gap-2 text-xs font-bold text-theme-text bg-slate-100 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 transition-colors">
-                  <Download size={14} /> Download template CSV
-                </button>
               </div>
             </div>
           )}
