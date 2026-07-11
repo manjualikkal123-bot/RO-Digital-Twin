@@ -109,9 +109,9 @@ export default function TopHeader() {
  onChange={(e) => setFacility(e.target.value)}
  className="appearance-none bg-slate-200 dark:bg-slate-800 text-theme-text border border-theme-border rounded-lg pl-3 pr-7 py-1.5 text-xs font-semibold focus:border-theme-accent focus:outline-none cursor-pointer hover:border-theme-muted transition-colors"
  >
- {userRole === 'admin' && <option value="all">All Plants</option>}
+ {userRole === 'admin' && <option value="all" className="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100">All Plants</option>}
  {fleetData?.filter(p => allowedPlants.includes(p.id)).map(plant => (
- <option key={plant.id} value={plant.id}>{plant.name}</option>
+ <option key={plant.id} value={plant.id} className="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100">{plant.name}</option>
  ))}
  </select>
  <ChevronDown size={12} className="absolute right-2 top-1/2 -translate-y-1/2 text-theme-muted pointer-events-none" />
@@ -126,10 +126,10 @@ export default function TopHeader() {
  onChange={(e) => setTargetStage(e.target.value)}
  className="appearance-none bg-slate-200 dark:bg-slate-800 text-theme-text border border-theme-border rounded-lg pl-3 pr-7 py-1.5 text-xs font-semibold focus:border-theme-accent focus:outline-none cursor-pointer hover:border-theme-muted transition-colors"
  >
- <option value="UF">UF</option>
- <option value="RO1">RO-1</option>
- <option value="RO2">RO-2</option>
- <option value="RO-P">RO-P</option>
+ <option value="UF" className="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100">UF</option>
+ <option value="RO1" className="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100">RO-1</option>
+ <option value="RO2" className="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100">RO-2</option>
+ <option value="RO-P" className="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100">RO-P</option>
  </select>
  <ChevronDown size={12} className="absolute right-2 top-1/2 -translate-y-1/2 text-theme-muted pointer-events-none" />
  </div>
@@ -152,9 +152,9 @@ export default function TopHeader() {
  }}
  className="appearance-none bg-slate-200 dark:bg-slate-800 text-theme-text border border-theme-border rounded-lg pl-3 pr-7 py-1.5 text-xs font-semibold focus:border-theme-accent focus:outline-none cursor-pointer hover:border-theme-muted transition-colors"
  >
- <option value="1 Hour">1 Hour</option>
- <option value="24 Hours">24 Hours</option>
- <option value="7 Days">7 Days</option>
+ <option value="1 Hour" className="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100">1 Hour</option>
+ <option value="24 Hours" className="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100">24 Hours</option>
+ <option value="7 Days" className="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100">7 Days</option>
  </select>
  <ChevronDown size={12} className="absolute right-2 top-1/2 -translate-y-1/2 text-theme-muted pointer-events-none" />
  </div>

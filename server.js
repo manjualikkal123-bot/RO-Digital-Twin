@@ -6,6 +6,24 @@ const bcrypt = require('bcryptjs');
 const sqlite3 = require('sqlite3').verbose();
 require('dotenv').config();
 
+// Global Exception Handlers for Zero-Downtime Resilience
+process.on('uncaughtException', (err) => {
+    console.error('[CRITICAL] Uncaught Exception:', err);
+});
+
+process.on('unhandledRejection', (reason, promise) => {
+    console.error('[CRITICAL] Unhandled Rejection at:', promise, 'reason:', reason);
+});
+
+function safeJSONParse(str, fallback = null) {
+    try {
+        return JSON.parse(str);
+    } catch (e) {
+        console.error('[WARNING] Safe JSON Parse failed for string:', str);
+        return fallback;
+    }
+}
+
 const ComplianceMonitor = require('./services/ComplianceMonitor');
 const CronScheduler = require('./services/CronScheduler');
 const plantConfig = require('./frontend/src/config/plant_config.json');
@@ -226,8 +244,8 @@ const server = http.createServer((req, res) => {
             sessions[token] = {
               username: row.username,
               role: row.role,
-              allowed_plants: JSON.parse(row.allowed_plant_ids),
-              pcb_limits: row.pcb_limits ? JSON.parse(row.pcb_limits) : null,
+              allowed_plants: safeJSONParse(row.allowed_plant_ids, []),
+              pcb_limits: row.pcb_limits ? safeJSONParse(row.pcb_limits, null) : null,
               lastActive: Date.now()
             };
             saveSessions();
@@ -512,8 +530,8 @@ const server = http.createServer((req, res) => {
       sessions[token] = {
         username: row.username,
         role: row.role,
-        allowed_plants: JSON.parse(row.allowed_plant_ids),
-        pcb_limits: row.pcb_limits ? JSON.parse(row.pcb_limits) : null,
+        allowed_plants: safeJSONParse(row.allowed_plant_ids, []),
+        pcb_limits: row.pcb_limits ? safeJSONParse(row.pcb_limits, null) : null,
         lastActive: Date.now()
       };
       saveSessions();

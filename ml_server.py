@@ -77,6 +77,11 @@ log = logging.getLogger("permasense")
 app = Flask(__name__)
 CORS(app)
 
+@app.errorhandler(Exception)
+def handle_global_exception(e):
+    log.error(f"Unhandled Exception: {str(e)}", exc_info=True)
+    return {"error": "Internal ML Server Error", "details": str(e)}, 500
+
 # ── Directory / file paths ────────────────────────────────────────────────────
 BASE_DIR             = os.path.dirname(__file__)
 TRAINING_DATA_DIR    = os.path.join(BASE_DIR, 'training_data')
@@ -523,6 +528,46 @@ def train_finance_xgboost(plant_id: str, df: pd.DataFrame, dsw: np.ndarray, norm
 # REAL DATA LOADER
 # =============================================================================
 
+COLUMN_ALIASES = {
+    'timestamp': ['time', 'date', 'datetime', 'log_time', 'timestamp'],
+    'flux': ['permeate flux', 'flux', 'lmh', 'product flux'],
+    'tmp': ['transmembrane pressure', 'tmp', 'dp', 'differential pressure'],
+    'temp': ['temperature', 'temp', 'water temp', 'feed temp', 't', 'deg c'],
+    'ph': ['ph', 'feed ph', 'water ph'],
+    'conductivity': ['cond', 'conductivity', 'feed cond', 'feed conductivity', 'us/cm'],
+    'ca_hardness': ['ca hardness', 'calcium hardness', 'hardness', 'ca_hard'],
+    'alkalinity': ['alkalinity', 'alk', 'm alk', 'm-alkalinity'],
+    'sdi': ['sdi', 'silt density index', 'sdi15'],
+    'antiscalant_dose': ['antiscalant', 'as dose', 'anti scalant', 'dose', 'antiscalant_dose'],
+    'flow_feed': ['feed flow', 'flow in', 'raw water flow', 'flow_feed'],
+    'flow_permeate': ['permeate flow', 'product flow', 'flow_permeate'],
+    'pressure': ['feed pressure', 'hp pump pressure', 'pressure in', 'pressure'],
+    'vfd': ['vfd hz', 'vfd speed', 'vfd freq', 'rpm', 'vfd_rpm', 'vfd'],
+    'vfd_current': ['vfd current', 'current amps', 'amps', 'motor amps', 'vfd_current'],
+    'pf': ['power factor', 'pf'],
+    'thdV': ['voltage thd', 'thdv', 'v thd'],
+    'thdC': ['current thd', 'thdc', 'i thd'],
+    'opex': ['opex', 'cost', 'operating cost'],
+    'capex': ['capex', 'capital cost']
+}
+
+def fuzzy_map_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """Intelligently map arbitrary Excel columns to the canonical schema using fuzzy/regex aliases."""
+    rename_map = {}
+    used_canonicals = set()
+    for actual_col in df.columns:
+        clean_col = str(actual_col).strip().lower()
+        for canonical, aliases in COLUMN_ALIASES.items():
+            if any(alias in clean_col for alias in aliases):
+                if canonical not in used_canonicals:
+                    rename_map[actual_col] = canonical
+                    used_canonicals.add(canonical)
+                break
+    df = df.rename(columns=rename_map)
+    # Deduplicate any other columns with exactly the same name by keeping the first
+    df = df.loc[:, ~df.columns.duplicated()]
+    return df
+
 def load_real_data(plant_id: str) -> tuple[pd.DataFrame | None, list[dict]]:
     df_list, meta_list = [], []
     for fname in os.listdir(TRAINING_DATA_DIR):
@@ -544,6 +589,7 @@ def load_real_data(plant_id: str) -> tuple[pd.DataFrame | None, list[dict]]:
     if not df_list:
         return None, []
     df = pd.concat(df_list, ignore_index=True)
+    df = fuzzy_map_columns(df)
     if 'timestamp' in df.columns:
         df['timestamp'] = pd.to_datetime(df['timestamp'], errors='coerce')
         df = df.dropna(subset=['timestamp'])
@@ -923,6 +969,7 @@ def upload_training_json():
         return jsonify({'error': f"Unknown plantId '{plant_id}'"}), 400
     try:
         df = pd.DataFrame(data['rows'])
+        df = fuzzy_map_columns(df)
         cols_found = list(df.columns)
         missing_cols = [c for c in EXPECTED_SCHEMA if c not in cols_found]
         df = df.where(pd.notnull(df), None)

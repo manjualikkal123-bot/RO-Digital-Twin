@@ -1,0 +1,58 @@
+[
+  {
+    "id": "CIP-104",
+    "date": "2026-06-25",
+    "chemical_name": "NaOH (Caustic)",
+    "soak_duration": "4h 0m",
+    "tmp_before": 2.8,
+    "tmp_after": 1.2,
+    "cost": 14500,
+    "recoveryPct": 85,
+    "type": "Alkaline Wash",
+    "perf": "Operator X",
+    "app": "System Auto",
+    "status": "Completed"
+  },
+  {
+    "id": "CIP-105",
+    "date": "2026-06-29",
+    "chemical_name": "Citric Acid",
+    "soak_duration": "2h 30m",
+    "tmp_before": 2.4,
+    "tmp_after": 1.5,
+    "cost": 6400,
+    "recoveryPct": 78,
+    "type": "Acid Wash",
+    "perf": "Operator Y",
+    "app": "Pending",
+    "status": "Completed"
+  },
+  {
+    "id": "CIP-106",
+    "date": "2026-07-02",
+    "chemical_name": "NaOH (Caustic)",
+    "soak_duration": "4h 15m",
+    "tmp_before": 2.9,
+    "tmp_after": 1.1,
+    "cost": 14500,
+    "recoveryPct": 90,
+    "type": "Alkaline Wash",
+    "perf": "Auto Sequencer",
+    "app": "System Auto",
+    "status": "Completed"
+  },
+  {
+    "id": "CIP-107",
+    "date": "2026-07-08",
+    "chemical_name": "Citric Acid",
+    "soak_duration": "3h 0m",
+    "tmp_before": 2.5,
+    "tmp_after": 1.4,
+    "cost": 6400,
+    "recoveryPct": 82,
+    "type": "Acid Wash",
+    "perf": "Operator Z",
+    "app": "Local Authorized",
+    "status": "Completed"
+  }
+]

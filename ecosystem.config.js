@@ -12,8 +12,7 @@ module.exports = {
     },
     {
       name: "ro-frontend",
-      script: "npm",
-      args: "run dev",
+      script: "node_modules/vite/bin/vite.js",
       cwd: "./frontend",
       watch: false,
       autorestart: true,

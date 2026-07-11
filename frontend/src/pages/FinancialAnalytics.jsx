@@ -66,16 +66,21 @@ export default function FinancialAnalytics() {
  const latestFinance = trueFinances.length > 0 ? trueFinances[trueFinances.length - 1] : null;
 
  // Financial Weights
- const powerAllocation = latestFinance ? latestFinance.energyCost / 3000 : 17.50;
- const chemicalConsumables = latestFinance ? latestFinance.chemicalCost / 3000 : 8.40;
- const maintenanceOverhaul = latestFinance ? latestFinance.maintenanceCost / 3000 : 3.10;
- 
- // Summation Fix
+ // Variable OPEX Calculation (fallbacks to defaults if live data is null)
+ const powerAllocation = (latestFinance && latestFinance.energyCost != null) ? latestFinance.energyCost / 3000 : 17.50;
+ const chemicalConsumables = (latestFinance && latestFinance.chemicalCost != null) ? latestFinance.chemicalCost / 3000 : 8.40;
+ const maintenanceOverhaul = (latestFinance && latestFinance.maintenanceCost != null) ? latestFinance.maintenanceCost / 3000 : 3.10;
+
  const variableUnitProductionCost = powerAllocation + chemicalConsumables + maintenanceOverhaul;
- 
+ const fixedCostPerDay = 12500;
+
+ // Active Leakage
+ const latestRecord = telemetryHistory && telemetryHistory.length > 0 ? telemetryHistory[telemetryHistory.length - 1] : null;
+ const feedCond = latestRecord?.stages?.['RO1']?.conductivity || latestRecord?.stages?.['HPA1']?.conductivity || telemetry?.conductivity || 0;
+
  const sparklineData = trueFinances.map(f => ({
- month: f.month,
- savings: f.revenue - f.opex
+   time: f.month,
+   savings: f.revenue - f.opex
  }));
 
  const ytdSavings = trueFinances.reduce((sum, f) => sum + (f.revenue - f.opex), 0);
@@ -85,9 +90,10 @@ export default function FinancialAnalytics() {
  // Fixed Costs
  const amortizationDaily = 12500 * baseMult; // Scaled Daily Overhead
 
- // Leakage State Sync
- const isAntiscalantOverdosing = telemetry?.conductivity < 400 && telemetry?.conductivity > 0;
- const antiscalantLeakage = isAntiscalantOverdosing ? ((400 - telemetry.conductivity) * 12) : 0;
+ // Mock calculation logic for leakage (dynamic if metrics hit threshold)
+ // Example: High TDS in feed or high Delta P
+ const isAntiscalantOverdosing = feedCond < 400 && feedCond > 0;
+ const antiscalantLeakage = isAntiscalantOverdosing ? ((400 - feedCond) * 12) : 0;
  
  const isHighDeltaP = telemetry?.differential_pressure > 1.5;
  const pumpLeakage = isHighDeltaP ? ((telemetry.differential_pressure - 1.5) * 850) : 0;
@@ -403,7 +409,7 @@ export default function FinancialAnalytics() {
  <div className="flex flex-col">
  <span className={`text-sm font-bold ${antiscalantLeakage > 0 ? 'text-[#A32D2D]' : 'text-theme-text'}`}>Antiscalant Overdosing</span>
  <span className="text-[11px] text-theme-muted mt-0.5">
- {antiscalantLeakage > 0 ? `Proxy flagged (TDS ${telemetry?.conductivity?.toFixed(1) || 0} < 400). *Requires dosing pump stroke validation.` : 'Within optimal ±2% tolerance band'}
+ {antiscalantLeakage > 0 ? `Proxy flagged (TDS ${feedCond.toFixed(1) || 0} < 400). *Requires dosing pump stroke validation.` : 'Within optimal ±2% tolerance band'}
  </span>
  </div>
  <div className={`text-lg font-black tracking-tight ${antiscalantLeakage > 0 ? 'text-[#A32D2D]' : 'text-green-800 dark:text-green-400'}`}>

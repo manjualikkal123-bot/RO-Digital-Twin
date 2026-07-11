@@ -151,7 +151,7 @@ export default function SettingsConfig() {
  <button 
  disabled={userRole !== 'admin' || !hasChanges}
  onClick={handleSaveClick}
- className="px-6 py-2 text-sm font-bold bg-cyan-500 hover:bg-cyan-400 disabled:bg-slate-700 disabled:text-theme-muted disabled:cursor-not-allowed text-slate-900 rounded-lg shadow-[0_0_15px_rgba(6,182,212,0.3)] transition-all"
+ className="px-6 py-2 text-sm font-bold bg-cyan-500 hover:bg-cyan-400 disabled:bg-slate-700 disabled:text-slate-400 disabled:cursor-not-allowed text-slate-900 rounded-lg shadow-[0_0_15px_rgba(6,182,212,0.3)] transition-all"
  >
  Save Settings
  </button>

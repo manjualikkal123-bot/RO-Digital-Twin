@@ -72,39 +72,33 @@ function parseWorkbook(file) {
         const ws   = wb.Sheets[wsName];
         const raw  = XLSX.utils.sheet_to_json(ws, { header: 1, defval: '' });
 
-        // Find first row where col-0 looks like a time (HH:MM)
-        const timeRowIdx = raw.findIndex(r =>
-          r.length > 1 && typeof r[0] === 'string' && /^\d{1,2}:\d{2}/.test(String(r[0]).trim())
-        );
-
-        if (timeRowIdx < 0) {
-          reject(new Error('Could not find time rows. Make sure column A has times like "10:00", "11:00" etc.'));
+        // Find the first row that has data to act as the header
+        const headerRowIdx = raw.findIndex(r => r.some(cell => cell !== ''));
+        if (headerRowIdx < 0) {
+          reject(new Error('The spreadsheet appears to be empty.'));
           return;
         }
 
-        // Header is the row just before data rows
-        const headerRow = raw[timeRowIdx - 1] || [];
-        const dataRows  = raw.slice(timeRowIdx).filter(r =>
-          r.length > 1 && typeof r[0] === 'string' && /^\d{1,2}:\d{2}/.test(String(r[0]).trim())
-        );
+        const headerRow = raw[headerRowIdx] || [];
+        const dataRows  = raw.slice(headerRowIdx + 1).filter(r => r.some(cell => cell !== ''));
 
-        const columns = headerRow.map((h, i) => ({
-          key:   i === 0 ? 'time' : `col_${i}`,
-          label: String(h).trim() || `Col ${i+1}`,
-          unit:  '',
-        }));
+        const columns = headerRow.map((h, i) => {
+          const label = String(h).trim() || `Col ${i+1}`;
+          return {
+            key: label.toLowerCase() === 'time' ? 'time' : `col_${i}`,
+            label,
+            unit: ''
+          };
+        });
 
-        // ensure first col is "time"
         if (columns.length === 0) {
-          reject(new Error('No column headers found in the row above the data.'));
+          reject(new Error('No column headers found.'));
           return;
         }
-        columns[0] = { key: 'time', label: 'Time', unit: '' };
 
-        // Safe time formatter — XLSX.SSF was removed from the default SheetJS bundle in v0.18+
+        // Safe time formatter for Excel serial fractions
         const fmtTime = (raw) => {
-          if (typeof raw === 'number') {
-            // Excel serial fraction → HH:MM
+          if (typeof raw === 'number' && raw < 1) {
             const totalMin = Math.round(raw * 1440);
             const h = Math.floor(totalMin / 60) % 24;
             const m = totalMin % 60;
@@ -117,11 +111,15 @@ function parseWorkbook(file) {
           const obj = {};
           columns.forEach((col, i) => {
             const rawVal = r[i];
-            if (i === 0) {
+            if (rawVal === undefined || rawVal === '') {
+              obj[col.key] = null;
+            } else if (col.key === 'time') {
               obj[col.key] = fmtTime(rawVal);
+            } else if (typeof rawVal === 'number') {
+              obj[col.key] = rawVal;
             } else {
               const n = parseFloat(rawVal);
-              obj[col.key] = isNaN(n) ? (rawVal === '' ? null : String(rawVal)) : n;
+              obj[col.key] = isNaN(n) ? String(rawVal).trim() : n;
             }
           });
           return obj;
@@ -134,7 +132,7 @@ function parseWorkbook(file) {
           label:   `${file.name.replace(/\.[^.]+$/, '')} — ${wsName}`,
           source:  'Uploaded by operator',
           note:    `Uploaded ${new Date().toLocaleString('en-IN')}`,
-          columnGroups: [{ label: wsName, span: columns.length - 1 }],
+          columnGroups: [], // Dynamic sheets don't use strict group headers
           columns,
           rows,
           uploaded: true,
@@ -371,8 +369,8 @@ export default function HistoricalLogsheetViewer() {
   // Chart data
   const chartData = useMemo(() => {
     if (!trendKey || !sheet) return [];
-    return sheet.rows.map(r => ({ time: r.time, value: r[trendKey] }));
-  }, [trendKey, sheet]);
+    return sheet.rows.map((r, i) => ({ time: r.time || `#${i+1}`, value: r[trendKey] }));
+  }, [sheet, trendKey]);
 
   const activeTrendCol = sheet?.columns.find(c => c.key === trendKey);
 
@@ -494,6 +492,10 @@ export default function HistoricalLogsheetViewer() {
             </>
           )}
         </div>
+      </div>
+
+      <div className="mt-2">
+        <UploadZone onUpload={handleUpload} />
       </div>
 
       {sheet && (

@@ -227,7 +227,9 @@ const ModelTuning = () => {
         toast.success(`${fileName} uploaded successfully!`);
         fetchDatasets();
 
+        // Auto-trigger model retraining with the new data
         setTimeout(() => {
+          handleRetrain();
           setUploadState('idle');
           fetchDatasets();
         }, 3000);

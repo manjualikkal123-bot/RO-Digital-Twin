@@ -306,8 +306,8 @@ export default function LiveDashboard() {
  onChange={(e) => setRole(e.target.value)}
  className="bg-theme-panel border border-theme-border text-xs font-bold text-theme-text rounded-lg px-3 py-2 focus:outline-none focus:border-blue-500 cursor-pointer shadow-sm"
  >
- <option>Admin View</option>
- <option>Client Operator</option>
+  <option className="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100">Admin View</option>
+  <option className="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100">Client Operator</option>
  </select>
  <ExportButton
  plantName={config.display_name}
