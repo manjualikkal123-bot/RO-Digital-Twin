@@ -160,10 +160,10 @@ const Sidebar = () => {
             {!isSidebarCollapsed && <span>Simulation</span>}
           </NavLink>
         )}
-        {/* <NavLink to="/cip-optimization" className={navLinkClass} title="CIP Optimization">
+        <NavLink to="/cip-optimization" className={navLinkClass} title="CIP Optimization">
           <TestTubes size={16} className="shrink-0" />
           {!isSidebarCollapsed && <span>CIP Optimizer</span>}
-        </NavLink> */}
+        </NavLink>
         <NavLink to="/asset-register" className={navLinkClass} title="Compliance">
           <ShieldCheck size={16} className="shrink-0" />
           {!isSidebarCollapsed && <span>Compliance</span>}
