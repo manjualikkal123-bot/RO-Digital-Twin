@@ -881,23 +881,27 @@ export default function BatchAnalytics() {
  };
 
  const chartData = useMemo(() => {
- if (!analyticsResult || !activeStage) return [];
- const fullData = analyticsResult.stageData['GENERAL'];
- const MAX_CHART_POINTS = 500;
- const step = Math.max(1, Math.floor(fullData.length / MAX_CHART_POINTS));
- const sampledData = fullData.filter((_, i) => i % step === 0 || i === fullData.length - 1);
+    if (!analyticsResult || !activeStage) return [];
+    const fullData = analyticsResult.stageData['GENERAL'];
+    if (!fullData) return [];
+    const MAX_CHART_POINTS = 500;
+    const step = Math.max(1, Math.floor(fullData.length / MAX_CHART_POINTS));
+    const sampledData = fullData.filter((_, i) => i % step === 0 || i === fullData.length - 1);
 
- return sampledData.map(pt => ({
- time: pt.time,
- tmp: pt[`${activeStage}_tmp`],
- flux: pt[`${activeStage}_flux`],
- pressure: pt[`${activeStage}_pressure`],
- conductivity: pt[`${activeStage}_conductivity`],
- ph: pt['ph'] || pt[`${activeStage}_ph`],
- flow: pt[`${activeStage}_flow`],
- turbidity: pt['turbidity'] || pt[`${activeStage}_turbidity`],
- }));
- }, [analyticsResult, activeStage]);
+    return sampledData.map(pt => {
+      const out = { ...pt, time: pt.time };
+      if (activeStage !== 'GENERAL') {
+        out.tmp = pt[`${activeStage}_tmp`];
+        out.flux = pt[`${activeStage}_flux`];
+        out.pressure = pt[`${activeStage}_pressure`];
+        out.conductivity = pt[`${activeStage}_conductivity`];
+        out.ph = pt['ph'] || pt[`${activeStage}_ph`];
+        out.flow = pt[`${activeStage}_flow`];
+        out.turbidity = pt['turbidity'] || pt[`${activeStage}_turbidity`];
+      }
+      return out;
+    });
+  }, [analyticsResult, activeStage]);
 
  return (
  <div className="flex flex-col min-h-full relative pb-10 animate-in fade-in duration-300">
@@ -1425,20 +1429,32 @@ function AnalysisResults({
  const forecast = analyticsResult.forecast;
  const [showMapping, setShowMapping] = useState(false);
 
- const CHART_OPTIONS = [
- { id: 'tmp', label: 'TMP', color: '#06b6d4' },
- { id: 'flux', label: 'Flux', color: '#10b981' },
- { id: 'pressure', label: 'Pressure', color: '#f59e0b' },
- { id: 'conductivity', label: 'Conductivity', color: '#8b5cf6' },
- { id: 'ph', label: 'pH', color: '#f97316' },
- { id: 'flow', label: 'Flow', color: '#3b82f6' },
- { id: 'turbidity', label: 'Turbidity', color: '#ec4899' },
- ].filter(opt => chartData.some(d => d[opt.id] !== undefined));
+ const dynamicOptions = activeStage === 'GENERAL'
+    ? Object.keys(chartData[0] || {})
+        .filter(k => k !== 'time' && k !== '_index' && typeof chartData[0][k] === 'number')
+        .map((k, i) => {
+          const colors = ['#06b6d4', '#10b981', '#f59e0b', '#8b5cf6', '#f97316', '#3b82f6', '#ec4899'];
+          return { id: k, label: k, color: colors[i % colors.length] };
+        })
+    : [
+        { id: 'tmp', label: 'TMP', color: '#06b6d4' },
+        { id: 'flux', label: 'Flux', color: '#10b981' },
+        { id: 'pressure', label: 'Pressure', color: '#f59e0b' },
+        { id: 'conductivity', label: 'Conductivity', color: '#8b5cf6' },
+        { id: 'ph', label: 'pH', color: '#f97316' },
+        { id: 'flow', label: 'Flow', color: '#3b82f6' },
+        { id: 'turbidity', label: 'Turbidity', color: '#ec4899' },
+      ];
+
+  const CHART_OPTIONS = dynamicOptions.filter(opt => chartData.some(d => d[opt.id] !== undefined && d[opt.id] !== null && d[opt.id] !== ''));
 
  const activeColor = STAGE_COLORS[activeStage] || '#06b6d4';
- const activeKPIs = kpis[activeStage] || {};
- const activeForecast = forecast[activeStage] || [];
- const chartColor = CHART_OPTIONS.find(o => o.id === activeChart)?.color || activeColor;
+  const activeKPIs = kpis[activeStage] || {};
+  const activeForecast = forecast[activeStage] || [];
+  
+  const currentChartOpt = CHART_OPTIONS.find(o => o.id === activeChart);
+  const displayChart = currentChartOpt ? activeChart : (CHART_OPTIONS[0]?.id || 'tmp');
+  const chartColor = currentChartOpt?.color || CHART_OPTIONS[0]?.color || activeColor;
 
  return (
  <div className="p-5 space-y-5">
@@ -1590,21 +1606,21 @@ function AnalysisResults({
  </div>
  </div>
  <div className="p-4 h-[260px]">
- {chartData.length > 0 ? (
- <ResponsiveContainer width="100%" height="100%">
- <ComposedChart data={chartData} margin={{ top: 5, right: 20, left: 0, bottom: 5 }}>
- <CartesianGrid strokeDasharray="3 3" stroke="var(--border-panel)" vertical={false} />
- <XAxis dataKey="time" stroke="var(--border-panel)" tick={{ fill: 'var(--text-muted)', fontSize: 10 }} tickMargin={8} minTickGap={30} />
- <YAxis stroke="var(--border-panel)" tick={{ fill: 'var(--text-muted)', fontSize: 10 }} domain={['auto', 'auto']} width={70} />
- <Tooltip content={<ChartTooltip />} />
- <Area type="monotone" dataKey={activeChart} name={CHART_OPTIONS.find(o => o.id === activeChart)?.label || activeChart}
- stroke={chartColor} fill={`${chartColor}18`} strokeWidth={2} dot={false}
- />
- </ComposedChart>
- </ResponsiveContainer>
- ) : (
- <div className="h-full flex items-center justify-center text-theme-muted text-xs font-bold">No {activeChart} data for {activeStage} stage</div>
- )}
+ {chartData.length > 0 && CHART_OPTIONS.length > 0 ? (
+          <ResponsiveContainer width="100%" height="100%">
+            <ComposedChart data={chartData} margin={{ top: 5, right: 20, left: 0, bottom: 5 }}>
+              <CartesianGrid strokeDasharray="3 3" stroke="var(--border-panel)" vertical={false} />
+              <XAxis dataKey="time" stroke="var(--border-panel)" tick={{ fill: 'var(--text-muted)', fontSize: 10 }} tickMargin={8} minTickGap={30} />
+              <YAxis stroke="var(--border-panel)" tick={{ fill: 'var(--text-muted)', fontSize: 10 }} domain={['auto', 'auto']} width={70} />
+              <Tooltip content={<ChartTooltip />} />
+              <Area type="monotone" dataKey={displayChart} name={CHART_OPTIONS.find(o => o.id === displayChart)?.label || displayChart} 
+                    stroke={chartColor} fill={`\${chartColor}18`} strokeWidth={2} dot={false} 
+              />
+            </ComposedChart>
+          </ResponsiveContainer>
+        ) : (
+          <div className="h-full flex items-center justify-center text-theme-muted text-xs font-bold">No numerical data detected to plot</div>
+        )}
  </div>
  </div>
 
