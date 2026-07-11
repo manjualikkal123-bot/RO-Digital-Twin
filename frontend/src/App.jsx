@@ -60,10 +60,10 @@ function App() {
     };
   }, []);
 
+  // Session persistence is disabled for this demo so the Login Page always shows first
   useEffect(() => {
-    const token = localStorage.getItem('dt_token');
-    if (token && !isAuthenticated) authenticate(token);
-  }, [authenticate, isAuthenticated]);
+    // Intentionally empty: we do not want to auto-login on refresh
+  }, []);
 
   return (
     <ErrorBoundary>
