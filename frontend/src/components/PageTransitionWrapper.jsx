@@ -42,13 +42,8 @@ export default function PageTransitionWrapper({ children }) {
             </div>
           </div>
           
-          <div className="mt-12 flex items-center gap-4 text-cyan-400 font-mono text-sm font-bold tracking-widest">
-            <div className="flex items-end gap-1 h-6">
-              <Droplet size={18} className="fill-cyan-400 animate-bounce" style={{ animationDelay: '0ms', animationDuration: '1s' }} />
-              <Droplet size={18} className="fill-cyan-400 animate-bounce" style={{ animationDelay: '150ms', animationDuration: '1s' }} />
-              <Droplet size={18} className="fill-cyan-400 animate-bounce" style={{ animationDelay: '300ms', animationDuration: '1s' }} />
-            </div>
-            <span className="animate-pulse">INITIALIZING SCADA SYSTEMS...</span>
+          <div className="mt-12 text-cyan-400/80 font-mono text-sm font-medium tracking-[0.2em] uppercase">
+            <span className="animate-pulse">See Today. Predict Tomorrow. Analyze Always.</span>
           </div>
         </div>
       )}
