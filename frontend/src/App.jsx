@@ -43,7 +43,7 @@ function RequireAuth({ children }) {
 }
 
 function App() {
-  const { userRole, isAuthenticated, authenticate } = useAppStore();
+  const { userRole, isAuthenticated, authenticate, allowedPlants } = useAppStore();
 
   useEffect(() => {
     const handleGlobalError = (event) => {
@@ -93,8 +93,8 @@ function App() {
                       <main className="flex-1 overflow-y-auto px-5 py-4 pb-14 relative flex flex-col min-h-0">
                         <PageTransitionWrapper>
                           <Routes>
-                            <Route path="/" element={<Navigate to="/command-center" replace />} />
-                            <Route path="/command-center" element={<FleetCommandCenter />} />
+                            <Route path="/" element={<Navigate to={allowedPlants?.length === 1 ? `/dashboard/${allowedPlants[0]}` : "/command-center"} replace />} />
+                            <Route path="/command-center" element={allowedPlants?.length === 1 ? <Navigate to={`/dashboard/${allowedPlants[0]}`} replace /> : <FleetCommandCenter />} />
                             <Route path="/engineering-sandbox" element={<EngineeringSandbox />} />
                             <Route path="/client-management" element={<ClientManagement />} />
                             <Route path="/settings" element={<SettingsConfig />} />

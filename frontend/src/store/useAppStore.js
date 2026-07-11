@@ -183,6 +183,52 @@ export const useAppStore = create((set, get) => ({
   // Authentication Actions
   authenticate: async (token, _isRetry = false) => {
     try {
+      // --- MOCK AUTHENTICATION LOGIC ---
+      if (token && token.startsWith('mock_')) {
+        let mockData = null;
+        if (token === 'mock_jetl_admin_token') {
+          mockData = { role: 'admin', allowed_plants: ['jetl_hyderabad'] };
+        } else if (token === 'mock_nia_admin_token') {
+          mockData = { role: 'admin', allowed_plants: ['nia_nandesari'] };
+        } else if (token === 'mock_super_admin_token') {
+          mockData = { role: 'admin', allowed_plants: ['jetl_hyderabad', 'nia_nandesari'] };
+        }
+
+        if (mockData) {
+          const firstPlant = mockData.allowed_plants.length > 0 ? mockData.allowed_plants[0] : null;
+          const mockFleetData = mockData.allowed_plants.map(id => {
+            const config = plantConfig[id] || {};
+            return {
+              id,
+              name: config.display_name || id,
+              fullName: config.full_name || id,
+              location: config.location || '',
+              lat: config.coordinates?.lat || 0,
+              lon: config.coordinates?.lon || 0,
+              plantType: config.plant_type || '',
+              industry: config.industry || '',
+              badge: config.badge || null,
+              flow_m3h: (config.capacity_kld || 1000) / 24,
+              recovery: 75,
+              rf_trend: [0.75, 0.75], 
+              statusData: { status: 'Optimal', rootCause: null }
+            };
+          });
+          set({
+            isAuthenticated: true,
+            userRole: mockData.role,
+            allowedPlants: mockData.allowed_plants,
+            pcbLimits: null,
+            selectedFacility: firstPlant,
+            fleetData: mockFleetData
+          });
+          if (firstPlant) get().fetchHistoricalData(firstPlant);
+          if (mockData.allowed_plants.length > 0) get().connectWebSocket(mockData.allowed_plants[0]);
+          return;
+        }
+      }
+      // --- END MOCK LOGIC ---
+
       const response = await fetch('/api/me', {
         headers: { 'Authorization': `Bearer ${token}` }
       });

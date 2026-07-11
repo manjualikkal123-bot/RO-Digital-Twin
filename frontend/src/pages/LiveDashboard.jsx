@@ -112,23 +112,26 @@ const GaugeCard = ({ title, value, min, max, unit, color, designVal, tripLimit, 
  );
  }
 
- const percentage = Math.min(Math.max(((value - min) / (max - min)) * 100, 0), 100);
- const data = [{ name: title, value: percentage, fill: color }, { name: 'max', value: 100, fill: 'transparent' }];
+  const safeValue = typeof value === 'number' && !isNaN(value) ? value : 0;
+  const percentage = Math.min(Math.max(((safeValue - min) / (max - min)) * 100, 0), 100) || 0;
+  const radius = 40;
+  const circumference = Math.PI * radius;
+  const strokeDashoffset = circumference - (percentage / 100) * circumference;
 
- return (
- <div className="w-full bg-theme-panel border border-theme-border rounded-xl p-4 flex flex-col items-center justify-center relative h-40 shadow-lg group hover:shadow-xl transition-shadow premium-card">
- <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity z-10">
- <OperatorCommandButton tagId={tagId || title.replace(/\s+/g, '_').toUpperCase()} label={title} currentValue={value} unit={unit} range={[min, max]} />
- </div>
- 
- <div className="w-full h-24 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mt-1 z-0">
- <ResponsiveContainer width="100%" height="100%" minWidth={1} minHeight={1}>
- <RadialBarChart cx="50%" cy="50%" innerRadius="70%" outerRadius="100%" barSize={8} data={data} startAngle={180} endAngle={0}>
- <PolarAngleAxis type="number" domain={[0, 100]} angleAxisId={0} tick={false} />
- <RadialBar minAngle={15} background={{ fill: '#f1f5f9' }} clockWise dataKey="value" cornerRadius={5} />
- </RadialBarChart>
- </ResponsiveContainer>
- </div>
+  return (
+  <div className="w-full bg-theme-panel border border-theme-border rounded-xl p-4 flex flex-col items-center justify-center relative h-40 shadow-lg group hover:shadow-xl transition-shadow">
+  <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity z-10">
+  <OperatorCommandButton tagId={tagId || title.replace(/\s+/g, '_').toUpperCase()} label={title} currentValue={safeValue} unit={unit} range={[min, max]} />
+  </div>
+  
+  <div className="w-full h-20 absolute top-[55%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 mt-1 z-0 flex justify-center items-center">
+    <svg width="80%" height="100%" viewBox="0 0 100 50" className="overflow-visible">
+      {/* Background Track */}
+      <path d="M 10 50 A 40 40 0 0 1 90 50" fill="none" stroke="#e2e8f0" strokeWidth="8" strokeLinecap="round" className="dark:stroke-slate-800" />
+      {/* Active Value Track */}
+      <path d="M 10 50 A 40 40 0 0 1 90 50" fill="none" stroke={color || '#0ea5e9'} strokeWidth="8" strokeLinecap="round" strokeDasharray={circumference} strokeDashoffset={strokeDashoffset} className="transition-all duration-1000 ease-out" />
+    </svg>
+  </div>
 
  <div className="absolute bottom-4 flex flex-col items-center w-full z-10 pointer-events-none">
  <span className="text-xl font-black text-theme-text">{value?.toFixed(1) ?? 'N/A'}</span>
@@ -396,11 +399,12 @@ export default function LiveDashboard() {
  </div>
  </div>
 
- <div className="bg-theme-panel border border-theme-border p-6 rounded-xl overflow-auto shadow-xl relative min-h-[250px] flex flex-col premium-card">
- <h2 className="text-[10px] font-bold text-theme-muted tracking-widest mb-6 uppercase">Interactive Process Flow (Click Nodes for Details)</h2>
-
+ <div className="w-full shrink-0 flex flex-col gap-4 pb-2 pt-2 overflow-x-auto custom-scrollbar">
+ <div className="flex justify-between items-center px-2">
+ <h2 className="text-xs font-black text-theme-text tracking-widest uppercase">Interactive Process Flow (Click Nodes for Details)</h2>
+ </div>
  {isNandesari ? (
-  <div className="flex items-stretch justify-between w-full gap-0.5 lg:gap-1 pb-4 px-0 lg:px-1 relative z-10">
+ <div className="flex items-stretch justify-between w-full gap-0.5 lg:gap-1 pb-4 px-0 lg:px-1 relative z-10 min-w-[750px]">
    <div className="flex flex-col items-center justify-center">
     <FlowNode
      label="Feed Header"
@@ -436,7 +440,7 @@ export default function LiveDashboard() {
      return (
       <div key={key} className="flex items-center justify-between w-full gap-0.5 lg:gap-1">
        <div
-        className="text-[8px] lg:text-[9px] font-black uppercase tracking-widest px-1 lg:px-2 py-1 rounded-md border-2 min-w-[32px] text-center"
+        className="shrink-0 min-w-[45px] text-[8px] lg:text-[10px] font-black uppercase tracking-widest px-1 lg:px-2 py-1 rounded-md border-2 text-center"
         style={{ borderColor: color, color }}
        >
         {key}
@@ -598,17 +602,17 @@ export default function LiveDashboard() {
  {(() => {
  const stageList = isNandesari ? ['HPA1', 'HPA2', 'HPA3', 'HPA4', 'HPA5'] : ['UF', 'RO1', 'RO2', 'RO-P'];
  const stageName = activeStage;
- const stageData = telemetry?.stages?.[stageName];
- const isStageLive = !!stageData;
+ const data = telemetry?.stages?.[stageName];
+ const isStageLive = !!data;
  const stageHasQualitySensors = !STAGES_WITHOUT_QUALITY_SENSORS.includes(stageName);
- const safeFeedTds = stageData?.conductivity ?? null;
- const safePermTds = stageData?.permeate_conductivity ?? null;
+ const safeFeedTds = data?.conductivity ?? null;
+ const safePermTds = data?.permeate_conductivity ?? null;
  const calcRej = stageHasQualitySensors && safeFeedTds && safePermTds !== null ? ((1 - safePermTds / safeFeedTds) * 100).toFixed(1) : null;
 
  return (
- <div className="w-full bg-theme-panel border border-theme-border p-6 rounded-xl shadow-xl premium-card">
- <div className="flex justify-between items-center mb-4">
- <h2 className="text-[10px] font-bold text-theme-muted tracking-widest uppercase">Performance Gauges & Margins — {stageName}</h2>
+ <div className="w-full flex flex-col gap-4">
+ <div className="flex justify-between items-center px-2">
+ <h2 className="text-xs font-black text-theme-text tracking-widest uppercase">Performance Gauges & Margins — {stageName}</h2>
  <select
  value={stageName}
  onChange={(e) => setTargetStage(e.target.value)}
@@ -618,73 +622,75 @@ export default function LiveDashboard() {
  </select>
  </div>
  {!isStageLive && syncStatus?.status === 'Error' && (
- <div className="mb-4 flex items-center gap-2 text-[10px] uppercase tracking-widest text-red-600 dark:text-red-400 font-bold bg-red-950/20 border border-red-500/30 rounded-lg px-3 py-2">
+ <div className="mb-2 flex items-center gap-2 text-[10px] uppercase tracking-widest text-red-600 dark:text-red-400 font-bold bg-red-950/20 border border-red-500/30 rounded-lg px-3 py-2">
  <AlertTriangle size={12} className="text-red-600 dark:text-red-500 shrink-0" />
  Gauges showing N/A — telemetry sync failed: <span className="text-red-700 dark:text-red-300 font-black normal-case tracking-normal">{syncStatus?.error || 'Unknown error'}</span>
  </div>
  )}
- <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+ <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 w-full">
  <GaugeCard
  title="Feed Press."
- value={stageData?.feed_pressure ?? 0}
+ value={data?.feed_pressure ?? 0}
  min={0} max={80} unit="bar"
- color={stageData?.feed_pressure > alarmLimits.feedPressureMax ? '#ef4444' : '#1b75d0'}
+ color={data?.feed_pressure > alarmLimits.feedPressureMax ? '#ef4444' : '#1b75d0'}
  designVal="14.0" tripLimit={alarmLimits.feedPressureMax.toFixed(1)}
- unavailable={!isStageLive || stageData?.feed_pressure == null}
+ unavailable={!isStageLive || data?.feed_pressure == null}
  />
  <GaugeCard
  title="Recovery"
- value={stageData?.recovery_rate ?? 0}
- min={0} max={100} unit="%" color="#f59e0b"
+ value={data?.recovery_rate ?? 0}
+ min={0} max={100} unit="%"
+ color={data?.recovery_rate > 70.0 ? '#f59e0b' : '#1b75d0'}
  designVal="65.0" tripLimit="70.0"
- unavailable={!isStageLive || stageData?.recovery_rate == null}
+ unavailable={!isStageLive || data?.recovery_rate == null}
  />
  <GaugeCard
  title="Perm Flow"
- value={stageData?.flow_rate ?? 0}
- min={0} max={200} unit="m³/h" color="#1b75d0"
+ value={data?.flow_rate ?? 0}
+ min={0} max={250} unit="m³/h"
+ color={data?.flow_rate > 140.0 ? '#ef4444' : '#1b75d0'}
  designVal="120.0" tripLimit="140.0"
- unavailable={!isStageLive || stageData?.flow_rate == null}
+ unavailable={!isStageLive || data?.flow_rate == null}
  />
  <GaugeCard
  title={`TMP (Delta P)`}
- value={stageData?.differential_pressure ?? 0}
- min={0} max={10} unit="bar"
- color={stageData?.differential_pressure > alarmLimits.deltaPMax ? '#ef4444' : '#10b981'}
+ value={data?.differential_pressure ?? 0}
+ min={0} max={5.0} unit="bar"
+ color={data?.differential_pressure > alarmLimits.deltaPMax ? '#ef4444' : '#10b981'}
  designVal="1.5" tripLimit={alarmLimits.deltaPMax.toFixed(1)}
- unavailable={!isStageLive || stageData?.differential_pressure == null}
+ unavailable={!isStageLive || data?.differential_pressure == null}
  />
  <GaugeCard
  title="Flux"
- value={stageData?.normalized_flux ?? 0}
+ value={data?.normalized_flux ?? 0}
  min={0} max={40} unit="LMH"
- color={stageData?.normalized_flux > 30 ? '#ef4444' : '#06b6d4'}
- designVal="22.0" tripLimit="30.0"
- unavailable={!isStageLive || stageData?.normalized_flux == null}
+ color={data?.normalized_flux > 35 ? '#ef4444' : '#1b75d0'}
+ designVal="28.0" tripLimit="35.0"
+ unavailable={!isStageLive || data?.normalized_flux == null}
  />
  <GaugeCard
  title="Salt Rejection"
  value={calcRej !== null ? parseFloat(calcRej) : 0}
- min={80} max={100} unit="%"
- color={calcRej !== null && parseFloat(calcRej) < alarmLimits.minRejection ? '#ef4444' : '#10b981'}
- designVal="98.0" tripLimit={alarmLimits.minRejection.toFixed(1)}
- unavailable={!isStageLive || !stageHasQualitySensors || calcRej === null}
+ min={90} max={100} unit="%"
+ color={calcRej !== null && parseFloat(calcRej) < alarmLimits.minRejection ? '#ef4444' : '#1b75d0'}
+ designVal="98.5" tripLimit={alarmLimits.minRejection.toFixed(1)}
+ unavailable={!isStageLive || calcRej === null}
  />
  <GaugeCard
  title="Permeate TDS"
  value={safePermTds ?? 0}
- min={0} max={50} unit="mg/L"
- color={safePermTds !== null && safePermTds > 15.0 ? '#ef4444' : '#a855f7'}
- designVal="10.0" tripLimit="15.0"
- unavailable={!isStageLive || !stageHasQualitySensors || safePermTds == null}
+ min={0} max={500} unit="ppm"
+ color={safePermTds > 15 ? '#ef4444' : '#1b75d0'}
+ designVal="5.0" tripLimit="15.0"
+ unavailable={!isStageLive || safePermTds === null}
  />
  <GaugeCard
  title="Feed TDS"
  value={safeFeedTds ?? 0}
- min={0} max={3000} unit="mg/L" color="#b0208a"
- designVal={config?.limits?.feedTdsDesign ?? "1500.0"}
- tripLimit={config?.limits?.feedTdsMax ?? "2500.0"}
- unavailable={!isStageLive || !stageHasQualitySensors || safeFeedTds == null}
+ min={0} max={45000} unit="ppm"
+ color={safeFeedTds > 40000 ? '#ef4444' : '#1b75d0'}
+ designVal="35000" tripLimit="40000"
+ unavailable={!isStageLive || safeFeedTds === null}
  />
  </div>
  </div>

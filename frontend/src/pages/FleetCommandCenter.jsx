@@ -84,7 +84,11 @@ const PlantRow = ({ name, location, type, industry, badge, statusData, flow, rec
  }
 
  return (
- <Link to={`/dashboard/${plantId}`} className={`flex flex-col glass-panel ${isCritical ? 'border-red-500/50 shadow-[0_0_15px_rgba(239,68,68,0.2)] z-10 relative bg-red-500/10' : isWarning ? 'border-amber-500/50 bg-amber-500/10' : 'border-white/5 hover:border-brand-accent/50 hover:bg-slate-200/50 dark:bg-slate-800/50 hover:shadow-[0_0_20px_rgba(0,240,255,0.1)]'} p-4 transition-all cursor-pointer group`}>
+ <Link 
+  to={`/dashboard/${plantId}`} 
+  onClick={() => useAppStore.setState({ selectedFacility: plantId })}
+  className={`flex flex-col glass-panel ${isCritical ? 'border-red-500/50 shadow-[0_0_15px_rgba(239,68,68,0.2)] z-10 relative bg-red-500/10' : isWarning ? 'border-amber-500/50 bg-amber-500/10' : 'border-white/5 hover:border-brand-accent/50 hover:bg-slate-200/50 dark:bg-slate-800/50 hover:shadow-[0_0_20px_rgba(0,240,255,0.1)]'} p-4 transition-all cursor-pointer group`}
+ >
  <div className="grid grid-cols-12 gap-4 items-center w-full">
  <div className="col-span-3 flex flex-col">
  {badge && (
@@ -177,19 +181,6 @@ export default function FleetCommandCenter() {
  // Static latency for now
  }, []);
  
- const handleClientAccess = () => {
- const code = window.prompt("Enter Secure Client Access Code (e.g., JETL-2024, NIA-2024, WAAREE-2024):");
- if (!code || !code.trim()) return;
- 
- const matchedPlant = Object.values(plantConfig).find(p => p.access_code === code.trim());
- if (matchedPlant) {
- useAppStore.setState({ selectedFacility: matchedPlant.id });
- navigate(`/dashboard/${matchedPlant.id}`);
- } else {
- window.alert("Invalid Client Access Code. Access Denied.");
- }
- };
-
  const [viewMode, setViewMode] = useState('list');
  const [showSensorPanel, setShowSensorPanel] = useState(false);
  const [sortConfig, setSortConfig] = useState({ key: 'cipDays', dir: 'asc' });
@@ -349,7 +340,6 @@ export default function FleetCommandCenter() {
  Engineering View
  </button>
  <button 
- onClick={handleClientAccess}
  className="px-4 py-1.5 rounded transition-all font-bold text-theme-muted hover:text-theme-text hover:bg-slate-200/50 dark:bg-slate-800/50"
  >
  Client View (PCB)

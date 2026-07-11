@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Droplets } from 'lucide-react';
+import { Droplet } from 'lucide-react';
 
 export default function PageTransitionWrapper({ children }) {
   const location = useLocation();
@@ -31,7 +31,7 @@ export default function PageTransitionWrapper({ children }) {
               className="text-5xl md:text-7xl font-black tracking-widest text-transparent uppercase select-none opacity-20"
               style={{ WebkitTextStroke: '2px #38bdf8' }}
             >
-              PERMIONICS
+              PERMASENSE
             </div>
             
             {/* Foreground filling text */}
@@ -39,13 +39,18 @@ export default function PageTransitionWrapper({ children }) {
               className="absolute inset-0 text-5xl md:text-7xl font-black tracking-widest uppercase select-none overflow-hidden water-fill-animation"
             >
               <div className="water-wave-bg text-transparent bg-clip-text">
-                PERMIONICS
+                PERMASENSE
               </div>
             </div>
           </div>
           
-          <div className="mt-12 flex items-center gap-3 text-cyan-400 font-mono text-sm font-bold tracking-widest animate-pulse">
-            <Droplets size={16} /> INITIALIZING SCADA SYSTEMS...
+          <div className="mt-12 flex items-center gap-4 text-cyan-400 font-mono text-sm font-bold tracking-widest">
+            <div className="flex items-end gap-1 h-6">
+              <Droplet size={18} className="fill-cyan-400 animate-bounce" style={{ animationDelay: '0ms', animationDuration: '1s' }} />
+              <Droplet size={18} className="fill-cyan-400 animate-bounce" style={{ animationDelay: '150ms', animationDuration: '1s' }} />
+              <Droplet size={18} className="fill-cyan-400 animate-bounce" style={{ animationDelay: '300ms', animationDuration: '1s' }} />
+            </div>
+            <span className="animate-pulse">INITIALIZING SCADA SYSTEMS...</span>
           </div>
         </div>
       )}

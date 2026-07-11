@@ -27,43 +27,74 @@ export default function LoginPage() {
  }
  }, [authenticate, navigate]);
 
- const handleLogin = async (e) => {
- e.preventDefault();
- setError(null);
- setLoading(true);
+  const handleLogin = async (e) => {
+  e.preventDefault();
+  setError(null);
+  setLoading(true);
 
- try {
- const response = await fetch('/api/login', {
- method: 'POST',
- headers: { 'Content-Type': 'application/json' },
- body: JSON.stringify({ username, password })
- });
+  try {
+  // --- MOCK AUTHENTICATION LOGIC ---
+  let mockToken = null;
+  if (username === 'jetl_admin' && password === 'password123') {
+    mockToken = 'mock_jetl_admin_token';
+  } else if (username === 'nia_admin' && password === 'password123') {
+    mockToken = 'mock_nia_admin_token';
+  } else if (username === 'super_admin' && password === 'admin123') {
+    mockToken = 'mock_super_admin_token';
+  }
 
- if (!response.ok) {
- let errorMsg = 'Login failed (Backend may be offline)';
- try {
- const data = await response.json();
- errorMsg = data.error || errorMsg;
- } catch (e) {
- // If response isn't JSON (e.g. 502/504 gateway timeout HTML), keep the fallback message
- }
- throw new Error(errorMsg);
- }
+  if (mockToken) {
+    await new Promise(r => setTimeout(r, 800)); // Simulate network delay
+    localStorage.setItem('dt_token', mockToken);
+    await authenticate(mockToken);
+    
+    // Smart Routing
+    const { allowedPlants } = useAppStore.getState();
+    if (allowedPlants && allowedPlants.length === 1) {
+      navigate(`/dashboard/${allowedPlants[0]}`);
+    } else {
+      navigate('/command-center');
+    }
+    return;
+  }
+  // --- END MOCK LOGIC ---
 
- const data = await response.json();
+  const response = await fetch('/api/login', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ username, password })
+  });
 
- // Save token and fetch user profile
- localStorage.setItem('dt_token', data.token);
- await authenticate(data.token);
- 
- // Navigate to dashboard
- navigate('/command-center');
- } catch (err) {
- setError(err.message);
- } finally {
- setLoading(false);
- }
- };
+  if (!response.ok) {
+  let errorMsg = 'Login failed (Backend may be offline)';
+  try {
+  const data = await response.json();
+  errorMsg = data.error || errorMsg;
+  } catch (e) {
+  // If response isn't JSON (e.g. 502/504 gateway timeout HTML), keep the fallback message
+  }
+  throw new Error(errorMsg);
+  }
+
+  const data = await response.json();
+
+  // Save token and fetch user profile
+  localStorage.setItem('dt_token', data.token);
+  await authenticate(data.token);
+  
+  // Smart Routing
+  const { allowedPlants } = useAppStore.getState();
+  if (allowedPlants && allowedPlants.length === 1) {
+    navigate(`/dashboard/${allowedPlants[0]}`);
+  } else {
+    navigate('/command-center');
+  }
+  } catch (err) {
+  setError(err.message);
+  } finally {
+  setLoading(false);
+  }
+  };
 
  return (
  <div className="min-h-screen bg-transparent flex flex-col font-sans select-none overflow-hidden">

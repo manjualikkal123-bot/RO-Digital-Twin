@@ -102,7 +102,7 @@ export default function TopHeader() {
  <div className="flex items-center gap-2">
 
  {/* Facility Selector */}
- {(allowedPlants?.length > 1 || userRole === 'admin') && (
+ {(allowedPlants?.length > 1) && (
  <div className="relative">
  <select
  value={selectedFacility || ''}
