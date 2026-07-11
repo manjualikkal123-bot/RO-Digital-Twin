@@ -42,8 +42,19 @@ const Sidebar = () => {
 
       {/* Logo */}
       <div className={`px-4 py-6 border-b border-theme-border shrink-0 flex items-center ${isSidebarCollapsed ? 'justify-center' : 'gap-3'}`}>
-        <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-theme-accent to-blue-600 flex items-center justify-center shrink-0 shadow-md">
-          <span className="text-theme-text text-xs font-black">PS</span>
+        <div className="w-10 h-10 flex items-center justify-center shrink-0">
+          <img 
+            src="/logo.png" 
+            alt="Permasense Logo" 
+            className="w-full h-full object-contain filter drop-shadow-[0_0_8px_rgba(6,182,212,0.3)] hover:drop-shadow-[0_0_15px_rgba(6,182,212,0.8)] hover:scale-110 transition-all duration-300 cursor-pointer"
+            onError={(e) => {
+              e.target.style.display = 'none';
+              e.target.nextSibling.style.display = 'flex';
+            }}
+          />
+          <div className="hidden w-8 h-8 rounded-lg bg-gradient-to-br from-theme-accent to-blue-600 items-center justify-center shrink-0 shadow-md">
+            <span className="text-theme-text text-xs font-black">PS</span>
+          </div>
         </div>
         {!isSidebarCollapsed && (
           <div className="whitespace-nowrap overflow-hidden">
