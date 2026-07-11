@@ -985,5 +985,87 @@
       "permeate_pH"
     ],
     "confirmedAt": "2026-07-10T08:09:58.508Z"
+  },
+  "b2d942a5eec2d8e0": {
+    "mapping": [
+      "timestamp",
+      "timestamp",
+      "vfd_rpm",
+      "feed_tank_level",
+      "feed_pressure",
+      "reject_pressure",
+      "flow_rate",
+      "reject_pressure",
+      "reject_pressure",
+      "reject_pressure",
+      "reject_pressure",
+      "reject_pressure",
+      "reject_pressure",
+      "reject_pressure",
+      "reject_pressure",
+      "reject_pressure"
+    ],
+    "confirmedAt": "2026-07-11T06:00:11.746Z"
+  },
+  "c4315291cdc2b809": {
+    "mapping": [
+      "timestamp",
+      "timestamp",
+      "vfd_rpm",
+      "feed_pressure",
+      "reject_pressure",
+      "vfd_rpm",
+      "feed_pressure",
+      "reject_pressure",
+      "vfd_rpm",
+      "feed_pressure",
+      "reject_pressure",
+      "feed_tank_level",
+      "feed_conductivity",
+      "orp",
+      "pH",
+      "conductivity",
+      "flow_rate",
+      "reject_pressure",
+      "valve_position"
+    ],
+    "confirmedAt": "2026-07-11T06:00:11.959Z"
+  },
+  "7c82ae551d115c87": {
+    "mapping": [
+      "timestamp",
+      "timestamp",
+      "feed_tank_level",
+      "vfd_rpm",
+      "vfd_rpm",
+      "feed_pressure",
+      "reject_pressure",
+      "vfd_rpm",
+      "feed_pressure",
+      "reject_pressure",
+      "feed_conductivity",
+      "pH",
+      "conductivity",
+      "flow_rate",
+      "reject_pressure",
+      "valve_position"
+    ],
+    "confirmedAt": "2026-07-11T06:00:12.222Z"
+  },
+  "209d665b9b047659": {
+    "mapping": [
+      "timestamp",
+      "timestamp",
+      "feed_tank_level",
+      "vfd_rpm",
+      "feed_pressure",
+      "reject_pressure",
+      "feed_conductivity",
+      "conductivity",
+      "flow_rate",
+      "reject_pressure",
+      "valve_position"
+    ],
+    "confirmedAt": "2026-07-11T06:00:12.487Z"
   }
 }
